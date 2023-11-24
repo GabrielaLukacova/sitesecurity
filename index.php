@@ -5,5 +5,7 @@
         <?php the_content() ?>
     <?php endwhile ?>
 
-
 <?php get_footer() ?>
+
+
+<p>test</p>
