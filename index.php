@@ -7,7 +7,6 @@
 
 <?php get_footer() ?>
 
-
 <div class="navbar">
   <a href="#home">Home</a>
   <a href="#services">Services</a>
