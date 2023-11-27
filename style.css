@@ -1,31 +1,40 @@
 body{
   background-color: rgb(187, 195, 167);
+margin:0;
 }
-
 
 .navbar {
   background-color: rgba(51, 51, 51, 0.5); 
   overflow: hidden;
-  padding: 10px 0px;
+  padding: 20px;
+  display:flex;
+  justify-content: space-between;
 }
 
 .navbar a {
-  float: left;
+  float: right; 
   display: flex;
   color: white; 
-  text-align: center;
-  align-items: right;    /* doesnt work */
   padding: 10px 16px; 
   text-decoration: none;
   transition: border 0.3s, color 0.3s; 
   border: 1px solid transparent; 
-  margin-right: 10px; 
-  align-items: left;
+  margin: 0 10px; 
 }
 
 .navbar a:hover {
   color: #FCD53F; 
   border-color: #FCD53F; 
+}
+
+.home{
+  align-self: center;
+}
+
+.wpcf7-form-control {
+  background-color: transparent;
+  border: 1px solid #424146;
+  border-radius: 10px;
 }
 
 
@@ -48,9 +57,11 @@ max-width: 400px;
 max-width: 50%;
 }
 
-.image-container {
+.image-containers {
 flex-shrink: 0;
-max-width: 50%;
+max-width: 5%;
+height: 20px;
+max-width: 400px; 
 
 }
 
@@ -72,6 +83,18 @@ cursor:grab;
 background-color: #FDD43E; 
 }
 
+.contact-form-first-part{
+display: flex;
+  max-width: 600px;
+  width: 100%;
+  flex-grow: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.contact-form-first-box{
+display: block;
+}
 
 
 

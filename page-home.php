@@ -31,9 +31,7 @@
         <img src="<?php echo $image["url"] ?>" alt="Image">
     </div>
     <div class="contact-form">
-
-
-<?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your busines"]' ) ;?>
+        <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your busines"]' ) ;?>
       </div>
 </div>
 
