@@ -4,6 +4,7 @@ function sitesecurity_register_stylesheet() {
     
     wp_enqueue_style("sitesecurity-style", get_stylesheet_directory_uri() . "/style.css");
     wp_enqueue_style("materialize-icons", "https://fonts.googleapis.com/icon?family=Material+Icons");
+    wp_enqueue_style("din_condensed_font", "https://use.typekit.net/piy2rgn.css");
 }
 add_action("wp_enqueue_scripts", "sitesecurity_register_stylesheet");
 
@@ -17,4 +18,3 @@ add_action("init", "disable_gutenberg");
 
 
 //echo '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
-    
