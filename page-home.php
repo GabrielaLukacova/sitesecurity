@@ -25,6 +25,17 @@
 
 
 
+<div class="hero-section">
+    <div class="hero-content">
+      <h1>Heading</h1>
+      <p>Slogan.</p>
+    </div>
+    <img src="your-image.jpg" alt=""> <!-- Maria put your image here but like we do it in php -->
+</div>
+
+
+
+
 <div class="contact-form-container">
     <div class="image-container">
         <?php $image = get_field ("contact-form-image"); ?> 
