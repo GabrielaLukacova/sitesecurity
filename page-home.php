@@ -5,13 +5,11 @@ Template Name: Home
 ?>
 
 <?php get_header() ?>
-
+<main>
 
     <?php while(have_posts()): the_post() ?>
         <?php the_content() ?>
-    <?php endwhile ?>
-
-<?php get_footer() ?>
+  
 
 
 <body>
@@ -36,7 +34,10 @@ Template Name: Home
       <h1>Heading</h1>
       <p>Slogan.</p>
     </div>
-    <img src="your-image.jpg" alt=""> <!-- Maria put your image here but like we do it in php -->
+    <div class="image-container">
+    <?php $image = get_field('hero_video'); ?> 
+    <img src="<?php echo $image["url"] ?>" alt="Image">
+    </div><!-- Maria put your image here but like we do it in php -->
 </div>
 
 
@@ -90,3 +91,6 @@ Template Name: Home
     </footer>
 
 </body>
+<?php endwhile ?>
+</main>
+<?php get_footer() ?>
