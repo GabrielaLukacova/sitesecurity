@@ -30,15 +30,18 @@ Template Name: Home
 
 
 <div class="hero-section">
-    <div class="hero-content">
-      <h1>Heading</h1>
-      <p>Slogan.</p>
+    <?php $image = get_field('hero_video'); ?>
+    <?php echo $image["url"]; ?>
+    <div class="image-container" style="background-image: url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
+        <!-- Empty div for styling purposes, no need for an actual image element here -->
     </div>
-    <div class="image-container">
-    <?php $image = get_field('hero_video'); ?> 
-    <img src="<?php echo $image["url"] ?>" alt="Image">
-    </div><!-- Maria put your image here but like we do it in php -->
+    <div class="hero-content">
+        <h1>Heading</h1>
+        <p>Slogan.</p>
+    </div>
 </div>
+
+
 
 
 

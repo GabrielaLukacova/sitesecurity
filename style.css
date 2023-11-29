@@ -34,7 +34,21 @@ body{
   }
 
   
-  
+  .hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.image-container {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+ 
+
   
   
   /*.wpcf7-form-control {
