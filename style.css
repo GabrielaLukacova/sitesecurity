@@ -136,6 +136,11 @@ footer {
   display: flex;
 }
 
+.material-icons{
+  margin-bottom:0px;
+  padding-bottom:-20px;
+}
+
 
 /* .image img {
   width: 40px;
@@ -240,3 +245,74 @@ apply later when image is smaller
   background-color: #FDD43E; 
   height: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.call_to_action_contact_us_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.call_to_action_contact_us_content_text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.call_to_action_contact_us_content_image {
+  flex: 1;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; 
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+
+.call_to_action_contact_us
+{
+  background-color: #FDD43E;
+}*/
