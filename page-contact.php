@@ -1,10 +1,15 @@
+<?php
+/*
+Template Name: Contact
+*/
+?>
+
 <?php get_header() ?>
     
     <?php while(have_posts()): the_post() ?>
-        <?php the_content() ?>
-    <?php endwhile ?>
+        
 
-<?php get_footer() ?>
+
 
 <body>
 
@@ -20,6 +25,8 @@
     </div>
 </div>
 
+<?php the_content() ?>
+    <?php endwhile ?>
 
 
 
@@ -65,3 +72,4 @@
     </footer>
 
 </body>
+<?php get_footer() ?>
