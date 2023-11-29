@@ -31,7 +31,6 @@ Template Name: Home
 
 <div class="hero-section">
     <?php $image = get_field('hero_video'); ?>
-    <?php echo $image["url"]; ?>
     <div class="image-container" style="background-image: url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
         <!-- Empty div for styling purposes, no need for an actual image element here -->
     </div>
