@@ -68,13 +68,13 @@ a.home {
   max-width: 600px; 
 }  
 
-.hero-text h1 {
+.hero-content h1 {
   font-size: 80px; 
   color: #fff;
   margin-bottom: 10px;
 }
 
-.hero-slogan p  {
+.hero-content p  {
   font-size: 55px; 
   color: #FDD43E;
 }
