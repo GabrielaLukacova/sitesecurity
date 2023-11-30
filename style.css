@@ -52,7 +52,7 @@ a.home {
 .hero-content {
   position: absolute;
   top: 50%;
-  left: 40%; 
+  left: 35%; 
   transform: translate(-50%, -50%);
   text-align: left;
 }
@@ -63,15 +63,15 @@ a.home {
 }  
 
 .hero-text h1 {
-  font-size: 80px; /* Adjusted font size for smaller screens */
+  font-size: 80px; 
   color: #fff;
   margin-bottom: 10px;
 }
 
 .hero-slogan p  {
-  font-size: 55px; /* Slightly increased font size for smaller screens */
+  font-size: 55px; 
   line-height: 1.5;
-  color: #fff;
+  color: #FDD43E;
 }
 
 
