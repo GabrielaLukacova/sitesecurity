@@ -52,15 +52,15 @@ a.home {
 .hero-content {
   position: absolute;
   top: 50%;
-  margin-left: 40px; 
+  left: 40%; 
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 
 
-/*.hero-content {
-  max-width: 600px; /* Adjust the width as needed
-}  */
+.hero-content {
+  max-width: 600px; 
+}  
 
 .hero-content h1 {
   font-size: 80px; /* Adjusted font size for smaller screens */
