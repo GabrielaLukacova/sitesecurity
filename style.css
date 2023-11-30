@@ -62,15 +62,15 @@ a.home {
   max-width: 600px; /* Adjust the width as needed
 }  */
 
-.hero-content h1 {
-  font-size: 48px; /* Adjusted font size for smaller screens */
+h1.hero-content {
+  font-size: 80px; /* Adjusted font size for smaller screens */
   margin-bottom: 20px;
   color: #FDD43E;
   margin-bottom: 10px;
 }
 
-.hero-content p {
-  font-size: 24px; /* Slightly increased font size for smaller screens */
+p.hero-content  {
+  font-size: 80px; /* Slightly increased font size for smaller screens */
   line-height: 1.5;
   color: #fff;
 }
