@@ -51,14 +51,14 @@ a.home {
 
 .hero-content {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 24%; 
   transform: translate(-50%, -50%);
   text-align: left;
 }
 
 h1.hero-text {
-  font-size: 150px; 
+  font-size: 190px; 
   margin-bottom: 10px;
   color: #fff;
 }
