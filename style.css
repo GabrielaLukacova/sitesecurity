@@ -55,13 +55,13 @@ body{
     
 }
 
-.hero-text {
+h1.hero-text {
     font-size: 105px; 
     margin-bottom: 10px;
     color: #fff;
 }
 
-.hero-slogan {
+p.hero-slogan {
     font-size: 72px; 
     color: #FDD43E;
 }
@@ -353,25 +353,7 @@ p {
 }*/
 
 
-.hero-content {
-  max-width: 600px; /* Adjust the width as needed */
-}
 
-.hero-content h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.hero-content p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-@media (max-width: 768px) {
-  .hero-content {
-    max-width: 80%;
-  }
-}
 
 /* Media Queries */
 
