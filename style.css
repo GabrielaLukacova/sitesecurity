@@ -43,13 +43,13 @@ a.home {
 
 
 
-.hero-content {
+/*.hero-content {
   position: absolute;
   top: 50%;
   left: 35%; 
   transform: translate(-50%, -50%);
   text-align: left;
-}
+} */
 
 
 .hero-content {
