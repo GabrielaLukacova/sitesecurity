@@ -49,10 +49,10 @@ a.home {
   height: 100vh;
 }
 
-.hero-content h1 p {
+.hero-content {
   position: absolute;
   top: 50%;
-  left: 24%; 
+  left: 50%; 
   transform: translate(-50%, -50%);
   text-align: left;
 }
