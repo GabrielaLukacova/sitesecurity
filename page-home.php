@@ -1,11 +1,15 @@
-<?php get_header() ?>
+<?php
+/*
+Template Name: Home
+*/
+?>
 
+<?php get_header() ?>
+<main>
 
     <?php while(have_posts()): the_post() ?>
         <?php the_content() ?>
-    <?php endwhile ?>
-
-<?php get_footer() ?>
+  
 
 
 <body>
@@ -26,13 +30,22 @@
 
 
 <div class="hero-section">
-    <div class="hero-content">
-      <h1>Heading</h1>
-      <p>Slogan.</p>
+    <?php $image = get_field('hero_video'); ?>
+    <div class="image-container" style="background-image: url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
+        <!-- Empty div for styling purposes, no need for an actual image element here -->
     </div>
+    <div class="hero-content">
+        <h1>Heading</h1>
+        <p>Slogan.</p>
+    </div>
+<<<<<<< HEAD
     <?php $image = get_field ("hero_video"); ?> 
     <img src="<?php echo $image["url"] ?>" alt="Image"> <!-- Maria put your image here but like we do it in php -->
+=======
+>>>>>>> 3fdd872eff47173a436fa924fa24f81545e1b0b3
 </div>
+
+
 
 
 
@@ -85,3 +98,6 @@
     </footer>
 
 </body>
+<?php endwhile ?>
+</main>
+<?php get_footer() ?>

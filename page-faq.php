@@ -1,3 +1,10 @@
+<?php
+/*
+Template Name: FAQ
+*/
+?>
+
+
 <?php get_header() ?>
 
 
