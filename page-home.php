@@ -36,7 +36,7 @@ Template Name: Home
     </div>
     <div class="hero-content">
         <h1 class="hero-text"><?php the_field('hero_text'); ?></h1>
-        <p class="hero-slogan"><?php echo nl2br(get_field('hero_slogan')); ?></p>
+        <p class="hero-slogan"><?php the_field('hero_slogan'); ?></p>
     </div>
 </div>
 
