@@ -29,7 +29,8 @@ body {
 }
 
 .home {
-  align-self: center;
+  order: -1;
+
 }
 
 
