@@ -14,10 +14,6 @@ body {
   align-items: center; /* Center the content vertically */
 }
 
-.column.links {
-  display: flex;
-}
-
 .navbar a {
   color: white;
   padding: 5px 16px; /* Adjust the padding to reduce the height */
@@ -35,6 +31,7 @@ body {
 .home {
   align-self: center;
 }
+
 
 
 
