@@ -30,7 +30,8 @@
       <h1>Heading</h1>
       <p>Slogan.</p>
     </div>
-    <img src="your-image.jpg" alt=""> <!-- Maria put your image here but like we do it in php -->
+    <?php $image = get_field ("hero_video"); ?> 
+    <img src="<?php echo $image["url"] ?>" alt="Image"> <!-- Maria put your image here but like we do it in php -->
 </div>
 
 
