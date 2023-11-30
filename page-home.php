@@ -17,11 +17,12 @@ Template Name: Home
 <!-- Navigation bar Section -->
 
 <div class="navbar">
-    <a class="home" href="<?php echo get_permalink(get_page_by_path('home')) ?>">Home</a>
+    <a class="home" href="<?php echo get_permalink(get_page_by_path('home')) ?>" style="order: -1;">Home</a>
     <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">Contacts</a>
     <a href="<?php echo get_permalink(get_page_by_path('faq')) ?>">FAQ</a>
     <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>
 </div>
+
 
 
 
