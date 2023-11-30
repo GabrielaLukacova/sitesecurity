@@ -62,13 +62,13 @@ a.home {
   max-width: 600px; 
 }  
 
-.hero-content h1 {
+.hero-text h1 {
   font-size: 80px; /* Adjusted font size for smaller screens */
   color: #fff;
   margin-bottom: 10px;
 }
 
-.hero-content p  {
+.hero-slogan p  {
   font-size: 55px; /* Slightly increased font size for smaller screens */
   line-height: 1.5;
   color: #FDD43E;
