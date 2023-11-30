@@ -10,7 +10,7 @@ body {
   overflow: hidden;
   padding: 15px 20px;
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .navbar a {
