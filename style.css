@@ -363,3 +363,76 @@ p {
 
 }
 
+/*BUTTONS*/
+.button_yellow{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FDD43E; 
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.button_grey{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #363636; 
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+
+/* ARITCLE MAIN PAGE */
+.article_main {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0; 
+}
+
+
+
+/* ADVANTISAGES TO CHOOSE US */
+.advantisages_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+
+.advantisages_main_content_and_image{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.advantisages_main h2 {
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.advantisages_main_content {
+  flex: 1;
+  width:100%;
+  margin-right: 20px;
+}
+
+.advantisages_main_content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.advantisages_main_image {
+  flex: 1;
+  /* max-width: 400px; */
+}

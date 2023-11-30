@@ -42,6 +42,45 @@ Template Name: Home
 </div>
 
 
+<div class="article_main">
+        <h2>Article title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur. adipiscing elit. Sed tincidunt velit nec mauriscursus, id venenatis justo convallis. Fusce vusto nec felis efficitur laoreet. Quisque velest id elit varius eleifend. Sed ac justo id nisi elementum fermentum. Praesent nec ultrices ex, vel bibendum justo. Curabitur tinciduntLorem ipsum dolor sit amet, consecteturadipiscing elit. Sed tincidunt velit nec mauriscursus, id venenatis justo convallis. Fusce velusto nec felis efficitur laoreet. Quisque veest id elit varius eleifend. Sed ac justo id nisielementum fermentum. Praesent nec ultricesex, vel bibendum justo. 
+        </p>
+        <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Our products and servides</a>
+        <img src="....." alt=""> 
+    </div>
+
+
+
+ <div class="advantisages_main">
+    <h2>ADVANTAGES TO CHOOSE US</h2>
+     <div class="advantisages_main_content_and_image" > 
+        <div class="advantisages_main_content">
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+        </div>
+        <div class="advantisages_main_image">
+            <img src="...." alt=""> 
+        </div>
+    </div>
+
+<a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
+</div>
+
 
 
 
