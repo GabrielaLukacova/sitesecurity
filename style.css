@@ -33,6 +33,9 @@ body{
     align-self: center;
   }
 
+
+
+
   /* HERO SECTION */
   .hero-section {
     position: relative;
@@ -40,7 +43,6 @@ body{
 
 .image-container {
     position: relative;
-    /* Other background styles like size and position go here */
     height: 100vh;
 }
 
@@ -49,17 +51,19 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff; /* Set the text color to be visible against the background */
+    text-align: left;
+    
 }
 
 .hero-text {
-    font-size: 2em; /* Adjust the font size as needed */
-    margin-bottom: 10px; /* Add some space between the text and slogan */
+    font-size: 24px; 
+    margin-bottom: 10px;
+    color: #fff;
 }
 
 .hero-slogan {
-    font-size: 1.5em; /* Adjust the font size as needed */
+    font-size: 18px; 
+    color: #FDD43E;
 }
 
 
