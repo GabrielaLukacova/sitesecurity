@@ -52,7 +52,7 @@ a.home {
 .hero-content {
   position: absolute;
   top: 50%;
-  left: 40%; 
+  margin-left: 40px; 
   transform: translate(-50%, -50%);
   text-align: left;
 }
