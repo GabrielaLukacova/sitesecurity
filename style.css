@@ -5,6 +5,13 @@ body{
   font-family: "din-condensed", sans-serif;
 }
 
+body {
+  background-color: #AABFDF;
+  padding: 0;
+  margin: 0;
+  font-family: "din-condensed", sans-serif;
+}
+
 .navbar {
   background-color: rgba(51, 51, 51, 0.5);
   overflow: hidden;
@@ -14,9 +21,11 @@ body{
   align-items: center; /* Center the content vertically */
 }
 
-.navbar a {
-  float: right;
+.column.links {
   display: flex;
+}
+
+.navbar a {
   color: white;
   padding: 5px 16px; /* Adjust the padding to reduce the height */
   text-decoration: none;
@@ -30,7 +39,9 @@ body{
   border-color: #FCD53F;
 }
 
-
+.home {
+  align-self: center;
+}
 
 
 

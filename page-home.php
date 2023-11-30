@@ -18,7 +18,7 @@ Template Name: Home
 
 <div class="navbar">
     <div class="column links">
-        <a href="<?php echo get_permalink(get_page_by_path('home')) ?>">Home</a>
+        <a class="home" href="<?php echo get_permalink(get_page_by_path('home')) ?>">Home</a>
     </div>
     <div class="column links">
         <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">Contacts</a>
