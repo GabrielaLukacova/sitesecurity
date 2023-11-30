@@ -15,6 +15,8 @@ body{
 }
 
 .navbar a {
+  float: right;
+  display: flex;
   color: white;
   padding: 5px 16px; /* Adjust the padding to reduce the height */
   text-decoration: none;
@@ -28,9 +30,6 @@ body{
   border-color: #FCD53F;
 }
 
-.home {
-  align-self: flex-end; /* Align the home element to the bottom of the navbar */
-}
 
 
 
