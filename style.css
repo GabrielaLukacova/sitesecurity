@@ -28,8 +28,8 @@ body {
   border-color: #FCD53F;
 }
 
-.home {
-  order: -1;
+a.home {
+  margin-right: auto;
 
 }
 
