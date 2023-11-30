@@ -1,16 +1,10 @@
-body{
-  background-color:#AABFDF;
-  padding: 0px;
-  margin: 0px;
-  font-family: "din-condensed", sans-serif;
-}
-
 .navbar {
   background-color: rgba(51, 51, 51, 0.5);
   overflow: hidden;
   padding: 10px 20px; /* Adjust the padding to reduce the height */
   display: flex;
   justify-content: space-between;
+  align-items: center; /* Center the content vertically */
 }
 
 .navbar a {
