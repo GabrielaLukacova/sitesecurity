@@ -40,9 +40,6 @@ a.home {
 
  /* <--- HERO SECTION ---> */
 
-.hero-section {
-  position: relative;
-}
 
 .image-container {
   position: relative;
@@ -70,7 +67,6 @@ a.home {
 
 .hero-slogan p  {
   font-size: 55px; 
-  line-height: 1.5;
   color: #FDD43E;
 }
 
