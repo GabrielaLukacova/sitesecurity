@@ -14,6 +14,7 @@ Template Name: Home
 
 <body>
 
+<!-- Navigation bar Section -->
 
 <div class="navbar">
     <div class="column links">
@@ -27,20 +28,19 @@ Template Name: Home
 </div>
 
 
-
+<!-- Hero Section -->
 
 <div class="hero-section">
     <?php $image = get_field('hero_video'); ?>
     <div class="image-container" style="background-image: url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
-        <!-- Empty div for styling purposes, no need for an actual image element here -->
     </div>
     <div class="hero-content">
-        <h1>Heading</h1>
-        <p>Slogan.</p>
+        <h1 class="hero-text"><?php the_field('hero_text'); ?></h1>
+        <p class="hero-slogan"><?php the_field('hero_slogan'); ?></p>
     </div>
-
 </div>
 
+<!-- Article Section -->
 
 <div class="article_main">
         <h2>Article title</h2>
