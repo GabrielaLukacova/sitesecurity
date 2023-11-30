@@ -41,10 +41,7 @@ a.home {
  /* <--- HERO SECTION ---> */
 
 
-.image-container {
-  position: relative;
-  height: 100vh;
-}
+
 
 .hero-content {
   position: absolute;
