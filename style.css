@@ -58,12 +58,12 @@ a.home {
 }
 
 h1.hero-text {
-  font-size: 100px !important; 
+  font-size: 90px !important; 
   margin-bottom: 10px;
   color: #fff;
 }
 
-p.hero-slogan {
+.hero-slogan {
   font-size: 80px; 
   color: #FDD43E;
 }
