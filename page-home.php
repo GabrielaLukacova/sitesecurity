@@ -18,14 +18,15 @@ Template Name: Home
 
 <div class="navbar">
     <div class="column links">
-        <a href="<?php echo get_permalink( get_page_by_path( 'home' ) ) ?>">Home</a>
+        <a href="<?php echo get_permalink(get_page_by_path('home')) ?>">Home</a>
     </div>
-  <div>
-    <a href="<?php echo get_permalink( get_page_by_path( 'contact' ) ) ?>">Contacts</a>
-    <a href="<?php echo get_permalink( get_page_by_path( 'faq' ) ) ?>">FAQ</a>
-    <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>">Services</a>
+    <div class="column links">
+        <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">Contacts</a>
+        <a href="<?php echo get_permalink(get_page_by_path('faq')) ?>">FAQ</a>
+        <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>
     </div>
 </div>
+
 
 
 <!-- Hero Section -->
