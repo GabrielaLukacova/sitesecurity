@@ -49,7 +49,7 @@ a.home {
   height: 100vh;
 }
 
-.hero-content {
+.hero-content h1 p {
   position: absolute;
   top: 50%;
   left: 24%; 
@@ -70,7 +70,7 @@ a.home {
 }
 
 .hero-content p  {
-  font-size: 80px; /* Slightly increased font size for smaller screens */
+  font-size: 60px; /* Slightly increased font size for smaller screens */
   line-height: 1.5;
   color: #fff;
 }
