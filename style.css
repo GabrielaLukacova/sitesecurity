@@ -63,7 +63,7 @@ h1.hero-text {
   color: #fff;
 }
 
-.hero-slogan {
+p.hero-slogan {
   font-size: 80px !important; 
   color: #FDD43E;
 }
@@ -382,7 +382,7 @@ p {
 /* <--- Media Queries ---> */
 
 /* Media Query for tablets and mobiles */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   body h1 {
     font-size: 2.5rem;
   }
