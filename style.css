@@ -64,7 +64,7 @@ h1.hero-text {
 }
 
 .hero-slogan {
-  font-size: 80px; 
+  font-size: 80px !important; 
   color: #FDD43E;
 }
 
