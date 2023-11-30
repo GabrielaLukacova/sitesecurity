@@ -22,19 +22,14 @@ body {
   border: 1px solid transparent;
 }
 
-.navbar a:not(:last-child) {
-  margin-right: 10px; /* Adjust the margin between links */
-}
-
 .navbar a:hover {
   color: #FCD53F;
   border-color: #FCD53F;
 }
 
 .home {
-  align-self: flex-end;
+  order: -1; /* Move the Home link to the left */
 }
-
 
 
 
