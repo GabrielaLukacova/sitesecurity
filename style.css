@@ -79,12 +79,6 @@ p.hero-slogan {
   line-height: 1.5;
 }
 
-@media (max-width: 768px) {
-  .hero-content {
-      max-width: 80%;
-      left: 2%; /* Adjust the left property for smaller screens */
-  }
-}
 
  
 
