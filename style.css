@@ -10,7 +10,7 @@ body {
   overflow: hidden;
   padding: 15px 20px;
   display: flex;
-  justify-content: space-between; /* Use space-between to push items to the left and right */
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -20,13 +20,22 @@ body {
   text-decoration: none;
   transition: border 0.3s, color 0.3s;
   border: 1px solid transparent;
-  margin: 0 10px;
+}
+
+.navbar a:not(:last-child) {
+  margin-right: 10px; /* Adjust the margin between links */
 }
 
 .navbar a:hover {
   color: #FCD53F;
   border-color: #FCD53F;
 }
+
+.home {
+  align-self: flex-end;
+}
+
+
 
 
 
