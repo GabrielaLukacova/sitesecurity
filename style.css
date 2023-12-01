@@ -432,7 +432,7 @@ p {
   text-decoration: none;
   border-radius: 10px;
   transition: background-color 0.3s ease;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .button_yellow:hover  {
