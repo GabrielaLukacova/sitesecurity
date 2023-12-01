@@ -26,9 +26,13 @@ Template Name: Home
 
 <!-- Hero Section -->
 
-<div class="hero-section">
+<div class="hero-section"   style="background-image: url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
+            <a class="home" href="<?php echo get_permalink(get_page_by_path('home')) ?>" style="order: -1;">Home</a>
+            <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">Contacts</a>
+            <a href="<?php echo get_permalink(get_page_by_path('faq')) ?>">FAQ</a>
+            <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>
+        </div>
     <?php $image = get_field('hero_video'); ?>
-    <div class="image-container" style="background-image: url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
     </div>
     <div class="hero-content">
         <h1 class="hero-text"><?php the_field('hero_text'); ?></h1>
