@@ -311,7 +311,6 @@ apply later when image is smaller
   max-width: 800px; 
   margin: 0;
   background-color: transparent;
-  padding: 15px;
   border-radius: 10px;
   box-shadow: none;
   float: right;
@@ -333,8 +332,6 @@ apply later when image is smaller
 .contact-form select,
 .contact-form textarea {
   width: 100%;
-  padding: 6px; 
-  margin-bottom:8px;
   border: 1px solid #424146;
   border-radius: 8px; 
   background-color: transparent;
@@ -349,7 +346,7 @@ apply later when image is smaller
 .wpcf7 input[type="submit"] {
   background-color: #363636;
   color: #fff;
-  padding: 8px 20px;
+  padding: 5px 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
