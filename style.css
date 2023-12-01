@@ -561,3 +561,73 @@ p {
 .security_possibilities .button_grey{
   align-items: center;
 }
+
+
+.customer-reviews {
+  background-color: #424147;
+  text-align: center;
+  padding: 20px;
+}
+
+.review-header {
+  background-color: #424147;
+  color: #fff;
+  padding: 10px;
+}
+
+.review-container {
+  position: relative;
+}
+
+.background-image {
+  background: url('background-image.jpg') center/cover no-repeat;
+  height: 300px;
+  position: relative;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.review-box {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.review-box h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.review-box p {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.author-info {
+  font-style: italic;
+  color: #bababa;
+}
+
+
+
+
+
+
+
