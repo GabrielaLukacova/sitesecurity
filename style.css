@@ -101,7 +101,7 @@ a.home {
   font-size: 24px;
 }
 
-h2 {
+.article_main h2 {
   font-size: 50px;
   margin: 0;
   padding-top: 80px;
@@ -432,6 +432,8 @@ p {
   text-decoration: none;
   border-radius: 10px;
   transition: background-color 0.3s ease;
+  margin-top: 20px;
+  font-size: 24px;
 }
 
 .button_yellow:hover  {
