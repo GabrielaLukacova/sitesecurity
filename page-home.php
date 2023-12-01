@@ -43,6 +43,26 @@ Template Name: Home
 
 
 <!-- Advantages Section -->
+<section class="advantages_main">
+<h3 class="heading-above">ADVANTAGES TO CHOOSE US</h3>
+    <div class="advantagess_main_content_and_image" style="background-image: <?php $image = get_field('advantages_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;"> 
+
+        <?php $loop = new WP_Query( array( 'post_type' => 'advantage', 'posts_per_page' => -1 ) ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+            <div class="advantages_main_content">
+                    <div class="box-content">
+                        <img src="<?php echo get_field("advantages_small_image"); ?>" alt="">
+                        <p><?php echo get_field("advantages_text"); ?></p>
+                    </div>
+                </div>
+            </div>
+        <?php endwhile; wp_reset_query(); ?>
+    </div>
+
+    <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
+ </section>
+
 
  <section class="advantages_main">
     <h2>ADVANTAGES TO CHOOSE US</h2>
@@ -68,6 +88,7 @@ Template Name: Home
         <div class="advantages_main_image">
             <img src="...." alt=""> 
         </div>
+
 
  <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
 </div>
