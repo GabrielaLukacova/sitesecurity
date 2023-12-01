@@ -93,12 +93,13 @@ a.home {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
+  font-size: 30px;
 }
 
 .article_main h2 {
   font-size: 50px;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 
