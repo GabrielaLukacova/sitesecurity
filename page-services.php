@@ -36,7 +36,8 @@ Template Name: Services
 
 
 <section class="services_to_meet_needs">
-        <img src="your-image.jpg" alt="Background Image">
+  <?php $image = get_field ("services_bg_image"); ?> 
+        <img src="<?php echo $image["url"] ?>" alt="Image"> 
         <div class="services_to_meet_needs_center-content">
             <h2>Your Heading</h2>
         </div>
@@ -116,7 +117,7 @@ Template Name: Services
     </section>
 
 
-    
+
     <?php endwhile ?>
 </main>
 <?php get_footer() ?>
