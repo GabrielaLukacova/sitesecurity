@@ -50,6 +50,47 @@ Template Name: Services
  </div>
 
 
+
+ <section class="customer-reviews">
+        <div class="review-header">
+            <h2>What our customers say</h2>
+        </div>
+        <div class="review-container">
+            <div class="slick-carousel">
+
+                <!-- First Review -->
+                <div class="review-item">
+                    <div class="background-image">
+                        <div class="center-content">
+                            <img src="company-logo1.png" alt="Company Logo 1">
+                            <div class="review-box">
+                                <h3>Company Name 1</h3>
+                                <p>"What customers said about our services. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                                <p class="author-info">- John Doe, CEO, Company XYZ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Review -->
+                <div class="review-item">
+                    <div class="background-image">
+                        <div class="center-content">
+                            <img src="company-logo2.png" alt="Company Logo 2">
+                            <div class="review-box">
+                                <h3>Company Name 2</h3>
+                                <p>"Another customer testimonial. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                                <p class="author-info">- Jane Smith, COO, Company ABC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
     <?php endwhile ?>
 </main>
 <?php get_footer() ?>
