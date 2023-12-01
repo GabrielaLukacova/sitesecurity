@@ -96,8 +96,8 @@ Template Name: Home
             <div class="security_possibilities_container_box" style="background-image: <?php $image = get_field('security_possibility_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
                     <div class="security_possibilities_container_box-content">
                     <div class="box-content">
-                        <h6 class="heading_white" style="  background-color: rgba(51, 51, 51, 0.7); font-size: 18px;"><?php echo get_field("security_possibility_heading"); ?></h6>
-                        <p class=" article-text heading_white" style="  background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; "><?php echo get_field("security_possibility_description"); ?></p>
+                        <h6 class="heading_white" style="background-color: rgba(51, 51, 51, 0.7); font-size: 18px;"><?php echo get_field("security_possibility_heading"); ?></h6>
+                        <p class=" article-text heading_white" style="  background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;"><?php echo get_field("security_possibility_description"); ?></p>
                         <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
                     </div>
                 </div>

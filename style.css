@@ -630,6 +630,16 @@ img {
 
 
 
+.box-content {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.box-content a {
+  align-self: end;
+}
+
 
 
 
