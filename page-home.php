@@ -52,8 +52,8 @@ Template Name: Home
 
             <div class="advantages_main_content">
                     <div class="advantages-box-content">
-                        <img src="<?php the_field("advantages_small_image"); ?>" alt="">
-                        <p><?php echo get_field("advantages_text"); ?></p>
+                        <p style="background-image: <?php $image = get_field('advantages_small_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; ">
+                        ><?php echo get_field("advantages_text"); ?></p>
                     </div>
                 </div>
             </div>
