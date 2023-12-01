@@ -53,6 +53,7 @@ Template Name: Home
             <div class="advantages_main_content">
                     <div class="box-content">
                         <img src="<?php echo get_field("advantages_small_image"); ?>" alt="">
+                        <!-- ???????????????? --> <img src="<?php echo get_field("advantages_small_image"); ?>" <?php $image = get_field('advantages_small_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); alt="">
                         <p><?php echo get_field("advantages_text"); ?></p>
                     </div>
                 </div>
