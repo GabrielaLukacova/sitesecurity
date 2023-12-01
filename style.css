@@ -314,11 +314,12 @@ apply later when image is smaller
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  float: right;
 }
 
 .contact-form label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   
 }
 
@@ -328,17 +329,17 @@ apply later when image is smaller
 .contact-form select,
 .contact-form textarea {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 8px;
+  margin-bottom: 5px;
   border: 1px solid #424146;
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: transparent;
   box-sizing: border-box;
 }
 
 .contact-form select {
   appearance: none;
-  padding: 10px;
+  padding: 8px;
 }
 
 .wpcf7 input[type="submit"] {
@@ -358,6 +359,7 @@ apply later when image is smaller
 @media (max-width: 600px) {
   .contact-form {
       max-width: 100%;
+      float: none;
   }
 }
 
