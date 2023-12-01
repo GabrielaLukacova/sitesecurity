@@ -156,21 +156,23 @@ Template Name: FAQ
 <section class=faq>
 
 <h2>Heading</h2>
-<div class="security_possibilities_container">
-        <?php $loop = new WP_Query( array( 'post_type' => 'security_possibility', 'posts_per_page' => -1 ) ); ?>
-        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+    <div class="security_possibilities_container">
+         <?php $loop = new WP_Query( array( 'post_type' => 'security_possibility', 'posts_per_page' => -1 ) ); ?>
+         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
             <div class="security_possibilities_container_box" style="background-image: <?php $image = get_field('security_possibility_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
 
-      <div class="question">
-        Question 2?
-        <div class="arrow">&#9658;</div>
-      </div>
-      <div class="answer">
-        Answer to Question 2.
-      </div>
+                <div class="question">
+                    Question 2?
+                    <div class="arrow">&#9658;
+                    </div>
+                </div>
+                <div class="answer">
+                    Answer to Question 2.
+                </div>
+            </div>
     </div>
-        <?php endwhile; wp_reset_query(); ?>
+            <?php endwhile; wp_reset_query(); ?>
 
 </section>
 
