@@ -51,8 +51,8 @@ Template Name: Home
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
             <div class="advantages_main_content">
-                    <div class="advantages-box-content" style="background-image: <?php $image = get_field('advantages_small_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; ">
-                        <p 
+                    <div class="advantages-box-content">
+                        <p style="background-image: <?php $image = get_field('advantages_small_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
                         ><?php echo get_field("advantages_text"); ?></p>
                     </div>
                 </div>
@@ -101,7 +101,6 @@ i
 
 
 <section class="contact-form-container"  style="background-image: <?php $image = get_field('contact-form-image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
-    <h4>Unique way to secure your business!</h4>
     <div class="contact-form">
         <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your busines"]' ) ;?>
       </div>
