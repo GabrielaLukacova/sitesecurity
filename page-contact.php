@@ -43,7 +43,7 @@ Template Name: Contact
 
 
 <section class="security_possibilities"> 
-<h5 class="heading-above"><?php echo get_field("security_possibilities_heading"); ?></h5>
+<h6 class="heading-above"><?php echo get_field("a_lot_of_security_possibilities"); ?></h6>
     <div class="security_possibilities_container">
         <?php $loop = new WP_Query( array( 'post_type' => 'security_possibility', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
