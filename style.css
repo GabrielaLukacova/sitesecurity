@@ -374,7 +374,13 @@ apply later when image is smaller
   }
 }
 
-
+.wpcf7-form-control-wpcf7-submit-has-spinner p {
+  display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 /* Additional styles for submit button moved from inline styles */
 
