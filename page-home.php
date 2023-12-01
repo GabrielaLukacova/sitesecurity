@@ -101,6 +101,10 @@ i
 
 
 <section class="contact-form-container"  style="background-image: <?php $image = get_field('contact-form-image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
+<<<<<<< Updated upstream
+=======
+<h4 class="contact-form-heading"><?php the_field('contact_form_heading'); ?></h4>
+>>>>>>> Stashed changes
     <div class="contact-form">
         <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your busines"]' ) ;?>
       </div>
