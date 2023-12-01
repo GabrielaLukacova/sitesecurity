@@ -38,7 +38,6 @@ Template Name: Home
         <h2>Solar farm security integration</h2>
         <p class="article-text"><?php the_field('article');?></p>
         <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Our products and servides</a>
-        <img src="https://i.imgur.com/0QXVNdB.png" alt="background image"> 
 </article>
 
 
