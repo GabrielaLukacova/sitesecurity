@@ -97,7 +97,7 @@ Template Name: Home
                 <div class="security_possibilities_container_box-content">
                 <div class="box-content">
                     <h6 class="heading_white"><?php echo get_field("security_possibility_heading"); ?></h6>
-                    <p class="article_main heading_white"><?php echo get_field("security_possibility_description"); ?></p>
+                    <p class=" article-text heading_white" style="font-size: 18px;"><?php echo get_field("security_possibility_description"); ?></p>
                     <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
                 </div>
             </div>
