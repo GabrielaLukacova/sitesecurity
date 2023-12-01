@@ -121,7 +121,7 @@ a.home {
   /* align-items: center; */
   /* text-align: center; */
   flex-direction: column;
-  padding: 50px 20px;
+  padding: 50px 26%;
   background-color: #fff;
 }
 
