@@ -30,20 +30,20 @@ Template Name: Contact
 
 <section id="phone and e-mail">
     <div class="phone_and_email "> 
-        <div class="footer_call_mail">
-            <div>
+        <div class="footer_call_mail2 footer_call_mail">
+            <div style="font-size: 30px; color: #FCD53F; width: 100px; display: flex; align-items: center;">
                 <span class="material-icons" aria-hidden="true">call</span>
                 <p>Phone</p>
             </div> 
-        <p><?php the_field('phone'); ?></p>
+            <p><?php the_field('phone'); ?></p>
         </div>
-        <div class="footer_call_mail">
-            <div style="font-size: 30px; color: #FCD53F;">
+
+        <div class="footer_call_mail2 footer_call_mail">
+            <div style="font-size: 30px; color: #FCD53F; width: 100px; display: flex; align-items: center;">
                 <span class="material-icons" style="color: #FCD53F;" aria-hidden="true">mail</span>
                 <p>E-mail</p>
             </div> 
             <p><?php the_field('email'); ?></p>   
-            
         </div>
     </div>
 
