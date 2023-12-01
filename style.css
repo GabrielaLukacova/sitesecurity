@@ -242,6 +242,7 @@ footer {
   align-items: flex-start;
   flex-wrap: wrap;
   margin: 0 auto;
+  padding-left: 100px;
 }
 
 
@@ -274,6 +275,12 @@ footer {
   text-align: left; 
 }
 
+.column.image {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; 
+
+}
 
 
 .footer_call_mail{
