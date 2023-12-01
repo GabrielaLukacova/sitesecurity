@@ -95,9 +95,9 @@ a.home {
   padding: 20px;
 }
 
-h2 {
+.article_main h2 {
   font-size: 50px;
-  
+  margin: 0;
 }
 
 
