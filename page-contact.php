@@ -31,12 +31,19 @@ Template Name: Contact
 <section id="phone and e-mail">
     <div class="phone_and_email "> 
         <div class="footer_call_mail">
-            <span class="material-icons" aria-hidden="true">call</span>
-            <p><?php the_field('phone'); ?></p>
+            <div>
+                <span class="material-icons" aria-hidden="true">call</span>
+                <p>Phone</p>
+            </div> 
+        <p><?php the_field('phone'); ?></p>
         </div>
         <div class="footer_call_mail">
-            <span class="material-icons" aria-hidden="true">mail</span>
-            <p><?php the_field('email'); ?></p>
+            <div>
+                <span class="material-icons" aria-hidden="true">mail</span>
+                <p>E-mail</p>
+            </div> 
+            <p><?php the_field('email'); ?></p>   
+            
         </div>
     </div>
 
