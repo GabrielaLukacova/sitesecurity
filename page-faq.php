@@ -49,6 +49,107 @@ Template Name: FAQ
     <?php endwhile; wp_reset_query(); ?>
 </section>
 
+
+
+<section class=faq>
+
+<h2>Heading</h2>
+
+<div class="faq-container">
+  <div class="faq-column">
+    <div class="faq-box">
+      <div class="question">
+        Question 1?
+        <div class="arrow">&#9658;</div>
+      </div>
+      <div class="answer">
+        Answer to Question 1.
+      </div>
+    </div>
+
+    <div class="faq-box">
+      <div class="question">
+        Question 1?
+        <div class="arrow">&#9658;</div>
+      </div>
+      <div class="answer">
+        Answer to Question 1.
+      </div>
+    </div>
+
+    <div class="faq-box">
+      <div class="question">
+        Question 1?
+        <div class="arrow">&#9658;</div>
+      </div>
+      <div class="answer">
+        Answer to Question 1.
+      </div>
+    </div>
+
+    <div class="faq-box">
+      <div class="question">
+        Question 1?
+        <div class="arrow">&#9658;</div>
+      </div>
+      <div class="answer">
+        Answer to Question 1.
+      </div>
+    </div>
+    
+
+    
+  </div>
+
+  <div class="faq-column">
+    <div class="faq-box">
+      <div class="question">
+        Question 2?
+        <div class="arrow">&#9658;</div>
+      </div>
+      <div class="answer">
+        Answer to Question 2.
+      </div>
+    </div>
+
+
+    <div class="faq-box">
+      <div class="question">
+        Question 2?
+        <div class="arrow">&#9658;</div>
+      </div>
+      <div class="answer">
+        Answer to Question 2.
+      </div>
+    </div>
+
+
+    <div class="faq-box">
+      <div class="question">
+        Question 2?
+        <div class="arrow">&#9658;</div>
+      </div>
+      <div class="answer">
+        Answer to Question 2.
+      </div>
+    </div>
+
+    <div class="faq-box">
+      <div class="question">
+        Question 2?
+        <div class="arrow">&#9658;</div>
+      </div>
+      <div class="answer">
+        Answer to Question 2.
+      </div>
+    </div>
+
+    
+  </div>
+</div>
+
+</section>
+
 </body>
 <?php endwhile ?>
 </main>

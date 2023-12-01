@@ -1,3 +1,5 @@
+//SLIDE SHOW - customers reviews 
+
 $(() => {
     $('.slick-carousel').slick({
         dots: true,
@@ -8,15 +10,36 @@ $(() => {
         autoplay: true,
         autoplaySpeed: 5000,
         fade: true,  
-        cssEase: 'linear',  // Linear easing for a consistent speed
-        adaptiveHeight: true,  // Adjust the height dynamically based on the content
+        cssEase: 'linear',  
+        adaptiveHeight: true,  
         responsive: [
             {
                 breakpoint: 768,
-                // settings: {
-                //     arrows: false  
-                // }
+                 settings: {
+                    arrows: false  
+                 }
             }
         ]
     });
 });
+
+
+
+// FAQ - opening box after clicking on arrow
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const questions = document.querySelectorAll('.question');
+
+    questions.forEach(question => {
+      question.addEventListener('click', function () {
+        const answer = this.nextElementSibling;
+
+        // Toggle the 'open' class to trigger CSS transitions
+        answer.classList.toggle('open');
+
+        // Toggle the arrow direction
+        const arrow = this.querySelector('.arrow');
+        arrow.textContent = arrow.textContent === '▶' ? '▼' : '▶';
+      });
+    });
+  });
