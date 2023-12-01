@@ -55,6 +55,7 @@ a.home {
 
 .hero-content {
   position: absolute;
+  max-width: 600px; 
   top: 60%;
   left: 26%; /* DON'T CHANGE THE GAP ON THE LEFT PLS */
   transform: translate(-50%, -50%);
