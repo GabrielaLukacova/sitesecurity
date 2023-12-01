@@ -315,9 +315,8 @@ apply later when image is smaller
   max-width: 800px; 
   margin: 0;
   background-color: transparent;
-  padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: none;
   float: right;
   margin-right: 100px;
 }
@@ -336,9 +335,9 @@ apply later when image is smaller
 .contact-form input[type="email"],
 .contact-form select,
 .contact-form textarea {
-  width: 100%;
-  padding: 6px; 
-  margin-bottom:8px;
+  width: 130%;
+  padding: 8px; 
+ margin-bottom:4px; 
   border: 1px solid #424146;
   border-radius: 8px; 
   background-color: transparent;
