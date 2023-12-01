@@ -57,7 +57,7 @@ a.home {
 .hero-content {
   position: absolute;
   top: 60%;
-  left: 15%; 
+  left: 26%; /* DON'T CHANGE THE GAP ON THE LEFT PLS */
   transform: translate(-50%, -50%);
   text-align: left;
 }
