@@ -51,8 +51,8 @@ Template Name: Home
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
             <div class="advantages_main_content">
-                    <div class="advantages-box-content">
-                        <p style="background-image: <?php $image = get_field('advantages_small_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; ">
+                    <div class="advantages-box-content" style="background-image: <?php $image = get_field('advantages_small_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; ">
+                        <p 
                         ><?php echo get_field("advantages_text"); ?></p>
                     </div>
                 </div>
