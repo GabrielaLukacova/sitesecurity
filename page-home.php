@@ -65,7 +65,7 @@ Template Name: Home
     <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
  </section>
 
-
+i
  <section class="advantages_main">
     <h2>ADVANTAGES TO CHOOSE US</h2>
      <div class="advantagess_main_content_and_image" > 
