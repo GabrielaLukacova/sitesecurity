@@ -93,11 +93,11 @@ Template Name: Home
 
     <h5 class="heading-above">A LOT OF SECURITY POSSIBILITIES</h5>
         <div class="security_possibilities_container">
-        <div class="security_possibilities_container_box" style="background-image: <?php $image = get_field('security_possibility_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
+        <div class="security_possibilities_container_box" style="background-image: <?php $image = echo get_field('security_possibility_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
                 <div class="security_possibilities_container_box-content">
                 <div class="box-content">
-                    <h6><?php echo get_the_field("security_possibility_heading"); ?></h6>
-                    <p><?php echo get_the_field("security_possibility_description"); ?></p>
+                    <h6><?php echo get_field("security_possibility_heading"); ?></h6>
+                    <p><?php echo get_field("security_possibility_description"); ?></p>
                     <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
                 </div>
             </div>
