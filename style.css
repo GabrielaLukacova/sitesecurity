@@ -339,15 +339,15 @@ apply later when image is smaller
 
 .contact-form select {
   appearance: none;
-  padding: 10px;
+  padding: 5px;
 }
 
 .wpcf7 input[type="submit"] {
   background-color: #363636; 
   color: #fff; 
-  padding: 10px 20px;
+  padding: 5px 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor:pointer;
 } 
 
