@@ -326,6 +326,10 @@ apply later when image is smaller
   margin-right: 100px;
 }
 
+
+
+
+
 .contact-form label {
   display: block;
   margin-bottom: 4px; 
@@ -338,7 +342,7 @@ apply later when image is smaller
 .contact-form textarea {
   width: 130%;
   padding: 8px; 
-  margin-bottom: 4px; 
+ margin-bottom:4px; 
   border: 1px solid #424146;
   border-radius: 8px; 
   background-color: transparent;
@@ -357,7 +361,6 @@ apply later when image is smaller
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  margin-top: 10px; /* Add margin to adjust the distance from the form */
 }
 
 .wpcf7 input[type="submit"]:hover {
@@ -370,6 +373,7 @@ apply later when image is smaller
     float: none; 
   }
 }
+
 
 /* Additional styles for submit button moved from inline styles */
 
