@@ -102,8 +102,6 @@ Template Name: Home
 
  </section>
 
-
-
 </body>
 <?php endwhile ?>
 </main>
