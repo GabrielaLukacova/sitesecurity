@@ -42,10 +42,12 @@ Template Name: Home
 
 
 
- <section class="advantisages_main">
+<!-- Advantages Section -->
+
+ <section class="advantages_main">
     <h2>ADVANTAGES TO CHOOSE US</h2>
-     <div class="advantisages_main_content_and_image" > 
-        <div class="advantisages_main_content">
+     <div class="advantagess_main_content_and_image" > 
+        <div class="advantages_main_content">
             <img src="...." alt="">
             <p>Theft prevention.</p>
             <img src="...." alt="">
@@ -63,7 +65,7 @@ Template Name: Home
             <img src="...." alt="">
             <p>Theft prevention.</p>
         </div>
-        <div class="advantisages_main_image">
+        <div class="advantages_main_image">
             <img src="...." alt=""> 
         </div>
 
