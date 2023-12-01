@@ -89,7 +89,6 @@ a.home {
   color: #fff;
   text-align: center;
   margin: 0;
-  
 }
 
 
@@ -111,6 +110,53 @@ a.home {
   font-size: 50px;
   margin: 0;
 }
+
+
+/* <--- ADVANTISAGES TO CHOOSE US ---> */
+
+
+.advantages_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+
+.advantages_main_content_and_image{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.advantages_main h3 {
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.advantages_main_content {
+  flex: 1;
+  width:100%;
+  margin-right: 20px;
+}
+
+.advantages_main_content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.advantages_main_image {
+  flex: 1;
+  /* max-width: 400px; */
+}
+
+
 
 /* .wp_loop_heading 
 
@@ -460,48 +506,6 @@ p {
 
 
 
-
-/* ADVANTISAGES TO CHOOSE US */
-.advantisages_main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 50px 20px;
-  background-color: #fff;
-}
-
-
-.advantisages_main_content_and_image{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.advantisages_main h2 {
-  width: 100%;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.advantisages_main_content {
-  flex: 1;
-  width:100%;
-  margin-right: 20px;
-}
-
-.advantisages_main_content img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 15px;
-}
-
-.advantisages_main_image {
-  flex: 1;
-  /* max-width: 400px; */
-}
 
 
 
