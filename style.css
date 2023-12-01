@@ -487,8 +487,11 @@ p {
   color: #ffffff;
 }
 
-.button_grey{
-  display: block;
+.button_grey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px; 
   margin: 20px auto;
   padding: 10px 20px;
   background-color: #363636; 
@@ -496,14 +499,14 @@ p {
   text-decoration: none;
   border-radius: 10px;
   transition: background-color 0.3s ease;
-  margin-top: 20px;
   font-size: 20px;
 }
 
-.button_grey:hover  {
+.button_grey:hover {
   background-color: #FDD43E;
   color: #000;
 }
+
 
 
 
