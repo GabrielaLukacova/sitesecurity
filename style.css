@@ -343,6 +343,11 @@ apply later when image is smaller
   flex: 1;
 }
 
+.footer_call_mail2 {
+  flex-direction: column;
+  gap: 10px;
+}
+
 
 /* <--- CONTACT FORM ---> */
 
