@@ -18,13 +18,21 @@ Template Name: FAQ
 <body>
 
 
-<!-- Navigation bar Section -->
+<!-- Hero Section with navbar -->
 
-<div class="navbar">
-    <a class="home" href="<?php echo get_permalink(get_page_by_path('home')) ?>" style="order: -1;">Home</a>
-    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">Contacts</a>
-    <a href="<?php echo get_permalink(get_page_by_path('faq')) ?>">FAQ</a>
-    <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>
+<div class="hero-section"   style="background-image: <?php $image = get_field('hero_video'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
+        <div class="navbar">
+            <a class="home" href="<?php echo get_permalink(get_page_by_path('home')) ?>" style="order: -1;">Home</a>
+            <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">Contacts</a>
+            <a href="<?php echo get_permalink(get_page_by_path('faq')) ?>">FAQ</a>
+            <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>
+        </div>
+
+    </div>
+    <div class="hero-content">
+        <h1 class="hero-text"><?php the_field('hero_text'); ?></h1>
+        <p class="hero-slogan"><?php the_field('hero_slogan'); ?></p>
+    </div>
 </div>
 
 
