@@ -31,7 +31,8 @@ Template Name: Contact
 <section id="phone and e-mail">
     <div class="phone_and_email "> 
         <div class="footer_call_mail2 footer_call_mail">
-            <div style="font-size: 30px; color: #FCD53F; width: 100px; display: flex; align-items: center;">
+            <div style="font-size: 30px; color: #FCD53F; width: 100px; display: flex; align-items: center;   gap: 10px;
+">
                 <span class="material-icons" aria-hidden="true">call</span>
                 <p>Phone</p>
             </div> 
