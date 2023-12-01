@@ -125,13 +125,6 @@ a.home {
   background-color: #fff;
 }
 
-/* .advantages_main_content_and_image{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-}
-*/
 
 .advantages_main h3 {
   width: 100%;
@@ -152,10 +145,15 @@ a.home {
 }
 
 
-/*
+/* for dispaing picture with text*/
 .advantages-box-content{
+  display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 30px;
+    padding: 0 2%;
   }
-*/
+
 
 
 /* .wp_loop_heading 
