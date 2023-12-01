@@ -90,7 +90,7 @@ Template Name: Home
 
   
 <section class="security_possibilities"> 
-    <?php $loop = new WP_Query( array( 'post_type' => 'property', 'posts_per_page' => -1, 'category' => 'current' ) ); ?>
+    <?php $loop = new WP_Query( array( 'post_type' => 'security_possibility', 'posts_per_page' => -1, 'category' => 'current' "order" => "ASC") ); ?>
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
     <h5 class="heading-above">A LOT OF SECURITY POSSIBILITIES</h5>
