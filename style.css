@@ -55,6 +55,7 @@ a.home {
 
 .hero-content {
   position: absolute;
+  max-width: 600px; 
   top: 60%;
   left: 26%; /* DON'T CHANGE THE GAP ON THE LEFT PLS */
   transform: translate(-50%, -50%);
@@ -62,9 +63,9 @@ a.home {
 }
 
 
-.hero-content {
+/*.hero-content {
   max-width: 600px; 
-}  
+}  */
 
 .hero-content h1 {
   font-size: 80px; 
@@ -89,11 +90,10 @@ a.home {
   max-width: 600px; 
   margin: 0 auto;
   padding: 20px; 
-  border: 1px solid #ccc;
 }
 
 h2.article_main {
-  font-size: 40px;
+  font-size: 60px;
   
 }
  
