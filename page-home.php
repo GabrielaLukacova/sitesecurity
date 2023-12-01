@@ -107,7 +107,7 @@ Template Name: Home
     <?php endwhile; wp_reset_query(); ?>
  </section>
 
- 
+
 
 <section class="security_possibilities">
     <h5 class="heading-above">A LOT OF SECURITY POSSIBILITIES</h5>
