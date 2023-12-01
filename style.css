@@ -63,10 +63,6 @@ a.home {
 }
 
 
-/*.hero-content {
-  max-width: 600px; 
-}  */
-
 .hero-content h1 {
   font-size: 80px; 
   color: #fff;
@@ -93,7 +89,7 @@ a.home {
 }
 
 h2.article_main {
-  font-size: 60px;
+  font-size: 80px;
   
 }
  
