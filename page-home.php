@@ -106,9 +106,11 @@ Template Name: Home
             </div>
         <?php endwhile; wp_reset_query(); ?>
     </div>
+    <a href="<?php echo get_permalink( get_page_by_path( '.........' ) ) ?>" class="button_grey">More security ideas</a> 
+
  </section>
 
- 
+
 <footer>
         <div class="column links">
             <a href="<?php echo get_permalink( get_page_by_path( 'home' ) ) ?>">Home</a>
