@@ -308,19 +308,17 @@ apply later when image is smaller
 
 
 .contact-form {
-  max-width: 600px; 
+  max-width: 800px; /* Increase max-width for a wider form */
   margin: 0 auto;
   background-color: transparent;
-  padding: 20px;
+  padding: 15px; /* Smaller padding */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  float: right;
 }
 
 .contact-form label {
   display: block;
-  margin-bottom: 5px;
-  
+  margin-bottom: 4px; /* Smaller margin */
 }
 
 .contact-form input[type="text"],
@@ -329,8 +327,8 @@ apply later when image is smaller
 .contact-form select,
 .contact-form textarea {
   width: 100%;
-  padding: 8px;
-  margin-bottom: 5px;
+  padding: 6px; /* Smaller padding */
+  margin-bottom: 8px; /* Smaller margin */
   border: 1px solid #424146;
   border-radius: 8px;
   background-color: transparent;
@@ -339,30 +337,28 @@ apply later when image is smaller
 
 .contact-form select {
   appearance: none;
-  padding: 5px;
+  padding: 6px; /* Smaller padding */
 }
 
 .wpcf7 input[type="submit"] {
-  background-color: #363636; 
-  color: #fff; 
-  padding: 5px 10px;
+  background-color: #363636;
+  color: #fff;
+  padding: 8px 20px; /* Smaller padding */
   border: none;
-  border-radius: 8px;
-  cursor:pointer;
-} 
+  border-radius: 10px;
+  cursor: pointer;
+}
 
 .wpcf7 input[type="submit"]:hover {
   background-color: #FDD43E;
 }
 
-
 @media (max-width: 600px) {
   .contact-form {
-      max-width: 100%;
-      float: none;
+    max-width: 100%;
+    float: none;
   }
 }
-
 
 
 
