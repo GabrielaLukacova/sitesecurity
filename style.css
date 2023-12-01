@@ -87,7 +87,10 @@ a.home {
   background-position: center;
   color: #fff;
   text-align: center;
-  padding: 100px 0; 
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 20px; 
+  border: 1px solid #ccc;
 }
 
 h2.article_main {
