@@ -34,17 +34,17 @@ Template Name: Home
 
 <!-- Article Section -->
 
-<div class="article_main">
+<article class="article_main">
         <h2>Article title</h2>
         <p>dolor sit amet, consectetur. adipiscing elit. Sed tincidunt velit nec mauriscursus, id venenatis justo convallis. Fusce vusto nec felis efficitur laoreet. Quisque velest id elit varius eleifend. Sed ac justo id nisi elementum fermentum. Praesent nec ultrices ex, vel bibendum justo. Curabitur tinciduntLorem ipsum dolor sit amet, consecteturadipiscing elit. Sed tincidunt velit nec mauriscursus, id venenatis justo convallis. Fusce velusto nec felis efficitur laoreet. Quisque veest id elit varius eleifend. Sed ac justo id nisielementum fermentum. Praesent nec ultricesex, vel bibendum justo. 
         </p>
         <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Our products and servides</a>
         <img src="....." alt=""> 
-    </div>
+</article>
 
 
 
- <div class="advantisages_main">
+ <section class="advantisages_main">
     <h2>ADVANTAGES TO CHOOSE US</h2>
      <div class="advantisages_main_content_and_image" > 
         <div class="advantisages_main_content">
@@ -68,16 +68,18 @@ Template Name: Home
         <div class="advantisages_main_image">
             <img src="...." alt=""> 
         </div>
-    </div>
 
-<a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
+ <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
 </div>
 
+    </section>
 
 
 
 
-<div class="contact-form-container">
+
+
+<section class="contact-form-container">
     <div class="image-container">
         <?php $image = get_field ("contact-form-image"); ?> 
         <img src="<?php echo $image["url"] ?>" alt="Image">
@@ -85,11 +87,26 @@ Template Name: Home
     <div class="contact-form">
         <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your busines"]' ) ;?>
       </div>
-</div>
+</section>
 
   
+<section class="security_possibilities"> 
+    <?php $loop = new WP_Query( array( 'post_type' => 'property', 'posts_per_page' => -1, 'category' => 'current' ) ); ?>
+    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+    <div class="pindex">
+        <div class="pimage">
+            <a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {the_post_thumbnail();} ?></a>
+        </div>
+        <div class="ptitle">
+            <h2><?php echo get_the_title(); ?></h2>
+        </div>
+    </div>
+    <?php endwhile; wp_reset_query(); ?>
+</section>
+
+
 <section class="security_possibilities">
-    <h1 class="heading-above">A LOT OF SECURITY POSSIBILITIES</h1>
+    <h3 class="heading-above">A LOT OF SECURITY POSSIBILITIES</h3>
         <div class="security_possibilities_container">
             <div class="security_possibilities_container_box">
                 <img src="your_image_url_1.jpg" alt="Image 1">

@@ -36,8 +36,19 @@ Template Name: FAQ
 </div>
 
 
-
-
+<section> 
+    <?php $loop = new WP_Query( array( 'post_type' => 'property', 'posts_per_page' => -1, 'category' => 'current' ) ); ?>
+    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+    <div class="pindex">
+        <div class="pimage">
+            <a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {the_post_thumbnail();} ?></a>
+        </div>
+        <div class="ptitle">
+            <h2><?php echo get_the_title(); ?></h2>
+        </div>
+    </div>
+    <?php endwhile; wp_reset_query(); ?>
+</section>
 
 
 
