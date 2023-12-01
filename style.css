@@ -361,8 +361,6 @@ apply later when image is smaller
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  margin-top: 0; 
-  margin-bottom: 0;
 }
 
 .wpcf7 input[type="submit"]:hover {
@@ -375,6 +373,7 @@ apply later when image is smaller
     float: none; 
   }
 }
+
 
 
 /* Additional styles for submit button moved from inline styles */
