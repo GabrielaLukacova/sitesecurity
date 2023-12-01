@@ -114,24 +114,24 @@ a.home {
 
 /* <--- ADVANTISAGES TO CHOOSE US ---> */
 
-
 .advantages_main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 50px 20px;
+  /* align-items: center; */
+  /* text-align: center; */
+  flex-direction: column;
+  padding: 50px 26%;
   background-color: #fff;
 }
 
-
-.advantages_main_content_and_image{
+/* .advantages_main_content_and_image{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
 }
+*/
 
 .advantages_main h3 {
   width: 100%;
@@ -156,6 +156,10 @@ a.home {
   /* max-width: 400px; */
 }
 
+/*
+.advantages-box-content{
+  }
+*/
 
 
 /* .wp_loop_heading 
