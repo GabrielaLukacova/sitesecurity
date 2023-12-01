@@ -20,9 +20,7 @@ body {
   padding: 15px 20px; 
   display: flex;
   justify-content: flex-end; 
-  align-items: center; 
-  position:r;
-}
+  align-items: center; }
 
 .navbar a {
   color: white;
@@ -58,8 +56,8 @@ a.home {
 
 .hero-content {
   position: absolute;
-  top: 50%;
-  left: 35%; 
+  top: 60%;
+  left: 15%; 
   transform: translate(-50%, -50%);
   text-align: left;
 }
@@ -73,6 +71,8 @@ a.home {
   font-size: 80px; 
   color: #fff;
   margin-bottom: 10px;
+  padding-top: 5%;
+
 }
 
 .hero-content p  {
