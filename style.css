@@ -260,8 +260,8 @@ footer {
 .column.links {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
+  align-items: flex-start; 
+  justify-content: center; 
 }
 
 .links a {
@@ -270,6 +270,7 @@ footer {
   text-decoration: none;
   margin-bottom: 5px;
 }
+
 
 .footer_call_mail{
   display: flex;
