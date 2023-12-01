@@ -274,6 +274,12 @@ footer {
   text-align: left; 
 }
 
+.column.image {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; 
+
+}
 
 
 .footer_call_mail{
