@@ -46,12 +46,10 @@ a.home {
 
 .hero-section {
   position: relative;
-}
-
-.image-container {
-  position: relative;
   height: 100vh;
 }
+
+
 
 .hero-content {
   position: absolute;
@@ -80,6 +78,7 @@ a.home {
 /* <--- ARITCLE MAIN PAGE ---> */
 .article_main {
   position: relative;
+  height: 100vh;
   background-image: url('https://i.imgur.com/0QXVNdB.png'); 
   background-size: cover;
   background-position: center;
@@ -90,8 +89,8 @@ a.home {
   padding: 20px;
 }
 
-h2.article_main {
-  font-size: 80px;
+h2 {
+  font-size: 70px;
   
 }
  
