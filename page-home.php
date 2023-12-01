@@ -92,20 +92,25 @@ Template Name: Home
 <section class="security_possibilities"> 
     <?php $loop = new WP_Query( array( 'post_type' => 'property', 'posts_per_page' => -1, 'category' => 'current' ) ); ?>
     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-    <div class="pindex">
-        <div class="pimage">
-            <a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {the_post_thumbnail();} ?></a>
+
+    <h5 class="heading-above">A LOT OF SECURITY POSSIBILITIES</h5>
+        <div class="security_possibilities_container">
+        <div class="security_possibilities_container_box" style="background-image: <?php $image = get_field('security_possibility_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
+                <div class="security_possibilities_container_box-content">
+                <div class="box-content">
+                    <h6><?php echo get_the_field("security_possibility_heading"); ?></h6>
+                    <p><?php echo get_the_field("security_possibility_description"); ?></p>
+                    <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
+                </div>
+            </div>
         </div>
-        <div class="ptitle">
-            <h2><?php echo get_the_title(); ?></h2>
-        </div>
-    </div>
     <?php endwhile; wp_reset_query(); ?>
-</section>
+ </section>
+
 
 
 <section class="security_possibilities">
-    <h3 class="heading-above">A LOT OF SECURITY POSSIBILITIES</h3>
+    <h5 class="heading-above">A LOT OF SECURITY POSSIBILITIES</h5>
         <div class="security_possibilities_container">
             <div class="security_possibilities_container_box">
                 <img src="your_image_url_1.jpg" alt="Image 1">
