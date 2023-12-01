@@ -101,11 +101,7 @@ Template Name: Home
 
 
 
-<section class="contact-form-container">
-    <div class="image-container">
-        <?php $image = get_field ("contact-form-image"); ?> 
-        <img src="<?php echo $image["url"] ?>" alt="Image">
-    </div>
+<section class="contact-form-container"  style="background-image: <?php $image = get_field('contact-form-image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
     <div class="contact-form">
         <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your busines"]' ) ;?>
       </div>
