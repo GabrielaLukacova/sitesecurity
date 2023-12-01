@@ -74,6 +74,10 @@ a.home {
   color: #FDD43E;
 }
 
+/* <--- for white text ---> */
+.heading_white {
+  color: #fff;
+} 
 
 /* <--- ARITCLE MAIN PAGE ---> */
 .article_main {
@@ -88,6 +92,7 @@ a.home {
   
 }
 
+
 .article-text {
   text-align: left;
   max-width: 600px;
@@ -95,17 +100,18 @@ a.home {
   padding: 20px;
 }
 
-h2 {
+h2, h3, h4, h5, h6 {
   font-size: 50px;
   
 }
 
+/* .wp_loop_heading 
 
  
 
   
   
-  /*.wpcf7-form-control {
+  .wpcf7-form-control {
     background-color: transparent;
     border: 1px solid #424146;
     border-radius: 10px;
