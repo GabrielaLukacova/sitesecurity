@@ -308,13 +308,13 @@ apply later when image is smaller
 
 
 .contact-form {
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: transparent;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  float: right;
+  float: left;
 }
 
 
