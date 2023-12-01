@@ -307,6 +307,8 @@ apply later when image is smaller
 /* <--- CONTACT FORM ---> */
 
 
+/* Existing styles... */
+
 .contact-form-container h4 {
   text-align: right;
   padding-right: 85px;
@@ -359,6 +361,7 @@ apply later when image is smaller
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .wpcf7 input[type="submit"]:hover {
@@ -371,6 +374,9 @@ apply later when image is smaller
     float: none; 
   }
 }
+
+
+/* Additional styles for submit button moved from inline styles */
 
 
 

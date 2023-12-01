@@ -64,10 +64,45 @@ Template Name: Home
     <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
  </section>
 
+i
+ <section class="advantages_main">
+    <h2>ADVANTAGES TO CHOOSE US</h2>
+     <div class="advantagess_main_content_and_image" > 
+        <div class="advantages_main_content">
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+            <img src="...." alt="">
+            <p>Theft prevention.</p>
+        </div>
+        <div class="advantages_main_image">
+            <img src="...." alt=""> 
+        </div>
+
+
+ <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
+</div>
+
+    </section>
+
+
+
 
 <!--- Contact form section --->
 
 <section class="contact-form-container" style="background-image: <?php $image = get_field('contact-form-image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
+<section class="contact-form-container" style="    font-size: 30px; padding: 10px 10% 0 0; margin: 0;">
     <h4 class="contact-form-heading" ><?php the_field('contact_form_heading'); ?></h4>
     <div class="contact-form">
         <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your business"]' ); ?>
