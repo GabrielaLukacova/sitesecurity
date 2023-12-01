@@ -4,15 +4,14 @@ Template Name: FAQ
 */
 ?>
 
+<main>
 
 <?php get_header() ?>
 
 
     <?php while(have_posts()): the_post() ?>
         <?php the_content() ?>
-    <?php endwhile ?>
-
-<?php get_footer() ?>
+    
 
 
 <body>
@@ -51,3 +50,6 @@ Template Name: FAQ
 </section>
 
 </body>
+<?php endwhile ?>
+</main>
+<?php get_footer() ?>

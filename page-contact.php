@@ -8,7 +8,7 @@ Template Name: Contact
     
     <?php while(have_posts()): the_post() ?>
     <?php the_content() ?>
-    <?php endwhile ?>
+    
         
 
 
@@ -72,4 +72,6 @@ Template Name: Contact
  </section>
 
 </body>
+<?php endwhile ?>
+</main>
 <?php get_footer() ?>
