@@ -38,8 +38,8 @@ Template Name: Contact
         <p><?php the_field('phone'); ?></p>
         </div>
         <div class="footer_call_mail">
-            <div>
-                <span class="material-icons" aria-hidden="true">mail</span>
+            <div style="font-size: 30px; color: #FCD53F;">
+                <span class="material-icons" style="color: #FCD53F;" aria-hidden="true">mail</span>
                 <p>E-mail</p>
             </div> 
             <p><?php the_field('email'); ?></p>   
