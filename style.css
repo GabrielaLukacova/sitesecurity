@@ -310,6 +310,12 @@ apply later when image is smaller
 }*/
 
 
+/* <--- CONTACT FORM ---> */
+
+
+.contact-form-container h4 {
+  text-align: right;
+}
 
 .contact-form {
   max-width: 800px; 
