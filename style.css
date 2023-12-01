@@ -331,7 +331,7 @@ apply later when image is smaller
 .contact-form input[type="email"],
 .contact-form select,
 .contact-form textarea {
-  width: 100%;
+  width: 120%;
   padding: 8px; 
  margin-bottom:4px; 
   border: 1px solid #424146;
