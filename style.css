@@ -83,6 +83,10 @@ a.home {
   background-size: cover;
   background-position: center;
   color: #fff;
+  
+}
+
+.article-text {
   text-align: left;
   max-width: 600px;
   margin: 0 auto;
@@ -90,9 +94,11 @@ a.home {
 }
 
 h2 {
-  font-size: 70px;
+  font-size: 50px;
   
 }
+
+
  
 
   
