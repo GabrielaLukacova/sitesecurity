@@ -312,10 +312,10 @@ apply later when image is smaller
   margin: 0;
   background-color: transparent;
   padding: 15px;
-  border-radius: 60px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: none;
   float: right;
-  margin-right: 50px;
+  margin: 50px;
 }
 
 
