@@ -309,8 +309,25 @@ apply later when image is smaller
 }*/
 
 
-/* <--- CONTACT FORM ---> */
 
+/* <--- CONTACT US PAGE---> */
+
+.phone_and_email  {
+  width: 100%;
+  background-color: #363636; 
+  color: #fff; 
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.phone_and_email p{
+  flex: 1;
+}
+
+
+/* <--- CONTACT FORM ---> */
 
 /* Existing styles... */
 

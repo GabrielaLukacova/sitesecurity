@@ -8,11 +8,7 @@ Template Name: Contact
     
     <?php while(have_posts()): the_post() ?>
     <?php the_content() ?>
-    
-        
-
-
-
+    <?php endwhile ?>
 <body>
 
 
@@ -33,11 +29,30 @@ Template Name: Contact
     </div>
 </div>
 
+<section id="phone and e-mail">
+    <div class="phone_and_email "> 
+        <div class="footer_call_mail">
+            <span class="material-icons" aria-hidden="true">call</span>
+            <p><?php the_field('phone'); ?></p>
+        </div>
+        <div class="footer_call_mail">
+            <span class="material-icons" aria-hidden="true">mail</span>
+            <p><?php the_field('email'); ?></p>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
 
 <!--- Contact form section --->
 
 <section class="contact-form-container" style="background-image: <?php $image = get_field('contact-form-image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
-    <h4 class="contact-form-heading"><?php the_field('contact_form_heading'); ?></h4>
+    <h4 class="contact-form-heading"><?php the_field('form_heading'); ?></h4>
     <div class="contact-form">
         <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your business"]' ); ?>
     </div>
