@@ -102,6 +102,7 @@ Template Name: Home
                 </div>
             </div>
         </div>
+        </div>
     <?php endwhile; wp_reset_query(); ?>
  </section>
 
