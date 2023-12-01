@@ -492,6 +492,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 40px; 
+  width: 40px;
   margin: 20px auto;
   padding: 10px 20px;
   background-color: #363636; 
