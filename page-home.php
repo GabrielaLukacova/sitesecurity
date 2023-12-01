@@ -147,7 +147,7 @@ i
 
         <div class="column image">
         <a href="https://www.sitesecurity.dk/" target="_blank">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/images/SiteSecurityLogo.png" alt="Logo" width="250" height="250">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/images/SiteSecurityLogo.png" alt="Logo" width="220" height="220">
                 </a>
         </div>
 
