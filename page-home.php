@@ -87,7 +87,6 @@ Template Name: Home
         <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your busines"]' ) ;?>
       </div>
 </section>
-
   
 <section class="security_possibilities"> 
     <?php $loop = new WP_Query( array( 'post_type' => 'security_possibility', 'posts_per_page' => -1, 'category' => 'current' "order" => "ASC") ); ?>
