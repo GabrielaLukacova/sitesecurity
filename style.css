@@ -240,49 +240,6 @@ footer {
   padding: 20px;
 }
 
-.column {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 20px;
-}
-
-.links {
-  margin-right: 20px;
-}
-
-.image img {
-  display: block;
-  margin: 0 auto;
-}
-
-.contact-info {
-  text-align: left;
-}
-
-.footer_call_mail {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.footer_call_mail span {
-  margin-right: 5px;
-}
-
-.contact-info img {
-  margin-top: 10px;
-}
-
-/* Adjust the width of the footer columns as needed */
-.links, .image, .contact-info {
-  width: 30%;
-}
-
-/* Adjust the width of the logo as needed */
-.image img {
-  width: 150px;
-  height: 150px;
-}
 
 
 
