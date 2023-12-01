@@ -242,45 +242,7 @@ footer {
 
 
 
-.column {
-  flex: 1;
-  
-}
 
-/*.column:last-child {
- 
-}*/
-
-
-.column.links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
-  justify-content: flex-start; 
-}
-
-.links a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  text-align: left; 
-}
-
-.column.image {
-  display: flex;
-  align-items: center;
-}
-
-
-.footer_call_mail{
-  display: flex;
-  align-items: center;
-}
-
-.material-icons{
-  padding-right: 10px;
- 
-}
 
 
 /* .image img {
