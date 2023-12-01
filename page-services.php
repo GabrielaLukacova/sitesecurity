@@ -44,6 +44,10 @@ Template Name: Services
 
 
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 <div class="call_to_action_contact_us">
     <div class="yellow_box"></div>
     <div class="call_to_action_contact_us_content">
