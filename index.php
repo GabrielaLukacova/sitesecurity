@@ -39,31 +39,6 @@
 
 
 
-<footer>
-        <div class="column links">
-            <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">FAQ</a>
-            <a href="#">Contact</a>
-        </div>
 
-        <div class="column image">
-            <img src="images/form-image" alt="Logo">
-        </div>
-
-        <div class="column contact-info">
-            <div>
-                <i class="material-icons">call</i>            
-                <p> +45 88 80 84 48</p>
-            </div>
-            <div>
-                <i class="material-icons">mail</i>   
-                <p>danmark@sitesecurity.dk</p>
-            </div>
-            <div>
-                
-            </div>
-        </div>
-    </footer>
 
 </body>
