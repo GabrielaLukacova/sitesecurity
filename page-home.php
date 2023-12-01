@@ -100,18 +100,22 @@ i
 
 
 
+<!--- Contact form section --->
 
-
-<section class="contact-form-container"  style="background-image: <?php $image = get_field('contact-form-image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
-<<<<<<< Updated upstream
-=======
-<h4 class="contact-form-heading"><?php the_field('contact_form_heading'); ?></h4>
->>>>>>> Stashed changes
+<section class="contact-form-container" style="background-image: url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
+    <h4 class="contact-form-heading"><?php the_field('contact_form_heading'); ?></h4>
     <div class="contact-form">
-        <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your busines"]' ) ;?>
-      </div>
+        <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your business"]' ); ?>
+    </div>
 </section>
-  
+
+
+
+
+<!--- Security possibilities section --->
+
+
+
 <section class="security_possibilities"> 
 <h5 class="heading-above"><?php echo get_field("security_possibilities_heading"); ?></h5>
     <div class="security_possibilities_container">
