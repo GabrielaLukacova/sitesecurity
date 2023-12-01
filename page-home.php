@@ -92,6 +92,45 @@ Template Name: Home
 </div>
 
 
+<section class="security_possibilities">
+    <h1 class="heading-above">A LOT OF SECURITY POSSIBILITIES</h1>
+        <div class="security_possibilities_container">
+            <div class="security_possibilities_container_box">
+                <img src="your_image_url_1.jpg" alt="Image 1">
+                <div class="box-content">
+                    <h2>Box 1 Heading</h2>
+                    <p>Description for Box 1.</p>
+                    <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
+                </div>
+            </div>
+            <div class="security_possibilities_container_box">
+                <img src="your_image_url_2.jpg" alt="Image 2">
+                <div class="security_possibilities_container_box-content">
+                    <h2>Box 2 Heading</h2>
+                    <p>Description for Box 2.</p>
+                    <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
+                </div>
+            </div>
+            <div class="security_possibilities_container_box">
+                <img src="your_image_url_3.jpg" alt="Image 3">
+                <div class="security_possibilities_container_box-content">
+                    <h2>Box 3 Heading</h2>
+                    <p>Description for Box 3.</p>
+                    <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
+                </div>
+            </div>
+            <div class="security_possibilities_container_box">
+                <img src="your_image_url_4.jpg" alt="Image 4">
+                <div class="security_possibilities_container_box-content">
+                    <h2>Box 4 Heading</h2>
+                    <p>Description for Box 4.</p>
+                    <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
+                </div>
+            </div>
+        </div>
+        <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">more</a> 
+</section>
+
 
 
 
