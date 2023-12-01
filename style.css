@@ -643,6 +643,52 @@ img {
   align-self: end;
 }
 
+.services_to_meet_needs{
+  position: relative;
+  height: 200px; 
+  overflow: hidden;
+}
+
+.services_to_meet_needs img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.services_to_meet_needs_center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;  
+}
+
+/* .center-content h2 {
+  font-size: 2em;  
+  margin: 0;} */
+
+
+
+
+
+.call_to_action_more_info {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+    height: 200px; 
+}
+
+.call_to_action_more_info_left .call_to_action_more_info_right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
