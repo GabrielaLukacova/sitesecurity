@@ -236,10 +236,7 @@ a.home {
 footer {
   background-color: #424147;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  
  
 }
 
