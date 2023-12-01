@@ -53,7 +53,6 @@ Template Name: Home
             <div class="advantages_main_content">
                     <div class="advantages-box-content">
                         <img src="<?php echo get_field("advantages_small_image"); ?>" alt="">
-                         
                         <img class="actor-icon" src="<?php the_field("advantages_small_image") ?>" alt="">
                         <p><?php echo get_field("advantages_text"); ?></p>
                     </div>
