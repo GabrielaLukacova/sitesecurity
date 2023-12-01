@@ -83,13 +83,15 @@ a.home {
   background-size: cover;
   background-position: center;
   color: #fff;
+  text-align: center;
+  margin: 0;
   
 }
 
 .article-text {
   text-align: left;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 20px;
 }
 
