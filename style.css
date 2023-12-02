@@ -315,7 +315,9 @@ apply later when image is smaller
 
 /* <--- CONTACT FORM ---> */
 
-/* Existing styles... */
+.contact-form-heading h4 {
+  font-size: 40px;
+}
 
 .contact-form-container h4 {
   text-align: right;
