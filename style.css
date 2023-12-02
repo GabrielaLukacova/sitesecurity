@@ -270,6 +270,13 @@ footer {
   flex-direction: column;
 }
 
+.column.links a {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 10px;
+}
+
 
 .column.image {
   flex-direction: column;
