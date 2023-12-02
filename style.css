@@ -340,6 +340,18 @@ footer {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  margin: 0 10%;
+}
+
+.article_with_img__blue {
+  color: #fff;
+}
+
+.call_us_article {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
 }
 
 .optima { 

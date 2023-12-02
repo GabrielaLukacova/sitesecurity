@@ -52,10 +52,10 @@ Template Name: Contact
 
 <!--- ARTICLE WITH IMAGE Blue section --->
 
-<section class="article_with_image_blue" style="background-image: <?php $image = get_field('article_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #AABFDF">
+<section class="article_with_img__blue" style="background-image: <?php $image = get_field('article_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #AABFDF">
     <div class="article_with_img">
         <div>
-            <p class="......." style="font-size: 40px; margin: 10px;"><?php the_field('article_title'); ?></p>   
+            <p style="font-size: 40px; margin: 10px;"><?php the_field('article_title'); ?></p>   
             <p style="font-size: 24px; margin: 10px"><?php the_field('article_text'); ?></p>   
         </div>
     </div>
@@ -63,7 +63,9 @@ Template Name: Contact
 
 
 
+<!--- One color line seperator white --->
 
+<div class="line-seperator-1" style="background-color: #fff; height: 40px;"></div>
 
 
 <!--- Contact form section --->
@@ -83,7 +85,7 @@ Template Name: Contact
 
 <section id="article_with_image_call_us" style="background-image: <?php $image = get_field('call_hours_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #F6F6F6;">
     <div class="article_with_img">
-        <div> 
+        <div class="call_us_article" > 
             <p class="optima" style="font-size: 40px; margin: 10px;"><?php the_field('call_hours_heading'); ?></p>   
             <p style="font-size: 24px; margin: 10px"><?php the_field('call_hours_description'); ?></p>   
                 <div class="optima" style="font-size: 30px; display: flex; align-items: center; gap: 10px;">
