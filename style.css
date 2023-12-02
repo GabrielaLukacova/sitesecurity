@@ -794,16 +794,15 @@ img {
 
 
 
-
     .faq {
       box-sizing: border-box;
-      background-color: #ffffff;
+      background-color: #e93434;
       padding: 50px;
       align-items: center;
     }
     
     .faq_container {
-      max-width: 1200 px;
+      max-width: 100%;
       margin: 20px auto;
       display: flex;
       flex-wrap: wrap;
@@ -811,7 +810,7 @@ img {
     }
     
     .faq_container_box {
-      width: 45%;
+      width: 100%;
       margin-bottom: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       overflow: hidden;
