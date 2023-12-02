@@ -315,11 +315,7 @@ apply later when image is smaller
 
 /* <--- CONTACT FORM ---> */
 
-.wpcf7-form label span.wpcf7-form-control-wrap::before {
-  content: '*';
-  color: red;
-  margin-right: 4px;
-}
+
 
 .contact-form p {
   margin: 0 !important;
