@@ -27,19 +27,20 @@ $(() => {
 
 // FAQ - opening box after clicking on arrow
 
-  document.addEventListener('DOMContentLoaded', function () {
-    const questions = document.querySelectorAll('.question');
+document.addEventListener('DOMContentLoaded', function () {
+  const questions = document.querySelectorAll('.faq-container_box .question');
 
-    questions.forEach(question => {
+  questions.forEach(question => {
       question.addEventListener('click', function () {
-        const answer = this.nextElementSibling;
+          const answer = this.nextElementSibling;
 
-        // Toggle the 'open' class to trigger CSS transitions
-        answer.classList.toggle('open');
+          // Toggle the 'open' class to trigger CSS transitions
+          answer.classList.toggle('open');
 
-        // Toggle the arrow direction
-        const arrow = this.querySelector('.arrow');
-        arrow.textContent = arrow.textContent === '▶' ? '▼' : '▶';
+          // Toggle the arrow direction
+          const arrow = this.querySelector('.arrow');
+          arrow.textContent = arrow.textContent === '▶' ? '▼' : '▶';
       });
-    });
   });
+});
+
