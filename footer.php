@@ -31,8 +31,8 @@
                 <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/linkedin.png" alt="LinkedIn" width="50" height="50">
             </a>
         </div>
-
     </div>
+    <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
 </footer>
 <?php wp_footer() ?>
 </body>
