@@ -291,11 +291,11 @@ footer {
   margin: 0 !important;
 }
 
-/*.contact-form-container h4 {
+.contact-form-container h4 {
   text-align: right;
   padding-top: 20px;
   color:  #fff ;
-}*/
+}
 
 .contact-form {
   max-width: 800px; 
