@@ -178,13 +178,6 @@ a.home {
 
 
 
-.contact-form-heading {
-  font-size: 50px; 
-  padding-right: 100px;
-  margin: 0;
-}
-
-
 /* <--- Footer ---> */
 
 footer {
@@ -318,6 +311,8 @@ footer {
 
 
 
+
+
 .contact-form label {
   display: block;
   margin-bottom: 4px; 
@@ -353,6 +348,12 @@ footer {
 
 .wpcf7 input[type="submit"]:hover {
   background-color: #FDD43E;
+}
+
+.contact-form-heading {
+  font-size: 50px; 
+  padding-right: 100px;
+  margin: 0;
 }
 
 @media (max-width: 600px) {
