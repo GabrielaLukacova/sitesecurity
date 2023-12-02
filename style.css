@@ -315,7 +315,9 @@ apply later when image is smaller
 
 /* <--- CONTACT FORM ---> */
 
-
+.contact-form p {
+  margin: 0 !important;
+}
 
 .contact-form-container h4 {
   text-align: right;
