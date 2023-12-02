@@ -137,6 +137,7 @@ a.home {
   font-size: 50px;
   margin-bottom: 20px;
   font-weight: lighter;
+  color: #424147;
 }
 
 .advantages_main_content {
@@ -149,6 +150,7 @@ a.home {
   max-width: 100%;
   height: auto;
   margin-bottom: 15px;
+  color: #424147;
 }
 
 /* for displaying picture with text */
