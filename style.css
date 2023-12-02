@@ -831,7 +831,7 @@ img {
     
     .faq-box {
       background-color: white;
-      /* margin: 10px auto; */
+      margin: 10px auto;
       padding: 15px;
       position: relative;
       width: 80%;
@@ -875,6 +875,52 @@ img {
     
     .question.open .arrow {
       transform: translateY(-50%) rotate(180deg);
+    }
+
+
+
+
+
+/* FAQ call to action */
+
+    .section {
+      display: flex;
+      justify-content: space-between;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .content {
+      flex: 1;
+      padding: 10px;
+      text-align: center;
+    }
+
+    h3 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 15px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
     }
 
 
