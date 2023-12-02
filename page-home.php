@@ -40,6 +40,9 @@ Template Name: Home
         <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Our products and servides</a>
 </article>
 
+<!--- One color line seperator yellow --->
+
+<div class="line-seperator-1" style="background-color: #FFC826; height: 40px;"></div>
 
 
 <!-- Advantages Section -->
@@ -67,7 +70,10 @@ Template Name: Home
     <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
  </section>
 
- 
+<!--- One color line seperator white --->
+
+<div class="line-seperator-1" style="background-color: #fff; height: 40px;"></div>
+
 
 <!--- Contact form section --->
 
@@ -80,9 +86,13 @@ Template Name: Home
 
 
 
+<!--- One color line seperator dark gray --->
+
+<div class="line-seperator-1" style="background-color: #424146; height: 40px;"></div>
+
+
+
 <!--- Security possibilities section --->
-
-
 
 <section class="security_possibilities"> 
 <h5 class="heading-above"><?php echo get_field("security_possibilities_heading"); ?></h5>
