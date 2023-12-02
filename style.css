@@ -132,7 +132,6 @@ a.home {
   background-color: #fff;
 }
 
-
 .advantages_main h3 {
   width: 100%;
   font-size: 50px;
@@ -142,9 +141,8 @@ a.home {
 
 .advantages_main_content {
   flex: 1;
-  width:100%;
-  
-
+  width: 100%;
+  margin-right: 0; /* Adjust margin as needed */
 }
 
 .advantages_main_content img {
@@ -153,15 +151,15 @@ a.home {
   margin-bottom: 15px;
 }
 
-
-/* for dispaing picture with text*/
-.advantages-box-content{
+/* for displaying picture with text */
+.advantages-box-content {
   display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 30px;
-    padding: 0 2%;
-  }
+  align-items: center;
+  gap: 12px;
+  font-size: 30px;
+  padding: 0 2%;
+  margin-right: 0; /* Adjust margin as needed */
+}
 
 
 
