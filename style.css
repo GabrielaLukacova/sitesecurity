@@ -817,7 +817,7 @@ img {
     
     .faq-container {
       max-width: 1200px;
-      margin: 50px auto;
+      margin: 20px auto;
     }
     
     .faq-column {
@@ -838,6 +838,7 @@ img {
     
     .faq-box:hover {
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+      transform: scale(1.02);
     }
     
     .question {
@@ -861,9 +862,6 @@ img {
       cursor: pointer;
       transition: transform 0.3s ease-out;
       color:  #AABFDF;
-      transform: scale(1.02); /* Scale up on hover */
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-
     }
     
     .answer.open {
