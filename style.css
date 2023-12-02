@@ -102,7 +102,7 @@ a.home {
 }
 
 .article_main h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
   padding-top: 80px;
@@ -113,7 +113,7 @@ a.home {
 }
 
  h3, h4, h5, h6 {
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
 }
 
@@ -143,7 +143,7 @@ a.home {
 
 .advantages_main h3 {
   width: 100%;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 20px;
   font-weight: lighter;
   color: #424147;
@@ -247,7 +247,7 @@ a.home {
 }*/
 
 .contact-form-heading {
-  font-size: 50px; 
+  font-size: 40px; 
   padding: 10px 10% 0 0; 
   margin: 0;
 }
@@ -615,9 +615,9 @@ p {
 .heading-above  {
   text-align: center;
   font-size: 40px;
-  font-weight: lighter;
+  font-weight: bold;
   color: #424147;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .security_possibilities .button_grey{
