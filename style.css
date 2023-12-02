@@ -816,17 +816,16 @@ img {
     
     .faq-box {
       background-color: white;
-      margin: 10px auto;
+      /* margin: 10px auto; */
       padding: 15px;
       position: relative;
       width: 80%;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
-      transition: box-shadow 0.3s ease, transform 0.3s ease; /* Added transition effect */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
     }
     
     .faq-box:hover {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
-      transform: scale(1.02); /* Scale up on hover */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
     }
     
     .question {
@@ -850,6 +849,9 @@ img {
       cursor: pointer;
       transition: transform 0.3s ease-out;
       color:  #AABFDF;
+      transform: scale(1.02); /* Scale up on hover */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
     }
     
     .answer.open {
