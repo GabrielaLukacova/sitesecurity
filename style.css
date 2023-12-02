@@ -93,6 +93,7 @@ a.home {
 
 
 .article-text {
+  font-weight: lighter;
   text-align: left;
   max-width: 1000px;
   margin: 20px auto;
@@ -110,6 +111,8 @@ a.home {
   font-size: 50px;
   margin: 0;
 }
+
+
 
 
 /* <--- ADVANTISAGES TO CHOOSE US ---> */
