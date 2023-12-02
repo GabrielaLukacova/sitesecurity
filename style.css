@@ -131,6 +131,14 @@ a.home {
   padding: 50px 16%;
   background-color: #fff;
 }
+.yellow-text {
+  color: #FDD43E;
+}
+
+.gray-text {
+  color: #424147;
+}
+
 
 .advantages_main h3 {
   width: 100%;
