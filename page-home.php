@@ -72,13 +72,13 @@ Template Name: Home
 
 <!--- One color line seperator white --->
 
-<div class="line-seperator-1" style="background-color: #424146; height: 40px;"></div>
+<div class="line-seperator-1" style="background-color: #fff; height: 40px;"></div>
 
 
 <!--- Contact form section --->
 
 <section class="contact-form-container" style="background-image: <?php $image = get_field('contact-form-image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
-    <h2 class="contact-form-heading"><?php the_field('contact_form_heading'); ?></h2>
+    <h4 class="contact-form-heading"><?php the_field('contact_form_heading'); ?></h4>
     <div class="contact-form">
         <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your business"]' ); ?>
     </div>
