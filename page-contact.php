@@ -105,6 +105,16 @@ Template Name: Contact
 </section>
 
 
+
+<!--- One color line seperator --->
+
+<div class="line-seperator-1"></div>
+
+
+
+<!--- Security possibilities section --->
+
+
 <section class="security_possibilities"> 
 <h6 class="heading-above"><?php echo get_field("a_lot_of_security_possibilities"); ?></h6>
     <div class="security_possibilities_container">
