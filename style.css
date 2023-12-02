@@ -291,10 +291,10 @@ footer {
   margin: 0 !important;
 }
 
-.contact-form-heading .contact-form-container h4 {
+.contact-form-container h4 {
   text-align: right;
   padding-top: 20px;
-  color:  #fff;
+  color:#fff;
 }
 
 .contact-form {
