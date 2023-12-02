@@ -290,6 +290,12 @@ footer {
 .footer_call_mail {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.material-icons {
+  display: flex;
+  align-items: center;
 }
 
 
