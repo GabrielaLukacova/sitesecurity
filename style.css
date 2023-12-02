@@ -347,13 +347,16 @@ footer {
   color: #fff;
 }
 
-.call_us_article {
+.height_div_for_articles {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 320px;
 }
 
+.call_us_article {
+  height: 500px;
+}
 
 /* <--- CONTACT FORM ---> */
 
