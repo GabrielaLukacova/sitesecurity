@@ -97,7 +97,7 @@ a.home {
   text-align: left;
   max-width: 1000px;
   margin: 20px auto;
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 22px;
 }
 
@@ -253,18 +253,30 @@ a.home {
 }
 
 
-
+/* <--- Footer ---> */
 
 footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
   background-color: #424147;
   color: #fff;
   text-align: center;
   padding: 20px;
 }
 
+.column.links {
+  flex-direction: column;
+}
 
 
+.column.image {
+  flex-direction: column;
+}
 
+.column.contact-info {
+  flex-direction: column;
+}
 
 
 
