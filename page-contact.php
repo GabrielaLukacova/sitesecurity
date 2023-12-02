@@ -79,17 +79,16 @@ Template Name: Contact
 
 <!--- ARTICLE WITH IMAGE Call Us section --->
 
-<section id="article_with_image_call_us" style="background-image: <?php $image = get_field('call_hours_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #bababa;">
+<section id="article_with_image_call_us" style="background-image: <?php $image = get_field('call_hours_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #bababa;">
     <div class="article_with_img">
         </div> 
             <p style="margin: 10px;"><?php the_field('call_hours_heading'); ?></p>   
             <p style="margin: 10px"><?php the_field('call_hours_description'); ?></p>   
                 <div style="font-size: 30px; width: 100px; display: flex; align-items: center; gap: 10px;">
                     <span class="material-icons" aria-hidden="true">call</span>
-                    <p>Phone</p>
+                    <p><?php the_field('phone'); ?></p>
                 </div> 
             <p style="margin: 10px;"><?php the_field('call_hours'); ?></p>   
-            <p style="margin: 10px"><?php the_field(''); ?></p>   
         </div>
     </div>
 </section>

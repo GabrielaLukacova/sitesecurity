@@ -370,6 +370,7 @@ apply later when image is smaller
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  height: 320px;
 }
 
 
