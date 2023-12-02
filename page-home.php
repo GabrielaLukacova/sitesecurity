@@ -72,7 +72,7 @@ Template Name: Home
 
 <!--- One color line seperator white --->
 
-<div class="line-seperator-1" style="background-color: #fff; height: 40px;"></div>
+<div class="line-seperator-1" style="background-color: #424146; height: 40px;"></div>
 
 
 <!--- Contact form section --->
@@ -88,7 +88,6 @@ Template Name: Home
 
 <!--- One color line seperator dark gray --->
 
-<div class="line-seperator-1" style="background-color: #424146; height: 40px;"></div>
 
 
 
