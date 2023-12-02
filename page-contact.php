@@ -83,14 +83,14 @@ Template Name: Contact
 
 <!--- ARTICLE WITH IMAGE Call Us section --->
 
-<section id="article_with_image_call_us" style="background-image: <?php $image = get_field('call_hours_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #F6F6F6;">
+<section id="article_with_image_call_us" style="background-image: <?php $image = get_field('call_hours_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #F6F6F6;   color:#363636;">
     <div class="article_with_img" style="width: 85%; ">
         <div class="height_div_for_articles call_us_article" style="width: 70%; " > 
-            <p class="optima" style="font-size: 40px; margin: 10px;"><?php the_field('call_hours_heading'); ?></p>   
+            <p class="optima" style="font-size: 30px; margin: 10px;"><?php the_field('call_hours_heading'); ?></p>   
             <p style="font-size: 24px; margin: 10px"><?php the_field('call_hours_description'); ?></p>   
                 <div class="optima" style="font-size: 30px; display: flex; align-items: center; gap: 10px;">
-                    <span class="material-icons" aria-hidden="true">call</span>
-                    <p style="font-size: 40px;"><?php the_field('phone'); ?></p>
+                    <span class="material-icons" style="padding: 0 0 0 10px;" aria-hidden="true">call</span>
+                    <p style="font-size: 30px;"><?php the_field('phone'); ?></p>
                 </div> 
             <p class="optima" style="width: 50%; font-size: 40px; margin: 10px;"><?php the_field('call_hours'); ?></p>   
         </div>
@@ -108,7 +108,7 @@ Template Name: Contact
 
 <!--- ARTICLE WITH IMAGE Yellow section --->
 
-<section id="article_with_image_yellow" style="background-image: <?php $image = get_field('other_businesses_secure_img'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #FCD53F;">
+<section id="article_with_image_yellow" style="background-image: <?php $image = get_field('other_businesses_secure_img'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #FCD53F;   color:#363636;">
     <div class="article_with_img">
         <div class="height_div_for_articles"> 
             <p style="text-align: right; font-size: 40px; margin: 10px;">
