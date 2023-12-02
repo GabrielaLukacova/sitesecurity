@@ -340,8 +340,23 @@ footer {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  margin: 0 10%;
 }
 
+.article_with_img__blue {
+  color: #fff;
+}
+
+.height_div_for_articles {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+}
+
+.call_us_article {
+  height: 500px;
+}
 
 /* <--- CONTACT FORM ---> */
 
@@ -795,34 +810,42 @@ img {
 
 
     .faq {
-      background-color: #424147;
+      background-color: #AABFDF;
       align-items: center;
     }
     
     .faq h2 {
-      color: #fdd43e;
+      color: #ffffff;
+      padding-top:30x;
     }
     
     .faq-container {
-      max-width: 800px;
-      margin: 50px auto;
-      background-color: #424147;
+      max-width: 1200px;
+      margin: 20px auto;
     }
     
     .faq-column {
-      width: 90%; /* Full width for a single column */
+      width: 100%;
       box-sizing: border-box;
-      text-align: center;
+      text-align: left;
+      display: flex;
+      align-self:center;
     }
     
     .faq-box {
-      background-color: transparent;
-      margin: 10px auto; 
+      background-color: white;
+      margin: 10px auto;
       padding: 15px;
-      border: 2px solid #fdd43e;
-      border-radius: 15px;
       position: relative;
-      width: 100%; 
+      width: 80%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+    }
+    
+    .faq-box:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+      transform: scale(1.02);
     }
     
     .question {
@@ -845,7 +868,7 @@ img {
       transform: translateY(-50%);
       cursor: pointer;
       transition: transform 0.3s ease-out;
-      color: #fdd43e;
+      color:  #AABFDF;
     }
     
     .answer.open {
@@ -857,4 +880,28 @@ img {
       transform: translateY(-50%) rotate(180deg);
     }
 
+
+
+
+
+/* FAQ call to action */
+
+    .faq_call_to_action {
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    .faq_call_to_action_boxes{
+    display: flex;
+    justify-content: space-between;}
+
+    .faq_call_to_action_box {
+      flex: 1;
+      padding: 10px;
+      text-align: center;
+    }
+
+    p {
+      color: #000000;
+    }
 
