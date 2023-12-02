@@ -288,7 +288,7 @@ apply later when image is smaller
   width: 100%;
   background-color: #363636; 
   color: #fff; 
-  padding: 10px 20px;
+  padding: 0 20px 10px 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -300,7 +300,6 @@ apply later when image is smaller
 
 .footer_call_mail2 {
   flex-direction: column;
-  gap: 10px;
 }
 
 
