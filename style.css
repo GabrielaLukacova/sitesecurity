@@ -342,9 +342,6 @@ footer {
   gap: 10px;
 }
 
-.optima { 
-  font-family: 'PT Serif', serif;
-}
 
 /* <--- CONTACT FORM ---> */
 
@@ -356,7 +353,6 @@ footer {
   text-align: right;
   padding-top: 20px;
   color:  #fff ;
-
 }
 
 .contact-form {
@@ -815,11 +811,11 @@ img {
     .faq-column {
       width: 100%; 
       box-sizing: border-box;
-      text-align: center;
+      text-align: left;
     }
     
     .faq-box {
-      /* background-color: transparent; */¨
+      /* background-color: transparent; */
       background-color: white;
       margin: 10px auto; 
       padding: 15px;
