@@ -72,7 +72,7 @@ Template Name: Services
             </div>
         <?php endwhile; wp_reset_query(); ?>
     </div>
-    <a href="<?php echo get_permalink( get_page_by_path( '.........' ) ) ?>" class="button_grey">More security ideas</a> 
+    <a href="https://www.sitesecurity.dk/en/loesninger" class="button_grey">More security ideas</a> 
 
  </section>
 

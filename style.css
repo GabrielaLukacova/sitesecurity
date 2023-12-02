@@ -889,6 +889,7 @@ img {
     .faq_call_to_action {
       padding: 20px;
       background-color: #fff;
+      padding: 40px;
     }
 
     .faq_call_to_action_boxes{
@@ -903,6 +904,7 @@ img {
 
     .faq_call_to_action h3{
       font-size: 40px;
+      margin-left: 60px;
     }
 
     .faq_call_to_action_box p {
