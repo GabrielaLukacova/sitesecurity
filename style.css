@@ -139,12 +139,15 @@ a.home {
   font-weight: lighter;
   color: #424147;
 }
+.advantages_main_content p {
+  color: #424147;
+}
 
 .advantages_main_content {
   flex: 1;
   width: 100%;
   margin-right: 0; 
-  color: #424147;
+  
 }
 
 .advantages_main_content img {
