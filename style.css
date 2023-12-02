@@ -799,10 +799,11 @@ img {
       box-sizing: border-box;
       background-color: #ffffff;
       padding: 50px;
+      align-items: center;
     }
     
     .faq_container {
-      max-width: 1200px;
+      max-width: 1200 px;
       margin: 20px auto;
       display: flex;
       flex-wrap: wrap;
