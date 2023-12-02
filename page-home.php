@@ -45,7 +45,7 @@ Template Name: Home
 <!-- Advantages Section -->
 <section class="advantages_main" style="background-image: <?php $image = get_field('advantages_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
 <h3 class="heading-above">
-    <span class="gray-text">ADVANTAGES TO CHOOSE </span>
+    <span class="gray-text">ADVANTAGES <br> TO CHOOSE </span>
     <span class="yellow-text">US</span>
 </h3>
     <!--  <div class="advantagess_main_content_and_image" > -->
