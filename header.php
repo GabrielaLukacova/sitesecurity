@@ -8,5 +8,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
     </style>
+    <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
 </head>
 <body>
