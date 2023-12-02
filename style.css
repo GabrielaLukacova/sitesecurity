@@ -93,23 +93,31 @@ a.home {
 
 
 .article-text {
+  font-weight: lighter;
   text-align: left;
   max-width: 1000px;
   margin: 20px auto;
   padding-top: 20px;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .article_main h2 {
   font-size: 50px;
+  font-weight: bold;
   margin: 0;
   padding-top: 80px;
+}
+
+.article_main a.button_yellow {
+  margin-top: 50px;
 }
 
  h3, h4, h5, h6 {
   font-size: 50px;
   margin: 0;
 }
+
+
 
 
 /* <--- ADVANTISAGES TO CHOOSE US ---> */
@@ -124,35 +132,49 @@ a.home {
   padding: 50px 16%;
   background-color: #fff;
 }
+.yellow-text {
+  color: #FDD43E;
+}
+
+.gray-text {
+  color: #424147;
+}
 
 
 .advantages_main h3 {
   width: 100%;
-  font-size: 24px;
+  font-size: 50px;
   margin-bottom: 20px;
+  font-weight: lighter;
+  color: #424147;
+}
+.advantages_main_content p {
+  color: #424147;
 }
 
 .advantages_main_content {
   flex: 1;
-  width:100%;
-  margin-right: 20px;
+  width: 100%;
+  margin-right: 0; 
+  
 }
 
 .advantages_main_content img {
   max-width: 100%;
   height: auto;
   margin-bottom: 15px;
+  
 }
 
-
-/* for dispaing picture with text*/
-.advantages-box-content{
+/* for displaying picture with text */
+.advantages-box-content {
   display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 30px;
-    padding: 0 2%;
-  }
+  align-items: center;
+  gap: 12px;
+  font-size: 30px;
+  padding: 0 2%;
+  margin-right: 0; 
+}
 
 
 
@@ -225,8 +247,8 @@ a.home {
 }*/
 
 .contact-form-heading {
-  font-size: 30px; 
-  padding: 10px 10% 0 0; 
+  font-size: 50px; 
+  padding-right: 100px;
   margin: 0;
 }
 
@@ -236,9 +258,11 @@ a.home {
 footer {
   background-color: #424147;
   color: #fff;
-  
- 
+  text-align: center;
+  padding: 20px;
 }
+
+
 
 
 
@@ -305,11 +329,12 @@ apply later when image is smaller
 
 /* <--- CONTACT FORM ---> */
 
-/* Existing styles... */
+.contact-form p {
+  margin: 0 !important;
+}
 
 .contact-form-container h4 {
   text-align: right;
-  padding-right: 85px;
   padding-top: 20px;
   color: #fff;
 }
@@ -340,7 +365,7 @@ apply later when image is smaller
 .contact-form textarea {
   width: 130%;
   padding: 8px; 
- margin-bottom:4px; 
+ margin-bottom:5px; 
   border: 1px solid #424146;
   border-radius: 8px; 
   background-color: transparent;
@@ -532,7 +557,8 @@ p {
 
 
 
-/* SECURITY POSSIBILITIES*/
+/* <--- SECURITY POSSIBILITIES ---> */
+
 
 
 .security_possibilities{
@@ -581,10 +607,16 @@ p {
   color: #555;
 }
 
-.heading-above {
+.heading-above h5 {
+  color: #424147;
+}
+
+.heading-above  {
   text-align: center;
-  font-size: 2em;
-  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #424147;
+  margin-bottom: 40px;
 }
 
 .security_possibilities .button_grey{
