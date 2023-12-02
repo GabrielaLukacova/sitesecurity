@@ -294,45 +294,15 @@ footer {
 }
 
 .material-icons {
-  padding-right: 20px;
+  padding-right: 5px;
+}
+
+.social-icons-container img {
+  padding-left: 5px;
 }
 
 
 
-/* .image img {
-  width: 40px;
-  height: auto;
-  display: block;
-} 
-.contact-info {
-  align-items: center;
-}
-
-.contact-info img {
-  width: 20px;
-  height: auto;
-}
-
-
-
-
-
-
-apply later when image is smaller
-
-.contact-form-container {
-  display: flex;
-}
-
-.image-container {
-  flex: 1;
-  max-width: 50%;
-}
-
-.contact-form{
-  flex: 1;
-  max-width: 50%;
-}*/
 
 
 
@@ -449,9 +419,6 @@ apply later when image is smaller
 
 
 
-
-
-
 /* producst and services page */
 
 /* Call to action contact us */
@@ -459,77 +426,6 @@ apply later when image is smaller
   background-color: #FDD43E; 
   height: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.call_to_action_contact_us_content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.call_to_action_contact_us_content_text {
-  flex: 1;
-  padding-right: 20px;
-}
-
-.call_to_action_contact_us_content_image {
-  flex: 1;
-  overflow: hidden;
-}
-
-h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50; 
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.image-container {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  border-radius: 5px;
-}
-
-
-.call_to_action_contact_us
-{
-  background-color: #FDD43E;
-}*/
 
 
 
@@ -594,9 +490,6 @@ p {
   background-color: #FDD43E;
   color: #000;
 }
-
-
-
 
 
 
