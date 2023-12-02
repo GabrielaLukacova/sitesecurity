@@ -60,15 +60,14 @@ Template Name: Services
         <?php $loop = new WP_Query( array( 'post_type' => 'question-and-answer', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-            <div class="security_possibilities_container_box" style="background-image: <?php $image = get_field('product_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #F6F6F6;">
-                    <div class="security_possibilities_container_box-content">
+            <div class="security_possibilities_container_box" style="background-image: <?php $image = get_field('product_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: auto; width: 100px; background-color: #F6F6F6;">
+                   <!-- <div class="security_possibilities_container_box-content"> -->
                     <div class="box-content">
                         <h3 class="heading_white" style="background-color: rgba(51, 51, 51, 0.7); font-size: 18px; padding: 10px 10px;"><?php echo get_field("product_heading"); ?></h3>
-                        <p class=" article-text heading_white" style="  background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;">
-                        <?php echo get_field("product_description"); ?></p>
+                        <p class="article-text heading_white"><?php echo get_field('product_description'); ?></p>
                         <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
                     </div>
-                </div>
+                
             </div>
         <?php endwhile; wp_reset_query(); ?>
     </div>
