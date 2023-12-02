@@ -74,6 +74,9 @@ Template Name: Home
 
 <div class="line-seperator-1" style="background-color: #fff; height: 40px;"></div>
 
+<!--- One color line seperator yellow --->
+
+<div class="line-seperator-1" style="background-color: #FFC826; height: 40px;"></div>
 
 <!--- Contact form section --->
 
