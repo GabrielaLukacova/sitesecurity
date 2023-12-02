@@ -258,27 +258,44 @@ a.home {
 footer {
   display: flex;
   justify-content: space-evenly;
-  flex-direction: column;
   align-items: center;
   background-color: #424147;
   color: #fff;
-  text-align: center;
+  text-align: left;
   padding: 20px;
 }
 
 .column.links {
+  display: flex;
   flex-direction: column;
+}
+
+.column.links a {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 10px;
 }
 
 
 .column.image {
-  flex-direction: column;
+  padding-left: 60px;
 }
 
 .column.contact-info {
+  display: flex;
   flex-direction: column;
 }
 
+.footer_call_mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.material-icons {
+  padding-right: 20px;
+}
 
 
 
@@ -809,7 +826,7 @@ img {
 
 /* FREQENTLY ASKED QUESTIONS*/
 
-  .faq{
+  /* .faq{
     background-color: #424147;
     align-items: center;
     }
@@ -875,6 +892,53 @@ img {
     
     .question.open .arrow {
       transform: translateY(-50%) rotate(180deg);
+    } */
+
+
+
+
+
+
+
+
+
+    .faq {
+      box-sizing: border-box;
+      background-color: #ffffff;
+      padding: 50px;
+    }
+    
+    .faq_container {
+      max-width: 1200px;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+    .faq_container_box {
+      width: 45%;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    
+    .faq_container_box:hover {
+      transform: scale(1.05);
+    }
+    
+    .faq_container_box-content {
+      padding: 20px;
+    }
+    
+    .faq_container_box h2 {
+      margin-top: 0;
+      font-size: 1.5em;
+    }
+    
+    .faq_container_box p {
+      color: #555;
     }
 
 
