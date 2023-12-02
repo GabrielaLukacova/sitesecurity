@@ -27,7 +27,21 @@ $(() => {
 
 // FAQ - opening box after clicking on arrow
 
-document.addEventListener('DOMContentLoaded', function () {
+$(document).ready(function () {
+  $('.faq-container_box .question').on('click', function () {
+      const answer = $(this).next();
+
+      // Toggle the 'open' class to trigger CSS transitions
+      answer.toggleClass('open');
+
+      // Toggle the arrow direction
+      const arrow = $(this).find('.arrow');
+      arrow.text(arrow.text() === '▶' ? '▼' : '▶');
+  });
+});
+
+
+/*document.addEventListener('DOMContentLoaded', function () {
   const questions = document.querySelectorAll('.faq-container_box .question');
 
   questions.forEach(question => {
@@ -43,4 +57,4 @@ document.addEventListener('DOMContentLoaded', function () {
       });
   });
 });
-
+*/
