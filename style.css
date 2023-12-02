@@ -931,5 +931,29 @@ img {
     .faq_container_box p {
       color: #555;
     }
+    
+    /* Additional styles for background image */
+    .faq_container_box {
+      background-size: cover;
+      background-position: center;
+      height: auto;
+    }
+    
+    .faq-container_2 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .faq-column {
+      width: 48%;
+      margin: 1%;
+    }
+    
+    @media (max-width: 767px) {
+      .faq-column {
+        width: 100%;
+        margin: 0;
+      }
+    }
 
 
