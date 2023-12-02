@@ -37,9 +37,11 @@ body {
 
 a.home {
   margin-right: auto;
-
 }
 
+p {
+  color:#363636;
+}
 
 
  /* <--- HERO SECTION ---> */
@@ -115,6 +117,7 @@ a.home {
  h3, h4, h5, h6 {
   font-size: 50px;
   margin: 0;
+  color:#363636;
 }
 
 
@@ -472,7 +475,7 @@ footer {
   display: inline-block;
   padding: 10px 20px;
   background-color: #FDD43E; 
-  color: #000;
+  color:#363636;
   text-decoration: none;
   border-radius: 10px;
   transition: background-color 0.3s ease;
@@ -503,7 +506,7 @@ footer {
 
 .button_grey:hover {
   background-color: #FDD43E;
-  color: #000;
+  color:#363636;
 }
 
 
