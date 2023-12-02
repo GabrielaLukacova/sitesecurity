@@ -95,25 +95,24 @@ Template Name: Home
 <!--- Security possibilities section --->
 
 <section class="security_possibilities"> 
-<h5 class="heading-above"><?php echo get_field("security_possibilities_heading"); ?></h5>
+    <h5 class="heading-above"><?php echo get_field("security_possibilities_heading"); ?></h5>
     <div class="security_possibilities_container">
         <?php $loop = new WP_Query( array( 'post_type' => 'security_possibility', 'posts_per_page' => -1 ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
             <div class="security_possibilities_container_box" style="background-image: <?php $image = get_field('security_possibility_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
-                    <div class="security_possibilities_container_box-content">
+                <div class="security_possibilities_container_box-content">
                     <div class="box-content">
                         <h6 class="heading_white" style="background-color: rgba(51, 51, 51, 0.7); font-size: 18px; padding: 10px 10px;"><?php echo get_field("security_possibility_heading"); ?></h6>
-                        <p class=" article-text heading_white" style="  background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;"><?php echo get_field("security_possibility_description"); ?></p>
-                        <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
+                        <p class="article-text heading_white" style="background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;"><?php echo get_field("security_possibility_description"); ?></p>
+                        <a href="https://www.sitesecurity.dk/en/loesninger" class="button_yellow">Read more</a>
                     </div>
                 </div>
             </div>
         <?php endwhile; wp_reset_query(); ?>
     </div>
-    <a href="<?php echo get_permalink( get_page_by_path( '.........' ) ) ?>" class="button_grey">More security ideas</a> 
-
- </section>
+    <a href="https://www.sitesecurity.dk/en/loesninger" class="button_grey">More security ideas</a> 
+</section>
 
 </body>
 <?php endwhile ?>

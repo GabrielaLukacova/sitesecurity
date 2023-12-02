@@ -73,7 +73,7 @@ Template Name: FAQ
 <section class="faq_call_to_action">
 <h3><?php echo get_field("more_questions_heading"); ?></h3>
 
-
+  <div class="faq_call_to_action_boxes">
       <div class="faq_call_to_action_box">
         <p><?php echo get_field("more_questions_text_1"); ?></p>
         <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Services</a>
@@ -83,6 +83,7 @@ Template Name: FAQ
         <p><?php echo get_field("more_questions_text_2"); ?></p>
         <a href="<?php echo get_permalink( get_page_by_path( 'contact' ) ) ?>" class="button_yellow">Contact</a>
       </div>
+    </div>
     
   </section>
 
