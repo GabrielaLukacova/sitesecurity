@@ -44,6 +44,8 @@ Template Name: FAQ
 
             <div class="faq_container_box">
                 <div class="faq-container">
+            <div class="faq_container_box">
+                <div class="faq-container_2">
                     <div class="faq-column">
                       <div class="faq-box">    
                             <div class="question">
@@ -61,11 +63,6 @@ Template Name: FAQ
     </div>
             <?php endwhile; wp_reset_query(); ?>
 </section>
-
-
-test
-
-
 
 
 </body>
