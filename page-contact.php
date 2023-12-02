@@ -92,7 +92,7 @@ Template Name: Contact
                     <span class="material-icons" aria-hidden="true">call</span>
                     <p style="font-size: 40px;"><?php the_field('phone'); ?></p>
                 </div> 
-            <p class="optima" style="font-size: 40px; margin: 10px;"><?php the_field('call_hours'); ?></p>   
+            <p class="optima" style="width: 50%; font-size: 40px; margin: 10px;"><?php the_field('call_hours'); ?></p>   
         </div>
     </div>
 </section> 
