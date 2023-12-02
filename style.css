@@ -287,6 +287,10 @@ footer {
   flex-direction: column;
 }
 
+.footer_call_mail {
+  display: flex;
+  flex-direction: row;
+}
 
 
 
