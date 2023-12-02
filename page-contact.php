@@ -54,9 +54,9 @@ Template Name: Contact
 
 <section class="article_with_image_blue" style="background-image: <?php $image = get_field('article_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #AABFDF">
     <div class="article_with_img">
-        <div> 
-            <p style="margin: 10px;"><?php the_field('article_title'); ?></p>   
-            <p style="margin: 10px"><?php the_field('article_text'); ?></p>   
+        <div>
+            <p class="......." style="font-size: 40px; margin: 10px;"><?php the_field('article_title'); ?></p>   
+            <p style="font-size: 24px; margin: 10px"><?php the_field('article_text'); ?></p>   
         </div>
     </div>
 </section>
@@ -79,16 +79,16 @@ Template Name: Contact
 
 <!--- ARTICLE WITH IMAGE Call Us section --->
 
-<section id="article_with_image_call_us" style="background-image: <?php $image = get_field('call_hours_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #bababa;">
+<section id="article_with_image_call_us" style="background-image: <?php $image = get_field('call_hours_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #F6F6F6;">
     <div class="article_with_img">
         <div> 
-            <p style="margin: 10px;"><?php the_field('call_hours_heading'); ?></p>   
-            <p style="margin: 10px"><?php the_field('call_hours_description'); ?></p>   
-                <div style="font-size: 30px; width: 100px; display: flex; align-items: center; gap: 10px;">
+            <p class="optima" style="font-size: 40px; margin: 10px;"><?php the_field('call_hours_heading'); ?></p>   
+            <p style="font-size: 24px; margin: 10px"><?php the_field('call_hours_description'); ?></p>   
+                <div class="optima" style="font-size: 30px; display: flex; align-items: center; gap: 10px;">
                     <span class="material-icons" aria-hidden="true">call</span>
-                    <p><?php the_field('phone'); ?></p>
+                    <p style="font-size: 40px;"><?php the_field('phone'); ?></p>
                 </div> 
-            <p style="margin: 10px;"><?php the_field('call_hours'); ?></p>   
+            <p class="optima" style="font-size: 40px; margin: 10px;"><?php the_field('call_hours'); ?></p>   
         </div>
     </div>
 </section>
@@ -98,8 +98,10 @@ Template Name: Contact
 <section id="article_with_image_yellow" style="background-image: <?php $image = get_field('other_businesses_secure_img'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #FCD53F;">
     <div class="article_with_img">
         <div> 
-            <p style="margin: 10px;"><?php the_field('other_businesses_secure_heading'); ?></p>   
-            <p style="margin: 10px"><?php the_field('other_businesses_secure_description'); ?></p>   
+            <p style="text-align: right; font-size: 40px; margin: 10px;">
+             <?php the_field('other_businesses_secure_heading'); ?></p>   
+            <p style="text-align: right; font-size: 24px; margin: 10px">
+             <?php the_field('other_businesses_secure_description'); ?></p>   
         </div>
     </div>
 </section>

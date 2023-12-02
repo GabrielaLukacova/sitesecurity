@@ -176,13 +176,7 @@ a.home {
   margin-right: 0; 
 }
 
-/* <---- LINE SEPERATOR STTYLE ----> */
 
-.line-seperator-1 {
-  background-color: #424146;
-  height: 40px; 
- 
-}
 
 /* .wp_loop_heading 
 
@@ -349,6 +343,9 @@ footer {
   height: 320px;
 }
 
+.optima { 
+  font-family: 'PT Serif', serif;
+}
 
 /* <--- CONTACT FORM ---> */
 
@@ -360,6 +357,7 @@ footer {
   text-align: right;
   padding-top: 20px;
   color:  #fff ;
+
 }
 
 .contact-form {
