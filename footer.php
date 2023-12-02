@@ -22,7 +22,7 @@
             <span class="material-icons" aria-hidden="true">mail</span>
             <p>danmark@sitesecurity.dk</p>
         </div>
-        <div>
+        <div class="social-icons-container">
             <a href="https://www.facebook.com/aktivovervaagning/" target="_blank" rel="noopener noreferrer">
                 <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/facebook.png" alt="Facebook" width="50" height="50">
             </a>
@@ -31,6 +31,7 @@
                 <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/linkedin.png" alt="LinkedIn" width="50" height="50">
             </a>
         </div>
+
     </div>
 </footer>
 <?php wp_footer() ?>
