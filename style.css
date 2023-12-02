@@ -552,6 +552,9 @@ footer {
 
 .security_possibilities_container_box-content {
   padding: 20px;
+  display: flex;
+ flex-direction: column;
+ justify-content: end;
 }
 
 .security_possibilities_container_box  h2 {

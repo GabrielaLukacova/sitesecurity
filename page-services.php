@@ -62,9 +62,9 @@ Template Name: Services
 
             <div class="security_possibilities_container_box" style="background-image: <?php $image = get_field('product_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #F6F6F6;">
                     <div class="security_possibilities_container_box-content">
-                    <div class="box-content">
-                        <h3 class="heading_white" style="background-color: rgba(51, 51, 51, 0.7); font-size: 18px; padding: 10px 10px;"><?php echo get_field("product_heading"); ?></h3>
-                        <p class=" article-text heading_white" style="  background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;">
+                    <div class="box-content" style="text-align: right; width: 60%;">
+                        <h3 class="heading_white" style=" margin: 10px; background-color: rgba(51, 51, 51, 0.7); font-size: 18px; padding: 10px 10px;"><?php echo get_field("product_heading"); ?></h3>
+                        <p class=" article-text heading_white" style=" margin: 10px; background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;">
                         <?php echo get_field("product_description"); ?></p>
                         <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow">Read more</a>
                     </div>
