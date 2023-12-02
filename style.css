@@ -261,7 +261,7 @@ footer {
   align-items: center;
   background-color: #424147;
   color: #fff;
-  text-align: center;
+  text-align: left;
   padding: 20px;
 }
 
@@ -294,8 +294,7 @@ footer {
 }
 
 .material-icons {
-  display: flex;
-  align-items: center;
+  padding-left: 20px;
 }
 
 
