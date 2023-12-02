@@ -816,17 +816,20 @@ img {
     
     .faq h2 {
       color: #fdd43e;
+      padding-top:30x;
     }
     
     .faq-container {
       max-width: 1200px;
-      margin: 50px auto;
+      margin: 20px auto;
     }
     
     .faq-column {
       width: 100%;
       box-sizing: border-box;
       text-align: left;
+      display: flex;
+      align-self:center;
     }
     
     .faq-box {
@@ -837,10 +840,12 @@ img {
       width: 80%;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
       transition: box-shadow 0.3s ease, transform 0.3s ease;
+
     }
     
     .faq-box:hover {
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+      transform: scale(1.02);
     }
     
     .question {
@@ -864,9 +869,6 @@ img {
       cursor: pointer;
       transition: transform 0.3s ease-out;
       color:  #AABFDF;
-      transform: scale(1.02); /* Scale up on hover */
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-
     }
     
     .answer.open {
