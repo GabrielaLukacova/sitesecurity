@@ -108,7 +108,7 @@ Template Name: Contact
 
 <!--- One color line seperator --->
 
-<div class="line-seperator-1"></div>
+<div class="line-seperator-1" style="background-color: #424146; height: 40px;"></div>
 
 
 
