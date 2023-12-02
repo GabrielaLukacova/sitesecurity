@@ -558,7 +558,8 @@ p {
 
 
 
-/* SECURITY POSSIBILITIES*/
+/* <--- SECURITY POSSIBILITIES ---> */
+
 
 
 .security_possibilities{
@@ -607,10 +608,16 @@ p {
   color: #555;
 }
 
-.heading-above {
+.heading-above h5 {
+  color: #424147;
+}
+
+.heading-above  {
   text-align: center;
-  font-size: 2em;
-  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: #424147;
+  margin-bottom: 30px;
 }
 
 .security_possibilities .button_grey{
