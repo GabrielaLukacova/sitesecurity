@@ -129,7 +129,7 @@ a.home {
   /* align-items: center; */
   /* text-align: center; */
   flex-direction: column;
-  padding: 50px 16%;
+  padding-left: 20px;
   background-color: #fff;
 }
 .yellow-text {
