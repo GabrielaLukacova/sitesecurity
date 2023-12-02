@@ -176,13 +176,7 @@ a.home {
   margin-right: 0; 
 }
 
-/* <---- LINE SEPERATOR STTYLE ----> */
 
-.line-seperator-1 {
-  background-color: #424146;
-  height: 40px; 
- 
-}
 
 /* .wp_loop_heading 
 
@@ -346,7 +340,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  height: 320px;
 }
 
 
@@ -802,67 +795,66 @@ img {
 
 
     .faq {
-      box-sizing: border-box;
-      background-color: #e93434;
-      padding: 50px;
+      background-color: #424147;
       align-items: center;
     }
     
-    .faq_container {
-      max-width: 100%;
-      margin: 20px auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
+    .faq h2 {
+      color: #fdd43e;
     }
     
-    .faq_container_box {
-      width: 100%;
-      margin-bottom: 20px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      transition: transform 0.3s ease;
-    }
-    
-    .faq_container_box:hover {
-      transform: scale(1.05);
-    }
-    
-    .faq_container_box-content {
-      padding: 20px;
-    }
-    
-    .faq_container_box h2 {
-      margin-top: 0;
-      font-size: 1.5em;
-    }
-    
-    .faq_container_box p {
-      color: #555;
-    }
-    
-    /* Additional styles for background image */
-    .faq_container_box {
-      background-size: cover;
-      background-position: center;
-      height: auto;
-    }
-    
-    .faq-container_2 {
-      display: flex;
-      flex-wrap: wrap;
+    .faq-container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #424147;
     }
     
     .faq-column {
-      width: 48%;
-      margin: 1%;
+      width: 90%; /* Full width for a single column */
+      box-sizing: border-box;
+      text-align: center;
     }
     
-    @media (max-width: 767px) {
-      .faq-column {
-        width: 100%;
-        margin: 0;
-      }
+    .faq-box {
+      background-color: transparent;
+      margin: 10px auto; 
+      padding: 15px;
+      border: 2px solid #fdd43e;
+      border-radius: 15px;
+      position: relative;
+      width: 100%; 
+    }
+    
+    .question {
+      cursor: pointer;
+      font-weight: bold;
+    }
+    
+    .answer {
+      display: none;
+      padding-top: 10px;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.3s ease-out;
+    }
+    
+    .arrow {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
+      transition: transform 0.3s ease-out;
+      color: #fdd43e;
+    }
+    
+    .answer.open {
+      display: block;
+      max-height: 500px;
+    }
+    
+    .question.open .arrow {
+      transform: translateY(-50%) rotate(180deg);
     }
 
 
