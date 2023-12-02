@@ -45,7 +45,7 @@ Template Name: Services
     <?php $image = get_field ("services_bg_image"); ?> 
     <img src="<?php echo $image["url"] ?>" alt="Image"> 
     <div class="services_to_meet_needs_center-content">
-        <h2 class="gray-text heading_white"><?php echo get_field("services_main_title"); ?></h2>
+        <h2 class="heading-above heading_white"><?php echo get_field("services_main_title"); ?></h2>
     </div>
 </section>
 
