@@ -231,11 +231,7 @@ a.home {
   padding: 50px;
 }*/
 
-.contact-form-heading {
-  font-size: 30px; 
-  padding: 10px 10% 0 0; 
-  margin: 0;
-}
+
 
 
 
@@ -315,7 +311,11 @@ apply later when image is smaller
 
 /* <--- CONTACT FORM ---> */
 
-
+.contact-form-heading {
+  font-size: 40px; 
+  padding: 10px 10% 0 0; 
+  margin: 0;
+}
 
 .contact-form-container h4 {
   text-align: right;
