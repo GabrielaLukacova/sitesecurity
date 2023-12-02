@@ -52,7 +52,7 @@ Template Name: Contact
 
 <!--- ARTICLE WITH IMAGE Blue section --->
 
-<section class="article_with_img__blue" style="background-image: <?php $image = get_field('article_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #AABFDF">
+<section class="article_with_img__blue" style="background-image: <?php $image = get_field('article_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #AABFDF">
     <div class="article_with_img">
         <div>
             <p style="font-size: 40px; margin: 10px;"><?php the_field('article_title'); ?></p>   
@@ -108,7 +108,7 @@ Template Name: Contact
 
 <!--- ARTICLE WITH IMAGE Yellow section --->
 
-<section id="article_with_image_yellow" style="background-image: <?php $image = get_field('other_businesses_secure_img'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #FCD53F;">
+<section id="article_with_image_yellow" style="background-image: <?php $image = get_field('other_businesses_secure_img'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #FCD53F;">
     <div class="article_with_img">
         <div> 
             <p style="text-align: right; font-size: 40px; margin: 10px;">
