@@ -35,7 +35,7 @@ Template Name: Contact
                 <span class="material-icons" aria-hidden="true">call</span>
                 <p>Phone</p>
             </div> 
-            <p style="margin: 0;"><?php the_field('phone'); ?></p>
+            <p style="margin: 0 0 10px 0;"><?php the_field('phone'); ?></p>
         </div>
 
         <div class="footer_call_mail2 footer_call_mail">
@@ -43,7 +43,7 @@ Template Name: Contact
                 <span class="material-icons" style="color: #FCD53F;" aria-hidden="true">mail</span>
                 <p>E-mail</p>
             </div> 
-            <p style="margin: 0;"><?php the_field('email'); ?></p>   
+            <p style="margin: 0 0 10px 0;"><?php the_field('email'); ?></p>   
         </div>
     </div>
 
