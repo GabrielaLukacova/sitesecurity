@@ -341,6 +341,9 @@ apply later when image is smaller
   align-items: center;
 }
 
+.footer_call_mail2 p {
+  font-size: 24px;
+}
 
 /* <--- CONTACT FORM ---> */
 
