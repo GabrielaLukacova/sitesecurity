@@ -279,7 +279,7 @@ footer {
 
 
 .column.image {
-  flex-direction: column;
+  padding-left: 20px;
 }
 
 .column.contact-info {
