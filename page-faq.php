@@ -42,13 +42,10 @@ Template Name: FAQ
          <?php $loop = new WP_Query( array( 'post_type' => 'question-and-answer', 'posts_per_page' => -1 ) ); ?>
          <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-<<<<<<< Updated upstream
             <div class="faq_container_box">
                 <div class="faq-container">
-=======
-            <div class="faq_container_box" style="background-image: <?php $image = get_field('security_possibility_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
+            <div class="faq_container_box">
                 <div class="faq-container_2">
->>>>>>> Stashed changes
                     <div class="faq-column">
                       <div class="faq-box">    
                             <div class="question">
@@ -66,11 +63,6 @@ Template Name: FAQ
     </div>
             <?php endwhile; wp_reset_query(); ?>
 </section>
-
-
-test
-
-
 
 
 </body>
