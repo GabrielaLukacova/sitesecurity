@@ -41,11 +41,15 @@ Template Name: Services
 
 <!-- Services to meet you needs Section -->
 
-<section class="services_to_meet_needs">
+<section class="services_to_meet_needs" style="background-image: <?php $image = get_field('services_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #AABFDF">
     <?php $image = get_field ("services_bg_image"); ?> 
     <img src="<?php echo $image["url"] ?>" alt="Image"> 
-    <div class="services_to_meet_needs_center-content">
-        <h2 class="heading-above heading_white"><?php echo get_field("services_main_title"); ?></h2>
+
+    <div class="article_with_img">
+        
+        <div class="services_to_meet_needs_center-content" style="font-weight: 300; color: #fff;">
+            <h2 class="heading-above heading_white"><?php echo get_field("services_main_title"); ?></h2>
+        </div>
     </div>
 </section>
 
