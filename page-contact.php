@@ -75,9 +75,9 @@ Template Name: Contact
     </div>
 </section>
 
-<!--- One color line seperator --->
+<!--- One color line seperator yellow --->
 
-<div class="line-seperator-1" style="background-color: #FFC826 height: 40px;"></div>
+<div class="line-seperator-1" style="background-color: #FFC826; height: 40px;"></div>
 
 <!--- ARTICLE WITH IMAGE Call Us section --->
 
@@ -97,7 +97,7 @@ Template Name: Contact
 
 
 
-<!--- One color line seperator --->
+<!--- One color line seperator dark gray --->
 
 <div class="line-seperator-1" style="background-color: #424146; height: 40px;"></div>
 
