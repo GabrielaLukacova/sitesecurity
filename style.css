@@ -887,12 +887,13 @@ img {
 /* FAQ call to action */
 
     .faq_call_to_action {
-      display: flex;
-      justify-content: space-between;
       padding: 20px;
       background-color: #fff;
-
     }
+
+    .faq_call_to_action_boxes{
+    display: flex;
+    justify-content: space-between;}
 
     .faq_call_to_action_box {
       flex: 1;
