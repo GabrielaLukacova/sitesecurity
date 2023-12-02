@@ -75,7 +75,9 @@ Template Name: Contact
     </div>
 </section>
 
+<!--- One color line seperator --->
 
+<div class="line-seperator-1" style="background-color: #FFC826 height: 40px;"></div>
 
 <!--- ARTICLE WITH IMAGE Call Us section --->
 
@@ -93,6 +95,15 @@ Template Name: Contact
     </div>
 </section>
 
+
+
+<!--- One color line seperator --->
+
+<div class="line-seperator-1" style="background-color: #424146; height: 40px;"></div>
+
+
+
+
 <!--- ARTICLE WITH IMAGE Yellow section --->
 
 <section id="article_with_image_yellow" style="background-image: <?php $image = get_field('other_businesses_secure_img'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #FCD53F;">
@@ -104,11 +115,6 @@ Template Name: Contact
     </div>
 </section>
 
-
-
-<!--- One color line seperator --->
-
-<div class="line-seperator-1" style="background-color: #424146; height: 40px;"></div>
 
 
 
