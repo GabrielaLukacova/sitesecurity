@@ -804,13 +804,13 @@ img {
     }
     
     .faq-container {
-      max-width: 800px;
+      max-width: 1200px;
       margin: 50px auto;
       background-color: #424147;
     }
     
     .faq-column {
-      width: 90%; /* Full width for a single column */
+      width: 100%; 
       box-sizing: border-box;
       text-align: center;
     }
@@ -819,7 +819,7 @@ img {
       background-color: transparent;
       margin: 10px auto; 
       padding: 15px;
-      border: 2px solid #fdd43e;
+      border: 1px solid #fdd43e;
       border-radius: 15px;
       position: relative;
       width: 100%; 
