@@ -143,14 +143,15 @@ a.home {
 .advantages_main_content {
   flex: 1;
   width: 100%;
-  margin-right: 0; /* Adjust margin as needed */
+  margin-right: 0; 
+  color: #424147;
 }
 
 .advantages_main_content img {
   max-width: 100%;
   height: auto;
   margin-bottom: 15px;
-  color: #424147;
+  
 }
 
 /* for displaying picture with text */
@@ -160,7 +161,7 @@ a.home {
   gap: 12px;
   font-size: 30px;
   padding: 0 2%;
-  margin-right: 0; /* Adjust margin as needed */
+  margin-right: 0; 
 }
 
 
