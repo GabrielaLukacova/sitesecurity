@@ -20,9 +20,7 @@ jQuery(document).ready(function ($) {
             }
         ]
     });
-});
 
-jQuery(() => {
     // FAQ - opening box after clicking on arrow
     $(document).on('click', '.faq-container_box .question', function () {
         // Find the closest ancestor with the class 'faq-container_box'
