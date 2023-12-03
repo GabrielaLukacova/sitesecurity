@@ -794,6 +794,8 @@ justify-content: center;
 
     /* <--- FAQ STYLE ---> */
 
+/* <--- FAQ STYLE ---> */
+
 .faq {
   background-color: #AABFDF;
   align-items: flex-start; /* Align title to the left */
@@ -815,10 +817,10 @@ justify-content: center;
 
 .question {
   cursor: pointer;
-  font-weight: bold;
+  font-weight: lighter; /* Lighter font weight */
   padding: 10px;
   background-color: #ffffff;
-  color: #000000; /* Black text */
+  color: #FFFF00; /* Yellow text */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -831,7 +833,7 @@ justify-content: center;
 
 .arrow {
   transition: transform 0.3s ease-out;
-  color: #000000; /* Black arrow */
+  color: #FFFF00; /* Yellow arrow */
 }
 
 .answer {
@@ -855,8 +857,6 @@ input[type="checkbox"]:checked + .question + .answer {
   display: block;
   max-height: 500px; /* Adjust as needed */
 }
-
-
 
 
 
