@@ -1,39 +1,37 @@
-document.addEventListener('DOMContentLoaded', function () {
+jQuery(document).ready(function($) {
     // SLIDE SHOW - customers reviews
-    document.querySelectorAll('.slick-carousel').forEach(function (carousel) {
-        new Glider(carousel, {
-            dots: '#dots',
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            draggable: true,
-            arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
-            },
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false
-                    }
+    $('.slick-carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        fade: true,
+        cssEase: 'linear',
+        adaptiveHeight: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false
                 }
-            ]
-        });
+            }
+        ]
     });
 
     // FAQ - opening box after clicking on arrow
-    document.querySelectorAll('.faq-container_box .question').forEach(function (question) {
-        question.addEventListener('click', function () {
-            console.log('Click event triggered.');
+    $('.faq-container_box .question').on('click', function () {
+        console.log('Click event triggered.');
 
-            var answer = this.closest('.faq-container_box').querySelector('.answer');
+        const answer = $(this).closest('.faq-container_box').find('.answer');
 
-            // Toggle the 'open' class to trigger CSS transitions
-            answer.classList.toggle('open');
+        // Toggle the 'open' class to trigger CSS transitions
+        answer.toggleClass('open');
 
-            // Toggle the arrow direction
-            var arrow = this.querySelector('.arrow');
-            arrow.textContent = arrow.textContent === '▶' ? '▼' : '▶';
-        });
+        // Toggle the arrow direction
+        const arrow = $(this).find('.arrow');
+        arrow.text(arrow.text() === '▶' ? '▼' : '▶');
     });
 });
