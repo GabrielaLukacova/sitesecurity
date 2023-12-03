@@ -112,7 +112,7 @@ Template Name: Services
             <div class="review-item">
                 <div class="background-image">
                         <div class="center-content">
-                        <div class="client_logo" style="background-image: <?php $image = get_field('client_company_logo'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: auto; background-position: center; " alt="client_logo_img_reviews"></div>
+                        <div class="client_logo" style="background-image: <?php $image = get_field('client_company_logo'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; " alt="client_logo_img_reviews"></div>
                             <div class="review-box">
                             <h3><?php echo get_field("client_company_title"); ?></h3>
                                 <p class="article-text"><?php echo get_field("description"); ?></p>
