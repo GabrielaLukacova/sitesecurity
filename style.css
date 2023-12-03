@@ -849,3 +849,74 @@ img {
       font-size: 24px;
     }
 
+
+
+
+/*--------------------RESPONSIVNES------------------*/
+
+    @media only screen and (max-width: 768px) {
+
+      body {
+        font-size: 14px; /* Example: Adjust font size for smaller screens */
+      }
+    
+      .navbar {
+        padding: 10px; /* Example: Adjust padding for smaller screens */
+      }
+    
+      /* Adjust hero section styles for smaller screens */
+      .hero-section {
+        height: auto;
+        min-height: 100vh;
+      }
+    
+      .hero-content {
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+    
+      .hero-content h1 {
+        font-size: 30px; /* Example: Adjust font size for smaller screens */
+      }
+    
+      .hero-content p {
+        font-size: 18px; /* Example: Adjust font size for smaller screens */
+      }
+    
+      /* Adjust other sections as needed */
+    
+      /* Example adjustment for article_with_img__blue section */
+      .article_with_img__blue {
+        height: auto;
+        min-height: 320px;
+      }
+    
+      .article_with_img__blue p {
+        font-size: 18px;
+      }
+    
+      /* Example adjustment for contact-form-container section */
+      .contact-form-container {
+        height: auto;
+        min-height: 100vh;
+      }
+    
+      .contact-form-heading {
+        font-size: 30px;
+      }
+    
+      /* Add more adjustments for phone version as needed */
+    
+      /* Adjust security possibilities box for smaller screens */
+      .security_possibilities_container_box {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    
+      /* Example adjustment for security possibilities box content */
+      .security_possibilities_container_box-content {
+        padding: 10px;
+      }
+    
+      /* Adjust other styles within the media query as needed */
+    }
