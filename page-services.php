@@ -114,9 +114,9 @@ Template Name: Services
                         <div class="center-content">
                             <div class="client_logo">
                                 <?php $image = get_field ("client_company_logo"); ?> <img src="<?php echo $image["url"] ?>" alt="client_logo_img_reviews"> 
-                                <h3><?php echo get_field("client_company_title"); ?></h3>
                             </div>
                             <div class="review-box">
+                            <h3><?php echo get_field("client_company_title"); ?></h3>
                                 <p class="article-text"><?php echo get_field("description"); ?></p>
                                 <p class="author-info"><?php echo get_field("name_of_speaker"); ?></p>
                             </div>
@@ -135,7 +135,7 @@ Template Name: Services
 
 <!-- More info on main website Section -->
 
-    <section class="call_to_action_more_info" style="background-color: #424146; height: 200px;">
+    <section class="call_to_action_more_info" style="background-color: #424146;">
         <div class="call_to_action_more_info_left">
             <h3 style="color: white; font-weight: 200;" ><?php echo get_field("go_to_website_title"); ?></h3>
         </div>
