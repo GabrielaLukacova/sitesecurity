@@ -31,7 +31,6 @@ Template Name: Home
         <p class="hero-slogan"><?php the_field('hero_slogan'); ?></p>
     </div>
 </div>
-
 <!-- Article Section -->
 
 <article class="article_main">

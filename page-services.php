@@ -21,7 +21,7 @@ Template Name: Services
 <div class="hero-section"   style="background-image: <?php $image = get_field('hero_video'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
         <div class="navbar">
             <a class="home" href="<?php echo get_permalink(get_page_by_path('home')) ?>" style="order: -1;">Home</a>
-            <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>s
+            <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>
             <a href="<?php echo get_permalink(get_page_by_path('faq')) ?>">FAQ</a>
             <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">Contacts</a>
         </div>
@@ -32,7 +32,6 @@ Template Name: Services
         <p class="hero-slogan"><?php the_field('hero_slogan'); ?></p>
     </div>
 </div>
-
 
 <!-- One color line seperator blue -->
 

@@ -19,7 +19,6 @@ Template Name: Contact
             <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>
             <a href="<?php echo get_permalink(get_page_by_path('faq')) ?>">FAQ</a>
             <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">Contacts</a>
-
         </div>
 
     </div>
@@ -28,6 +27,9 @@ Template Name: Contact
         <p class="hero-slogan"><?php the_field('hero_slogan'); ?></p>
     </div>
 </div>
+
+
+
 
 <section id="phone and e-mail">
     <div class="phone_and_email "> 
