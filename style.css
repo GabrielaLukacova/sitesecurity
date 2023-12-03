@@ -740,6 +740,11 @@ justify-content: center;
 }
 
 
+.faq_container {
+  max-width: 800px;
+  align-items: center;
+}
+
 .faq_container_box {
   margin-bottom: 20px; 
 }
