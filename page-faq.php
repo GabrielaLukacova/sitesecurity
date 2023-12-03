@@ -27,31 +27,29 @@ Template Name: FAQ
 </div>
 
         <!-- FAQ Section -->
-        <section class="faq">
-            <h2 class="heading-above"><?php echo get_field("fqa_main_article_title"); ?></h2>
-            <div class="faq_container">
-                <?php $loop = new WP_Query(array('post_type' => 'question-and-answer', 'posts_per_page' => -1)); ?>
+     <section class="faq">
+        <h2 class="heading-above"><?php echo get_field("faq_main_article_title"); ?></h2>
+        <div class="faq_container">
+            <?php $loop = new WP_Query(array('post_type' => 'question-and-answer', 'posts_per_page' => -1)); ?>
                 <?php while ($loop->have_posts()) : $loop->the_post(); ?>
 
-                    <div class="faq_container_box">
-                        <div class="faq-container_2">
-                            <div class="faq-column">
-                                <div class="faq-box">
-                                    <div class="question">
-                                        <p><?php echo get_field("question_text"); ?></p>
-                                        <div class="arrow">&#9658;</div>
-                                    </div>
-                                    <div class="answer">
-                                        <p><?php echo get_field("answer_text"); ?></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="faq_container_box">
+                    <div class="faq-box">
+                        <input type="checkbox" id="faq_<?php the_ID(); ?>">
+                            <label for="faq_<?php the_ID(); ?>" class="question">
+                            <?php the_field("question_text"); ?>
+                        <div class="arrow">&#9658;</div>
+                    </label>
+                    <div class="answer">
+                        <?php the_field("answer_text"); ?>
                     </div>
+                </div>
+            </div>
 
-        <?php endwhile; wp_reset_query(); ?>
-    </div>
-</section>
+            <?php endwhile; wp_reset_query(); ?>
+         </div>
+    </section>
+
 
 
 
