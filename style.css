@@ -797,19 +797,22 @@ justify-content: center;
 
 .faq {
   background-color: #AABFDF;
-  align-items: flex-start; /* Align title to the left */
+  align-items: flex-start; 
+  text-align: left;
   padding: 50px;
-  max-width: 800px; /* Set a maximum width for the FAQ container */
-  margin: 0 auto; /* Center the FAQ container on the page */
+  max-width: 800px; 
+  margin: 0 auto; 
 }
 
 .faq h2 {
   color: #ffffff;
+  font-weight: light;
+  font-size: 40px;
   padding-top: 30px;
 }
 
 .faq_container_box {
-  margin-bottom: 20px; /* Increased margin for more separation */
+  margin-bottom: 20px; 
 }
 
 .faq-box {
@@ -819,9 +822,10 @@ justify-content: center;
 .question {
   cursor: pointer;
   font-weight: lighter; 
-  padding: 20px 20px; /* Adjusted padding for increased height and less width */
+  padding: 40px 30px; 
   background-color: #ffffff;
   color: #424147;
+  font-size: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -839,13 +843,14 @@ justify-content: center;
 
 .answer {
   display: none;
-  padding: 20px 20px; /* Adjusted padding for increased height and less width */
+  padding: 40px 30px; 
   background-color: #ffffff;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease-out;
   color: #424147;
   font-weight: lighter;
+  font-size: 24px;
 }
 
 input[type="checkbox"] {
@@ -858,7 +863,7 @@ input[type="checkbox"]:checked + .question .arrow {
 
 input[type="checkbox"]:checked + .question + .answer {
   display: block;
-  max-height: 500px; /* Adjust as needed */
+  max-height: 500px; 
 }
 
 
