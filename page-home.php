@@ -70,12 +70,10 @@ Template Name: Home
     <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
  </section>
 <!--- One color line seperator yellow --->
-
 <div class="line-seperator-1" style="background-color: #FFC826; height: 40px;"></div>
 
 
 <!--- One color line seperator white --->
-
 <div class="line-seperator-1" style="background-color: #fff; height: 40px;"></div>
 
 <!--- Contact form section --->
