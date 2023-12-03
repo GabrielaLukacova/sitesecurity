@@ -68,7 +68,7 @@ Template Name: Services
                         <?php echo get_field("product_description"); ?></p>
                     </div>
                     <div style="align-self: end; height: 90%">
-                    <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow" style="align-self: end; height: 90%">Read more</a>
+                    <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow_services" style="align-self: end; height: 90%">Read more</a>
                     </div>
                 </div>
             </div>
