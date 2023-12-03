@@ -979,7 +979,7 @@ img {
   /* Hero Section Styles */
   .hero-content {
     max-width: 100%;
-    left: 0%;
+    left: none;
     transform: translate(-50%, -50%);
     text-align: left;
     padding-left: 170px;
