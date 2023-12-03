@@ -589,6 +589,12 @@ img {
   height: auto;
 }
 
+.client_logo {
+  width: 212px;
+  height: auto;
+  align-self: center;
+}
+
 .review-box {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
@@ -660,7 +666,7 @@ img {
 .call_to_action_more_info {
     display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
     height: 200px; 
 }

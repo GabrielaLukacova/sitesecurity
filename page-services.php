@@ -96,10 +96,11 @@ Template Name: Services
 
 <!-- Custumer rewies Section -->
 
+<section class="customer-reviews_main">
 
+<h6 class="heading-above" style="padding: 20px 0 0 0; background-color: #424146; height: 70px; color: white; font-weight: 300;" ><?php echo get_field("what_our_customers_say_heading"); ?></h6>
 <section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">   
 <!--  <div class="review-header"> -->
-    <h6 class="heading-above" style="background-color: #424146; height: 70px; color: white;" ><?php echo get_field("what_our_customers_say_heading"); ?></h6>
 <!--  </div> -->
         <?php $loop = new WP_Query( array( 'post_type' => 'what-our-customers-s', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
@@ -111,10 +112,11 @@ Template Name: Services
             <div class="review-item">
                 <div class="background-image">
                         <div class="center-content">
-
-                            <div class="review-box">
+                            <div class="client_logo">
                                 <?php $image = get_field ("client_company_logo"); ?> <img src="<?php echo $image["url"] ?>" alt="client_logo_img_reviews"> 
                                 <h3><?php echo get_field("client_company_title"); ?></h3>
+                            </div>
+                            <div class="review-box">
                                 <p class="article-text"><?php echo get_field("description"); ?></p>
                                 <p class="author-info"><?php echo get_field("name_of_speaker"); ?></p>
                             </div>
@@ -129,13 +131,13 @@ Template Name: Services
     <?php endwhile; wp_reset_query(); ?>
     <a href="https://www.sitesecurity.dk/en/anbefaling" class="button_grey button_grey_more_reviews ">More reviews on Site-Security website</a> 
 </section>
-
+</section>
 
 <!-- More info on main website Section -->
 
-    <section class="call_to_action_more_info">
+    <section class="call_to_action_more_info" style="background-color: #424146; height: 200px;">
         <div class="call_to_action_more_info_left">
-            <h3 style="background-color: #424146; height: 200px; color: white;" ><?php echo get_field("go_to_website_title"); ?></h3>
+            <h3 style="color: white; font-weight: 200;" ><?php echo get_field("go_to_website_title"); ?></h3>
         </div>
         <div class="call_to_action_more_info_right">
         <a href="<?php echo get_permalink( get_page_by_path( 'https://www.sitesecurity.dk/' ) ) ?>" class="button_yellow">Site Security</a>
