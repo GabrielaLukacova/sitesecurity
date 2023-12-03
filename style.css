@@ -934,6 +934,12 @@ input[type="checkbox"]:checked + .question + .answer {
   .column.image {
     order: -1; }
 
+    .column.links,
+  .column.contact-info {
+    order: 0; 
+   
+  }
+
   .column.image {
     padding-left: 0;
   }
