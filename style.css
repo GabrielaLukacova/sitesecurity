@@ -970,6 +970,10 @@ input[type="checkbox"]:checked + .question + .answer {
  color: #ffffff;
 }
 
+.wpcf7 form .wpcf7-response-output {
+  border: none;
+}
+
 
 /*----Home Bonus-----*/
 @media only screen and (max-width: 768px) {
