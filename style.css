@@ -803,6 +803,10 @@ justify-content: center;
   margin: 0 auto; 
 }
 
+.heading-above h2 {
+  text-align: left;
+}
+
 .faq h2 {
   color: #ffffff;
   font-weight: light;
