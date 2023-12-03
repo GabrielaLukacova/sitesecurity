@@ -932,6 +932,9 @@ input[type="checkbox"]:checked + .question + .answer {
   }
 
   .column.image {
+    order: -1; }
+
+  .column.image {
     padding-left: 0;
   }
 
