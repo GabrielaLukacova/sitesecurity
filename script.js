@@ -1,6 +1,6 @@
-jQuery(() => {
-    // Slick Carousel
-    jQuery('.slick-carousel').slick({
+jQuery(document).ready(function($) {
+    // SLIDE SHOW - customers reviews
+    $('.slick-carousel').slick({
         dots: true,
         infinite: true,
         speed: 800,
@@ -21,20 +21,21 @@ jQuery(() => {
         ]
     });
 
-    // FAQ Interaction
-    jQuery('.faq-container_box .question').on('click', function () {
-        const answer = jQuery(this).next();
+    // FAQ - opening box after clicking on arrow
+    $('.faq-container_box .question').on('click', function () {
+        const answer = $(this).next();
 
         // Toggle the 'open' class to trigger CSS transitions
         answer.toggleClass('open');
 
         // Toggle the arrow direction
-        const arrow = jQuery(this).find('.arrow');
+        const arrow = $(this).find('.arrow');
         arrow.text(arrow.text() === '▶' ? '▼' : '▶');
     });
-
+    
     console.log('Script.js is loaded!');
 });
+
 
 
 /*document.addEventListener('DOMContentLoaded', function () {
