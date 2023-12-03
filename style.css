@@ -1051,16 +1051,15 @@ img {
 @media only screen and (max-width: 768px) {
 
   body {
-    font-size: 14px; /* Example: Adjust font size for smaller screens */
+    font-size: 14px; 
   }
 
   .navbar {
-    padding: 10px; /* Example: Adjust padding for smaller screens */
+    padding: 10px; 
   }
 
 
 
-  /* Example adjustment for article_with_img__blue section */
   .article_with_img__blue {
     height: auto;
     min-height: 320px;
@@ -1072,26 +1071,11 @@ img {
   .article_with_img__blue p {
     font-size: 18px;
   }
-
-  /* Example adjustment for contact-form-container section */
-  .contact-form-container {
-    height: auto;
-    min-height: 100vh;
-  }
-
-  .contact-form-heading {
-    font-size: 30px;
-  }
-
-  /* Add more adjustments for phone version as needed */
-
-  /* Adjust security possibilities box for smaller screens */
   .security_possibilities_container_box {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  /* Example adjustment for security possibilities box content */
   .security_possibilities_container_box-content {
     padding: 10px;
     text-align: center;
