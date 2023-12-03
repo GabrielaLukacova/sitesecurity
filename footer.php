@@ -13,7 +13,7 @@
         </a>
     </div>
 
-    <div class="column_contact-info">
+    <div class="column contact-info">
         <div class="footer_call_mail">
             <span class="material-icons" aria-hidden="true">call</span>
             <p>+45 88 80 84 48</p>
