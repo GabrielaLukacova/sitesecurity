@@ -1,6 +1,6 @@
-jQuery(() => {
+jQuery(document).ready(function ($) {
     // Slick Carousel
-    jQuery('.slick-carousel').slick({
+    $('.slick-carousel').slick({
         dots: true,
         infinite: true,
         speed: 800,
@@ -31,5 +31,14 @@ jQuery(() => {
         // Toggle the arrow direction
         const arrow = $(this).find('.arrow');
         arrow.text(arrow.text() === '▶' ? '▼' : '▶');
+    });
+
+    // FAQ - toggle "active" class on click
+    const faqs = document.querySelectorAll(".faq");
+
+    faqs.forEach((faq) => {
+        faq.addEventListener("click", () => {
+            faq.classList.toggle("active");
+        });
     });
 });
