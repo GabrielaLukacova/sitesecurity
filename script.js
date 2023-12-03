@@ -1,6 +1,6 @@
-jQuery(() => {
+jQuery(document).ready(function ($) {
     // Slick Carousel
-    jQuery('.slick-carousel').slick({
+    $('.slick-carousel').slick({
         dots: true,
         infinite: true,
         speed: 800,
