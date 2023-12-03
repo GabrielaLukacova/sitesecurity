@@ -291,7 +291,7 @@ footer {
   margin: 0 !important;
 }
 
-.contact-form-heading .contact-form-container h4 {
+.contact-form-container h4 {
   text-align: right;
   padding-top: 20px;
   color:  #fff ;
@@ -350,7 +350,10 @@ footer {
   background-color: #FDD43E;
 }
 
-.contact-form-heading {
+.contact-form-heading  {
+  text-align: right;
+  padding-top: 20px;
+  color:#ffffff;
   font-size: 50px; 
   padding-right: 100px;
   margin: 0;
@@ -400,7 +403,7 @@ footer {
     font-size: 1.25rem;
   }
 
-}
+} */
 
 /*BUTTONS*/
 .button_yellow{
@@ -485,10 +488,13 @@ footer {
 
 .security_possibilities_container_box-content {
   padding: 20px;
+  height: 100%;
   display: flex;
- flex-direction: column;
- align-items: end;
+  flex-direction: column;
+  align-items: end;
+  justify-items: end;
 }
+
 
 .security_possibilities_container_box  h3 {
   margin-top: 0;

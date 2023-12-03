@@ -46,7 +46,7 @@ Template Name: Home
 
 
 <!-- Advantages Section -->
-<section class="advantages_main" style="background-image: <?php $image = get_field('advantages_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
+<section class="advantages_main" style="background-image: <?php $image = get_field('advantages_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #F6F6F6;">
 <h2 class="heading-above">
     <span class="gray-text">ADVANTAGES <br> TO CHOOSE </span>
     <span class="yellow-text">US</span>
@@ -69,16 +69,17 @@ Template Name: Home
 
     <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
  </section>
+<!--- One color line seperator yellow --->
+<div class="line-seperator-1" style="background-color: #FFC826; height: 40px;"></div>
+
 
 <!--- One color line seperator white --->
-
 <div class="line-seperator-1" style="background-color: #fff; height: 40px;"></div>
-
 
 <!--- Contact form section --->
 
 <section class="contact-form-container" style="background-image: <?php $image = get_field('contact-form-image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
-    <h2 class="contact-form-heading"><?php the_field('contact_form_heading'); ?></h2>
+    <h4 class="contact-form-heading"><?php the_field('contact_form_heading'); ?></h4>
     <div class="contact-form">
         <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your business"]' ); ?>
     </div>
@@ -88,7 +89,6 @@ Template Name: Home
 
 <!--- One color line seperator dark gray --->
 
-<div class="line-seperator-1" style="background-color: #424146; height: 40px;"></div>
 
 
 
