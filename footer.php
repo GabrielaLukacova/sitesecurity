@@ -1,4 +1,3 @@
-
 <footer>
     <div class="column links">
         <a href="<?php echo esc_url(get_permalink(get_page_by_path('home'))); ?>">Home</a>
@@ -9,7 +8,7 @@
 
     <div class="column image">
         <a href="https://www.sitesecurity.dk/" target="_blank" rel="noopener noreferrer">
-            <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/SiteSecurityLogo.png" alt="Logo" width="150" height="150">
+            <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/SiteSecurityLogo.png" alt="Logo" width="100" height="150">
         </a>
     </div>
 
