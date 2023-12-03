@@ -112,9 +112,9 @@ Template Name: Services
             <div class="review-item">
                 <div class="background-image">
                         <div class="center-content">
+                        <div class="client_logo" style="background-image: <?php $image = get_field('client_company_logo'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: auto; background-position: center; " alt="client_logo_img_reviews"></div>
                             <div class="review-box">
                             <h3><?php echo get_field("client_company_title"); ?></h3>
-                            <div class="client_logo" style="background-image: <?php $image = get_field('client_company_logo'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: auto; background-position: center; " alt="client_logo_img_reviews"></div>
                                 <p class="article-text"><?php echo get_field("description"); ?></p>
                                 <p class="author-info"><?php echo get_field("name_of_speaker"); ?></p>
                             </div>
@@ -143,7 +143,6 @@ Template Name: Services
     </section>
 
 
-    <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
     
     <?php endwhile ?>
 
