@@ -138,7 +138,7 @@ Template Name: Services
             <h3 style="color: white; font-weight: 200;" ><?php echo get_field("go_to_website_title"); ?></h3>
         </div>
         <div class="call_to_action_more_info_right">
-        <a href="<?php echo get_permalink( get_page_by_path( 'https://www.sitesecurity.dk/en' ) ) ?>" class="button_yellow">Site Security</a>
+        <a href="https://www.sitesecurity.dk/en" class="button_yellow">Site Security</a> 
         </div>
     </section>
 
