@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
         ]
     });
 
-    $(document).ready(function () {
+    jQuery(document).ready(function ($) {
         $('.faq-container_box .question').on('click', function () {
             const answer = $(this).next();
     
@@ -34,5 +34,3 @@ jQuery(document).ready(function($) {
         });
     });
     
-
-
