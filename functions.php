@@ -18,3 +18,4 @@ function disable_gutenberg() {
     remove_post_type_support("post", "editor");
 }
 add_action("init", "disable_gutenberg");
+
