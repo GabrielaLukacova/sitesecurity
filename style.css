@@ -589,12 +589,6 @@ img {
   height: auto;
 }
 
-.client_logo {
-  width: 212px;
-  height: auto;
-  align-self: center;
-}
-
 .review-box {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
@@ -666,7 +660,7 @@ img {
 .call_to_action_more_info {
     display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 20px;
     height: 200px; 
 }
@@ -783,7 +777,7 @@ img {
 
 
 
-    /* style.css */
+    /* faq */
 .faq {
   background-color: #AABFDF;
   align-items: center;
@@ -817,10 +811,10 @@ img {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-/*.faq-box:hover {
+.faq-box:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transform: scale(1.02);
-}*/
+}
 
 .question {
   cursor: pointer;
@@ -828,11 +822,11 @@ img {
 }
 
 .answer {
-  /*display: none;*/
+  display: none;
   padding-top: 10px;
   overflow: hidden;
   max-height: 0;
- /* transition: max-height 0.3s ease-out;*/
+  transition: max-height 0.3s ease-out;
 }
 
 .arrow {
