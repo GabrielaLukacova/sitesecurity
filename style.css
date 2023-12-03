@@ -668,7 +668,6 @@ img {
 .call_to_action_more_info {
     display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 20px;
     height: 220px; 
     flex-wrap: wrap;
