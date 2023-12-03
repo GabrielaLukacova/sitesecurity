@@ -228,8 +228,7 @@ footer {
 
 .social-icons-container img {
   padding-left: 5px;
-}
-
+} 
 
 
 
@@ -865,6 +864,35 @@ input[type="checkbox"]:checked + .question + .answer {
     font-size: 14px;
   }
 
+
+  .footer {
+    
+    align-items: center;
+    display: block;
+
+  }
+
+  .column{
+    display: block;
+ 
+  }
+
+  .column.image {
+    order: -1; 
+    padding-left: 0;
+  }
+
+  .column.links,
+  .column.contact-info {
+    order: 0; 
+    margin-bottom: 20px;
+  }
+
+  .column.links a {
+    margin: 5px;
+  }
+
+
   /* Navbar Styles */
   .navbar {
     padding: 10px;
@@ -931,6 +959,7 @@ input[type="checkbox"]:checked + .question + .answer {
   }
 
   .advantages_main_content p {
+
     color: #17161d;
 }
   .advantages-box-content {
@@ -960,8 +989,27 @@ input[type="checkbox"]:checked + .question + .answer {
   .contact-form {
     margin: 10px;
     width: 80%;  }
+
+
  
 }
+
+.wpcf7 form.sent .wpcf7-response-output {
+ border-color: none;
+ border: none;
+ color: #ffffff;
+}
+
+.wpcf7-form-control.wpcf7-submit.has-spinner {
+  margin-bottom:8px;
+  
+}
+
+.wpcf7 form .wpcf7-response-output {
+  border: none;
+}
+
+
 /*----Home Bonus-----*/
 @media only screen and (max-width: 768px) {
   .hero-section {
@@ -1094,27 +1142,3 @@ input[type="checkbox"]:checked + .question + .answer {
 
   }
 /*----Footer-----*/
-
-footer {
-  flex-direction: column;
-  text-align: center;
-}
-
-.column.links,
-.column.image,
-.column.contact-info {
-  margin-bottom: 20px;
-}
-
-.column.image {
-  padding-left: 0;
-}
-
-.column.links a {
-  margin: 5px;
-}
-
-.footer_call_mail,
-.social-icons-container {
-  justify-content: center;
-}
