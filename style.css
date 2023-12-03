@@ -893,6 +893,28 @@ input[type="checkbox"]:checked + .question + .answer {
   }
 
 
+
+  .column.links,
+  .column.image,
+  .column.contact-info {
+    margin-bottom: 20px;
+  }
+
+  .column.image {
+    padding-left: 0;
+  }
+
+  .column.links a {
+    margin: 5px;
+  }
+
+  .footer_call_mail,
+  .social-icons-container {
+    justify-content: center;
+  }
+
+
+
   /* Navbar Styles */
   .navbar {
     padding: 10px;
