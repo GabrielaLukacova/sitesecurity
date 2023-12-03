@@ -96,7 +96,7 @@ Template Name: Services
 
 <!-- Custumer rewies Section -->
 
-<section class="customer-reviews_main">
+<section class="customer-reviews_mai">
 
 <h3 class="heading-above" style=" margin: 0; padding: 20px 0 0 0; background-color: #424146; height: 70px; color: white; font-weight: 300;" ><?php echo get_field("what_our_customers_say_heading"); ?></h3>
 <section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center;  height: 170vh;">   
