@@ -727,6 +727,7 @@ justify-content: center;
   padding: 50px;
   /*max-width: 800px; */
   margin: 0 auto; 
+  display: flex;
   align-items: center;
 }
 
