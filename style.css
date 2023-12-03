@@ -798,6 +798,8 @@ justify-content: center;
 
 /* <--- FAQ STYLE ---> */
 
+/* <--- FAQ STYLE ---> */
+
 .faq {
   background-color: #AABFDF;
   align-items: flex-start; /* Align title to the left */
@@ -820,7 +822,7 @@ justify-content: center;
 .question {
   cursor: pointer;
   font-weight: lighter; 
-  padding: 15px 20px; /* Adjusted padding for more height and less width */
+  padding: 15px 10px; /* Adjusted padding for more height and less width */
   background-color: #ffffff;
   color: #424147;
   display: flex;
@@ -840,7 +842,7 @@ justify-content: center;
 
 .answer {
   display: none;
-  padding: 15px 20px; /* Adjusted padding for more height and less width */
+  padding: 15px 10px; /* Adjusted padding for more height and less width */
   background-color: #ffffff;
   overflow: hidden;
   max-height: 0;
