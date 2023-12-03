@@ -228,8 +228,7 @@ footer {
 
 .social-icons-container img {
   padding-left: 5px;
-}
-
+} 
 
 
 
@@ -931,6 +930,7 @@ input[type="checkbox"]:checked + .question + .answer {
   }
 
   .advantages_main_content p {
+
     color: #17161d;
 }
   .advantages-box-content {
