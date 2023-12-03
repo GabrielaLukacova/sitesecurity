@@ -1,4 +1,3 @@
-
 <footer>
     <div class="column links">
         <a href="<?php echo esc_url(get_permalink(get_page_by_path('home'))); ?>">Home</a>
@@ -9,7 +8,7 @@
 
     <div class="column image">
         <a href="https://www.sitesecurity.dk/" target="_blank" rel="noopener noreferrer">
-            <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/SiteSecurityLogo.png" alt="Site Security Logo" width="150" height="150">
+            <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/SiteSecurityLogo.png" alt="Logo" width="180" height="50">
         </a>
     </div>
 
@@ -24,15 +23,15 @@
         </div>
         <div class="social-icons-container">
             <a href="https://www.facebook.com/aktivovervaagning/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/facebook.png" alt="Facebook Icon" width="50" height="50">
+                <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/facebook.png" alt="Facebook" width="50" height="50">
             </a>
 
             <a href="https://www.linkedin.com/company/sitesecurity/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/linkedin.png" alt="LinkedIn Icon" width="50" height="50">
+                <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/linkedin.png" alt="LinkedIn" width="50" height="50">
             </a>
         </div>
+
     </div>
-    <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
 </footer>
 <?php wp_footer() ?>
 </body>
