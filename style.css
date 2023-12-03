@@ -809,6 +809,7 @@ input[type="checkbox"]:checked + .question + .answer {
 .faq_call_to_action_boxes {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .faq_call_to_action_box {
@@ -829,7 +830,7 @@ input[type="checkbox"]:checked + .question + .answer {
   font-size: 24px;
   text-align: center; 
   color: #424147;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 
