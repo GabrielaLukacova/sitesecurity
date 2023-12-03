@@ -21,43 +21,18 @@ jQuery(document).ready(function($) {
         ]
     });
 
-    // FAQ - opening box after clicking on arrow
-    document.addEventListener('DOMContentLoaded', function () {
-        const questions = document.querySelectorAll('.faq-container_box .question');
+    $(document).ready(function () {
+        $('.faq-container_box .question').on('click', function () {
+            const answer = $(this).next();
     
-        questions.forEach(question => {
-            question.addEventListener('click', function () {
-                const answer = this.nextElementSibling;
+            // Toggle the 'open' class to trigger CSS transitions
+            answer.toggleClass('open');
     
-                // Toggle the 'open' class to trigger CSS transitions
-                answer.classList.toggle('open');
-    
-                // Toggle the arrow direction
-                const arrow = this.querySelector('.arrow');
-                arrow.textContent = arrow.textContent === '▶' ? '▼' : '▶';
-            });
+            // Toggle the arrow direction
+            const arrow = $(this).find('.arrow');
+            arrow.text(arrow.text() === '▶' ? '▼' : '▶');
         });
-    
-        console.log('Script.js is loaded!');
     });
     
 
-
-/*document.addEventListener('DOMContentLoaded', function () {
-  const questions = document.querySelectorAll('.faq-container_box .question');
-
-  questions.forEach(question => {
-      question.addEventListener('click', function () {
-          const answer = this.nextElementSibling;
-
-          // Toggle the 'open' class to trigger CSS transitions
-          answer.classList.toggle('open');
-
-          // Toggle the arrow direction
-          const arrow = this.querySelector('.arrow');
-          arrow.textContent = arrow.textContent === '▶' ? '▼' : '▶';
-      });
-  });
-});
-*/
 
