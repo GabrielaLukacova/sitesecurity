@@ -812,7 +812,7 @@ input[type="checkbox"]:checked + .question .arrow {
 
 input[type="checkbox"]:checked + .question + .answer {
   display: block;
-  max-height: 500px; 
+  max-height: 1000px; 
 }
 
 
@@ -977,6 +977,13 @@ input[type="checkbox"]:checked + .question + .answer {
   font-size: 24px;
   width: auto;
 }
+
+.button_yellow {
+  align-items: center;
+  font-size: 24px;
+  width: auto;
+  align-self: center;
+}
 }
 
 
@@ -998,6 +1005,21 @@ input[type="checkbox"]:checked + .question + .answer {
     width: 100%;
     margin-bottom: 30px;
 }
+
+.call_to_action_more_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 20px 35px;
+  height: fit-content;
+}
+.call_to_action_more_info_right {
+  align-self: center;
+}
+.call_to_action_more_info_left h3 {
+    font-size: 25px;
+    width: 120%;}
+
 }
 
 /*----FAQ-----*/
@@ -1005,7 +1027,12 @@ input[type="checkbox"]:checked + .question + .answer {
 @media only screen and (max-width: 768px) {
 
 .faq h2 {
-  font-size: 30px;
+    font-size: 30px;
+    color: #3b3b3b;
+    width: 100%;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
 }
 
 .faq-box p {
