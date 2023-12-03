@@ -974,7 +974,7 @@ img {
   
   .hero_section{
     align-items: left;
-    margin-left: 20px;
+    
   }
   /* Hero Section Styles */
   .hero-content {
@@ -982,6 +982,7 @@ img {
     left: 20%;
     transform: translate(-50%, -50%);
     text-align: left;
+    margin-left: 20px;
   }
 
   .hero-content h1 {
