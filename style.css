@@ -210,6 +210,7 @@ footer {
 .column.contact-info {
   display: flex;
   flex-direction: column;
+  align-items: right;
 }
 
 .footer_call_mail {
@@ -910,11 +911,11 @@ img {
   }
 
   .hero-content h1 {
-    font-size: 40px;
+    font-size: 70px;
   }
 
   .hero-content p {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   /* Article Main Styles */
@@ -943,18 +944,7 @@ img {
   .advantages-box-content {
     font-size: 16px;
   }
-
-  /* Contact Form Styles */
-  .contact-form {
-    margin-right: 0;
-  }
-
-  .contact-form label,
-  .contact-form input,
-  .contact-form select,
-  .contact-form textarea {
-    width: 100%;
-  }}
+}
 /*----Services-----*/
 /*----FAQ-----*/
 
@@ -970,6 +960,7 @@ img {
 
 .faq_call_to_action h2 {
   font-size: 30px;
+  margin-left: 20px;
 }
 
 .faq_call_to_action_box p {
@@ -989,30 +980,7 @@ img {
     padding: 10px; /* Example: Adjust padding for smaller screens */
   }
 
-  /* Adjust hero section styles for smaller screens */
-  .hero-section {
-    height: auto;
-    min-height: 100vh;
-    background-size: contain;
-    background-position: center;
-  }
 
-  .hero-content {
-    left: 50%;
-    transform: translate(-50%, 0);
-    text-align: center;
-  }
-
-  .hero-content h1 {
-    font-size: 30px; /* Example: Adjust font size for smaller screens */
-    margin-bottom: 10px; /* Increase spacing for readability */
-  }
-
-  .hero-content p {
-    font-size: 18px; /* Example: Adjust font size for smaller screens */
-  }
-
-  /* Adjust other sections as needed */
 
   /* Example adjustment for article_with_img__blue section */
   .article_with_img__blue {
@@ -1051,5 +1019,4 @@ img {
     text-align: center;
   }
 
-  /* Adjust other styles within the media query as needed */
 }
