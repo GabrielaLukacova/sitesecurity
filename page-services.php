@@ -131,7 +131,7 @@ Template Name: Services
 
     <section class="call_to_action_more_info">
         <div class="call_to_action_more_info_left">
-            <h3>Your Heading</h3>
+            <h3><?php echo get_field("go_to_website_title"); ?></h3>
         </div>
         <div class="call_to_action_more_info_right">
         <a href="<?php echo get_permalink( get_page_by_path( 'https://www.sitesecurity.dk/' ) ) ?>" class="button_yellow">Site Security</a>
