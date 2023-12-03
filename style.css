@@ -864,6 +864,28 @@ input[type="checkbox"]:checked + .question + .answer {
     font-size: 14px;
   }
 
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .column.image {
+    order: -1; /* Set the order for smaller screens to bring the image to the top */
+    padding-left: 0;
+  }
+
+  .column.links,
+  .column.contact-info {
+    order: 0; /* Set the order for smaller screens to place links after the image */
+    margin-bottom: 20px;
+  }
+
+  .column.links a {
+    margin: 5px;
+  }
+
+
   /* Navbar Styles */
   .navbar {
     padding: 10px;
