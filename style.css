@@ -386,7 +386,7 @@ footer {
 /* <--- Media Queries ---> */
 
 /* Media Query for tablets and mobiles */
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
   body h1 {
     font-size: 2.5rem;
   }
