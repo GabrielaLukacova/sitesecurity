@@ -873,7 +873,101 @@ img {
 
 /*--------------------RESPONSIVNES------------------*/
 
+/*----Home-----*/
 
+@media only screen and (max-width: 600px) {
+  /* Body Styles */
+  body {
+    font-size: 14px;
+  }
+
+  /* Navbar Styles */
+  .navbar {
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .navbar a {
+    margin: 5px;
+  }
+
+  /* Hero Section Styles */
+  .hero-content {
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content p {
+    font-size: 20px;
+  }
+
+  /* Article Main Styles */
+  .article_main h2 {
+    font-size: 30px;
+  }
+
+  .article-text {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .article_main a.button_yellow {
+    margin-top: 20px;
+  }
+
+  /* Advantages Main Styles */
+  .advantages_main {
+    padding: 20px;
+  }
+
+  .advantages_main h2 {
+    font-size: 30px;
+  }
+
+  .advantages-box-content {
+    font-size: 16px;
+  }
+
+  /* Contact Form Styles */
+  .contact-form {
+    margin-right: 0;
+  }
+
+  .contact-form label,
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 100%;
+  }}
+/*----Services-----*/
+/*----FAQ-----*/
+
+@media only screen and (max-width: 768px) {
+
+.faq h2 {
+  font-size: 30px;
+}
+
+.faq-box p {
+  font-size: 18px;
+}
+
+.faq_call_to_action h2 {
+  font-size: 30px;
+}
+
+.faq_call_to_action_box p {
+  font-size: 18px;
+}
+}
+
+/*----Contact-----*/
 
 @media only screen and (max-width: 768px) {
 
