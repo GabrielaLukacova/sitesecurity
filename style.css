@@ -589,11 +589,7 @@ img {
   height: auto;
 }
 
-.client_logo {
-  width: 212px;
-  height: 212px;
-  align-self: center;
-}
+
 
 .review-box {
     background-color: rgba(0, 0, 0, 0.3);
@@ -614,6 +610,11 @@ img {
   color: #fff;
 }
 
+.client_logo {
+  width: 212px;
+  height: 212px;
+  align-self: center;
+}
 .author-info {
   font-style: italic;
   color: #bababa;

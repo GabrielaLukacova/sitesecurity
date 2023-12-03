@@ -99,7 +99,7 @@ Template Name: Services
 <section class="customer-reviews_main">
 
 <h3 class="heading-above" style=" margin: 0; padding: 20px 0 0 0; background-color: #424146; height: 70px; color: white; font-weight: 300;" ><?php echo get_field("what_our_customers_say_heading"); ?></h3>
-<section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">   
+<section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center;  height: 170vh;">   
 <!--  <div class="review-header"> -->
 <!--  </div> -->
         <?php $loop = new WP_Query( array( 'post_type' => 'what-our-customers-s', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
@@ -112,10 +112,9 @@ Template Name: Services
             <div class="review-item">
                 <div class="background-image">
                         <div class="center-content">
-                            <div class="client_logo" style="background-image: <?php $image = get_field('client_company_logo'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; " alt="client_logo_img_reviews">
-                            </div>
                             <div class="review-box">
                             <h3><?php echo get_field("client_company_title"); ?></h3>
+                            <div class="client_logo" style="background-image: <?php $image = get_field('client_company_logo'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: auto; background-position: center; " alt="client_logo_img_reviews"></div>
                                 <p class="article-text"><?php echo get_field("description"); ?></p>
                                 <p class="author-info"><?php echo get_field("name_of_speaker"); ?></p>
                             </div>
