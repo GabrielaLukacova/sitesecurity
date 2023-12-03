@@ -123,6 +123,7 @@ a.home {
 /* <--- ADVANTISAGES TO CHOOSE US ---> */
 
 .advantages_main {
+  background-position: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -132,6 +133,8 @@ a.home {
   padding: 50px 16%;
   background-color: #fff;
 }
+
+
 .yellow-text {
   color: #FDD43E;
 }
@@ -886,15 +889,22 @@ input[type="checkbox"]:checked + .question + .answer {
   }
 
   /* Article Main Styles */
+
+  .article_main {
+    height: auto;
+    padding: 0 0 40px;
+}
+
   .article_main h2 {
-    font-size: 30px;
-  }
+    font-size: 38px;
+    margin: 0;
+    padding: 40px 20px 0;
+}
 
   .article-text {
-    font-size: 16px;
-    margin: 10px;
-  }
-
+    font-size: 25px;
+    margin: 20px;
+}
   .article_main a.button_yellow {
     margin-top: 20px;
   }
@@ -902,16 +912,17 @@ input[type="checkbox"]:checked + .question + .answer {
   /* Advantages Main Styles */
   .advantages_main {
     padding: 20px;
+    background-position: right;
+
+    background-image: transparent 50%;
   }
 
-  .advantages_main h2 {
-    font-size: 30px;
+    .advantages_main h2 {
+      font-size: 37px;
   }
-
   .advantages-box-content {
-    font-size: 16px;
+    font-size: 25px;
   }
-
   .contact-form-container {
     align-items: center;
   }
@@ -920,15 +931,13 @@ input[type="checkbox"]:checked + .question + .answer {
   }
  
 }
-/*----Home-----*/
+/*----Home Bonus-----*/
 @media only screen and (max-width: 768px) {
   .hero-section {
     height: 60vh;
 }
 
 .hero-content {
-  position: absolute;
-  max-width: 600px;
   top: 37%;
 }
 
