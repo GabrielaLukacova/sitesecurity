@@ -78,6 +78,9 @@ Template Name: Services
 
  </section>
 
+ <!--- One color line seperator yellow --->
+<div class="line-seperator-1" style="background-color: #FFC826; height: 40px;"></div>
+
 <!-- Contact Us - Calling to action Section -->
 
 <section id="article_with_image_call_us" style="background-image: <?php $image = get_field('contact_us_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #F6F6F6;   color:#363636;">
@@ -96,7 +99,7 @@ Template Name: Services
 
 <section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">   
 <!--  <div class="review-header"> -->
-    <h6 class="heading-above"><?php echo get_field("what_our_customers_say_heading"); ?></h6>
+    <h6 class="heading-above" style="background-color: #424146; height: 70px; color: white;" ><?php echo get_field("what_our_customers_say_heading"); ?></h6>
 <!--  </div> -->
         <?php $loop = new WP_Query( array( 'post_type' => 'what-our-customers-s', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
@@ -128,10 +131,11 @@ Template Name: Services
 </section>
 
 
+<!-- More info on main website Section -->
 
     <section class="call_to_action_more_info">
         <div class="call_to_action_more_info_left">
-            <h3><?php echo get_field("go_to_website_title"); ?></h3>
+            <h3 style="background-color: #424146; height: 200px; color: white;" ><?php echo get_field("go_to_website_title"); ?></h3>
         </div>
         <div class="call_to_action_more_info_right">
         <a href="<?php echo get_permalink( get_page_by_path( 'https://www.sitesecurity.dk/' ) ) ?>" class="button_yellow">Site Security</a>
@@ -142,6 +146,10 @@ Template Name: Services
     <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
     
     <?php endwhile ?>
+
+    <!--- One color line seperator yellow --->
+
+<div class="line-seperator-1" style="background-color: #AABFDF; height: 40px;"></div>
 </main>
 <?php get_footer() ?>
 </body>
