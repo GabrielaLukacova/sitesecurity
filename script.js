@@ -21,22 +21,17 @@ jQuery(document).ready(function($) {
         ]
     });
 
-     // FAQ - opening box after clicking on arrow
-     document.querySelectorAll('.faq-container_box .question').forEach(function (question) {
-        question.addEventListener('click', function () {
-            console.log('Click event triggered.');
+    // FAQ - opening box after clicking on arrow
+    $('.faq-container_box .question').on('click', function () {
+        console.log('Click event triggered.');
 
-            var answer = this.closest('.faq-container_box').querySelector('.answer');
+        const answer = $(this).closest('.faq-container_box').find('.answer');
 
-            // Log the answer element to check if it's correctly selected
-            console.log('Answer element:', answer);
+        // Toggle the 'open' class to trigger CSS transitions
+        answer.toggleClass('open');
 
-            // Toggle the 'open' class to trigger CSS transitions
-            answer.classList.toggle('open');
-
-            // Toggle the arrow direction
-            var arrow = this.querySelector('.arrow');
-            arrow.textContent = arrow.textContent === '▶' ? '▼' : '▶';
-        });
+        // Toggle the arrow direction
+        const arrow = $(this).find('.arrow');
+        arrow.text(arrow.text() === '▶' ? '▼' : '▶');
     });
 });
