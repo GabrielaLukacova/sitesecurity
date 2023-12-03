@@ -1191,7 +1191,7 @@ input[type="checkbox"]:checked + .question + .answer {
 
 
   .article_with_img__blue {
-    height: 50vh;
+    height: 60vh;
     min-height: 320px;
   }
 
