@@ -21,7 +21,7 @@ Template Name: Services
 <div class="hero-section"   style="background-image: <?php $image = get_field('hero_video'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
         <div class="navbar">
             <a class="home" href="<?php echo get_permalink(get_page_by_path('home')) ?>" style="order: -1;">Home</a>
-            <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>
+            <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>s
             <a href="<?php echo get_permalink(get_page_by_path('faq')) ?>">FAQ</a>
             <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">Contacts</a>
         </div>
@@ -42,6 +42,8 @@ Template Name: Services
 <!-- Services to meet you needs Section -->
 
 <section class="services_to_meet_needs" style="background-image: <?php $image = get_field('services_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #AABFDF">
+    <?php $image = get_field ("services_bg_image"); ?> 
+    <img src="<?php echo $image["url"] ?>" alt="Image"> 
 
     <div class="article_with_img">
 
@@ -93,14 +95,10 @@ Template Name: Services
 
 <!-- Custumer rewies Section -->
 
-
-<section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">   
-<!--  <div class="review-header"> -->
-    <h6 class="heading-above"><?php echo get_field("what_our_customers_say_heading"); ?></h6>
-<!--  </div> -->
-        <?php $loop = new WP_Query( array( 'post_type' => 'what-our-customers-s', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
-        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-
+<section class="customer-reviews">
+    <div class="review-header">
+        <h2>What our customers say</h2>
+    </div>
     <div class="review-container">
         <div class="slick-carousel">
             
@@ -108,24 +106,34 @@ Template Name: Services
             <div class="review-item">
                 <div class="background-image">
                         <div class="center-content">
-                         <?php $image = get_field ("client_company_logo"); ?> 
-                        <img src="<?php echo $image["url"] ?>" alt="Client_logo_img_reviews"> 
+                            <img src="company-logo1.png" alt="Company Logo 1">
                             <div class="review-box">
-                                <h3><?php echo get_field("client_company_title"); ?></h3>
-                                <p class="article-text"><?php echo get_field("description"); ?></p>
-                                <p class="author-info"><?php echo get_field("name_of_speaker"); ?></p>
+                                <h3>Company Name 1</h3>
+                                <p>"What customers said about our services. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                                <p class="author-info">- John Doe, CEO, Company XYZ</p>
                             </div>
                         </div>
-                    
+                    </div>
                 </div>
+
+                <!-- Second Review -->
+                <div class="review-item">
+                    <div class="background-image">
+                        <div class="center-content">
+                            <img src="company-logo2.png" alt="Company Logo 2">
+                            <div class="review-box">
+                                <h3>Company Name 2</h3>
+                                <p>"Another customer testimonial. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                                <p class="author-info">- Jane Smith, COO, Company ABC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
-
-        <?php endwhile; wp_reset_query(); ?>
-    </div>
-    <a href="https://www.sitesecurity.dk/en/anbefaling" class="button_grey">More reviews on Site-Security website</a> 
-</section>
+    </section>
 
 
 
@@ -139,9 +147,7 @@ Template Name: Services
     </section>
 
 
-    <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
-    
+
     <?php endwhile ?>
 </main>
 <?php get_footer() ?>
-</body>

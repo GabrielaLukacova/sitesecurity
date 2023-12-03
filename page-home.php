@@ -46,7 +46,7 @@ Template Name: Home
 
 
 <!-- Advantages Section -->
-<section class="advantages_main" style="background-image: <?php $image = get_field('advantages_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto; background-color: #F6F6F6;">
+<section class="advantages_main" style="background-image: <?php $image = get_field('advantages_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: auto;">
 <h2 class="heading-above">
     <span class="gray-text">ADVANTAGES <br> TO CHOOSE </span>
     <span class="yellow-text">US</span>
@@ -69,12 +69,11 @@ Template Name: Home
 
     <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_grey">Read more</a> 
  </section>
-<!--- One color line seperator yellow --->
-<div class="line-seperator-1" style="background-color: #FFC826; height: 40px;"></div>
-
 
 <!--- One color line seperator white --->
-<!---  <div class="line-seperator-1" style="background-color: #fff; height: 40px;"></div>  --->
+
+<div class="line-seperator-1" style="background-color: #fff; height: 40px;"></div>
+
 
 <!--- Contact form section --->
 
@@ -87,7 +86,9 @@ Template Name: Home
 
 
 
+<!--- One color line seperator dark gray --->
 
+<div class="line-seperator-1" style="background-color: #424146; height: 40px;"></div>
 
 
 
@@ -104,6 +105,7 @@ Template Name: Home
                     <div class="box-content">
                         <h3 class="heading_white" style="background-color: rgba(51, 51, 51, 0.7); font-size: 18px; padding: 10px 10px;"><?php echo get_field("security_possibility_heading"); ?></h3>
                         <p class="article-text heading_white" style="background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;"><?php echo get_field("security_possibility_description"); ?></p>
+                        <a href="https://www.sitesecurity.dk/en/loesninger" class="button_yellow">Read more</a>
                     </div>
                 </div>
             </div>
