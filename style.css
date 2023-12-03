@@ -797,7 +797,6 @@ justify-content: center;
 
 .faq {
   background-color: #AABFDF;
-  align-items: flex-start; 
   text-align: left;
   padding: 50px;
   max-width: 800px; 
@@ -822,10 +821,10 @@ justify-content: center;
 .question {
   cursor: pointer;
   font-weight: lighter; 
-  padding: 40px 50px; 
+  padding: 40px 20px; 
   background-color: #ffffff;
   color: #424147;
-  font-size: 20px;
+  font-size: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -843,14 +842,14 @@ justify-content: center;
 
 .answer {
   display: none;
-  padding: 40px 50px; 
+  padding: 40px 20px; 
   background-color: #ffffff;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease-out;
   color: #424147;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 input[type="checkbox"] {
