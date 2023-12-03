@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function($) {
     // SLIDE SHOW - customers reviews
     $('.slick-carousel').slick({
         dots: true,
@@ -20,12 +20,12 @@ jQuery(document).ready(function ($) {
             }
         ]
     });
-});
 
-jQuery(() => {
     // FAQ - opening box after clicking on arrow
     $('.faq-container_box .question').on('click', function () {
-        const answer = $(this).next();
+        console.log('Click event triggered.');
+
+        const answer = $(this).closest('.faq-container_box').find('.answer');
 
         // Toggle the 'open' class to trigger CSS transitions
         answer.toggleClass('open');
