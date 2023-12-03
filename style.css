@@ -301,6 +301,10 @@ footer {
   margin: 0 !important;
 }
 
+.contact-form-container {
+  background-position: center;
+}
+
 .contact-form-container h4 {
   text-align: right;
   padding-top: 20px;
@@ -933,12 +937,25 @@ input[type="checkbox"]:checked + .question + .answer {
 }
 
 
-  .contact-form-container {
+  .contact-form-container {  
     align-items: center;
+    background-position: right;
+    width: 100%;
+    padding: 13px;
+    align-items: center;
+}
+
+  .contact-form-heading {
+    color: #ffffff;
+    font-size: 50px;
+    width: 90%;
+    padding: 0;
+    padding-right: 10px;
+    margin: 0;
   }
   .contact-form {
-    margin-right: 10px;
-  }
+    margin: 10px;
+    width: 80%;  }
  
 }
 /*----Home Bonus-----*/
