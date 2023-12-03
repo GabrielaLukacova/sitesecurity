@@ -67,9 +67,13 @@ Template Name: Services
                         <p class=" article-text heading_white" style=" text-align: right; background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;">
                         <?php echo get_field("product_description"); ?></p>
                     </div>
+                    <div style="">
+                    <a href="https://www.sitesecurity.dk/en/modelprogram" class="button_yellow">Read more</a>
+
+                    </div>
+
                 </div>
             </div>
-            <a href="https://www.sitesecurity.dk/en/modelprogram" class="button_yellow button_yellow_services">Read more</a>
         <?php endwhile; wp_reset_query(); ?>
     </div>
     <a href="https://www.sitesecurity.dk/en/loesninger" class="button_grey ">More security ideas</a> 
