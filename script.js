@@ -1,6 +1,6 @@
-jQuery(() => {
-    // Slick Carousel
-    jQuery('.slick-carousel').slick({
+jQuery(document).ready(function($) {
+    // SLIDE SHOW - customers reviews
+    $('.slick-carousel').slick({
         dots: true,
         infinite: true,
         speed: 800,
@@ -21,4 +21,3 @@ jQuery(() => {
         ]
     });
 });
-
