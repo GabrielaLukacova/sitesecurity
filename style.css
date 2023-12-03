@@ -263,6 +263,13 @@ footer {
 
 /* <--- ARTICLES WITH IMAGES SECTIONS ---> */
 
+#article_with_image_call_us {
+  background-size: cover; 
+  background-position: center; 
+  height: 500px;
+}
+
+
 .article_with_img {
   display: flex;
   flex-direction: column;
@@ -312,6 +319,7 @@ footer {
 }
 
 .contact-form-container {
+  height: 100vh;
   background-position: center;
 }
 
@@ -1039,6 +1047,7 @@ input[type="checkbox"]:checked + .question + .answer {
 
 
   .contact-form-container {  
+    height: fit-content;
     align-items: center;
     background-position: right;
     width: 100%;
@@ -1190,6 +1199,9 @@ input[type="checkbox"]:checked + .question + .answer {
     font-size: 24px;
   }
 
+  .phone_and_email {
+    padding: 0 0 20px 5px;
+}
 
   .article_with_img__blue {
     height: 60vh;
@@ -1205,6 +1217,13 @@ input[type="checkbox"]:checked + .question + .answer {
     height: fit-content;
     width: 100%;
 }
+
+#article_with_image_call_us {
+  height: fit-content;
+}
+
+
+
   .security_possibilities_container_box {
     width: 100%;
     margin-bottom: 20px;

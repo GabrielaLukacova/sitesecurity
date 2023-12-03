@@ -73,7 +73,7 @@ Template Name: Contact
 
 <!--- Contact form section --->
 
-<section class="contact-form-container" style="background-image: <?php $image = get_field('contact-form-image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">
+<section class="contact-form-container" style="background-image: <?php $image = get_field('contact-form-image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover;">
     <h4 class="contact-form-heading"><?php the_field('form_heading'); ?></h4>
     <div class="contact-form">
         <?php echo do_shortcode( '[contact-form-7 id="2e0ef46" title="Secure your business"]' ); ?>
@@ -86,7 +86,7 @@ Template Name: Contact
 
 <!--- ARTICLE WITH IMAGE Call Us section --->
 
-<section id="article_with_image_call_us" style="background-image: <?php $image = get_field('call_hours_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #F6F6F6;   color:#363636;">
+<section id="article_with_image_call_us" style="background-image: <?php $image = get_field('call_hours_image'); ?> url('<?php echo esc_url($image["url"]); ?>');  background-color: #F6F6F6;  color:#363636;">
     <div class="article_with_img" style="width: 85%; ">
         <div class="height_div_for_articles call_us_article" style="width: 70%; " > 
             <p class="optima" style="font-size: 40px; margin: 10px;"><?php the_field('call_hours_heading'); ?></p>   
