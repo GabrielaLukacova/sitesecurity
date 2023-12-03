@@ -83,7 +83,7 @@ Template Name: FAQ
   </section>
 
 
-
+  <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
 </body>
 <?php endwhile ?>
 </main>
