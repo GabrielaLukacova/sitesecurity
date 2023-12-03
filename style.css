@@ -332,7 +332,7 @@ footer {
 .contact-form textarea {
   width: 130%;
   padding: 8px; 
- margin-bottom:5px; 
+  margin-bottom:5px; 
   border: 1px solid #424146;
   border-radius: 8px; 
   background-color: transparent;
@@ -944,6 +944,10 @@ img {
   .advantages-box-content {
     font-size: 16px;
   }
+  .contact-form {
+    margin-right: 100px;
+  }
+ 
 }
 /*----Services-----*/
 /*----FAQ-----*/
