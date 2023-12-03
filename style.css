@@ -875,6 +875,7 @@ input[type="checkbox"]:checked + .question + .answer {
   .column{
     display: block;
     flex-direction: column;
+    background-color: #FDD43E;
   }
 
   .column.image {
