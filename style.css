@@ -822,10 +822,10 @@ img {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.faq-box:hover {
+/*.faq-box:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transform: scale(1.02);
-}
+}*/
 
 .question {
   cursor: pointer;
@@ -833,11 +833,11 @@ img {
 }
 
 .answer {
-  display: none;
+  /*display: none;*/
   padding-top: 10px;
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.3s ease-out;
+ /* transition: max-height 0.3s ease-out;*/
 }
 
 .arrow {
