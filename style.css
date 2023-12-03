@@ -764,6 +764,7 @@ justify-content: center;
   justify-content: space-between;
   align-items: center;
   transition: background-color 0.3s ease; 
+  text-align: left;
 }
 
 .question:hover {
@@ -785,6 +786,7 @@ justify-content: center;
   color: #424147;
   font-weight: lighter;
   font-size: 24px;
+  text-align: left;
 }
 
 input[type="checkbox"] {
