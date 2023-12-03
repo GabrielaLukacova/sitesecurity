@@ -960,8 +960,17 @@ input[type="checkbox"]:checked + .question + .answer {
   .contact-form {
     margin: 10px;
     width: 80%;  }
+
+
  
 }
+
+.wpcf7 form.sent .wpcf7-response-output {
+ border-color: none;
+ color: #ffffff;
+}
+
+
 /*----Home Bonus-----*/
 @media only screen and (max-width: 768px) {
   .hero-section {
