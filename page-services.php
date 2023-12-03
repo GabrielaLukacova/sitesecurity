@@ -33,6 +33,7 @@ Template Name: Services
     </div>
 </div>
 
+
 <!-- One color line seperator blue -->
 
 <div class="line-seperator-1" style="background-color: #AABFDF; height: 40px;"></div>
@@ -41,8 +42,6 @@ Template Name: Services
 <!-- Services to meet you needs Section -->
 
 <section class="services_to_meet_needs" style="background-image: <?php $image = get_field('services_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #AABFDF">
-    <?php $image = get_field ("services_bg_image"); ?> 
-    <img src="<?php echo $image["url"] ?>" alt="Image"> 
 
     <div class="article_with_img">
 
@@ -97,36 +96,30 @@ Template Name: Services
 
 <!-- Custumer rewies Section -->
 
+<section class="customer-reviews_mai">
 
-<section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">   
+<h3 class="heading-above" style=" margin: 0; padding: 20px 0 0 0; background-color: #424146; height: 70px; color: white; font-weight: 300;" ><?php echo get_field("what_our_customers_say_heading"); ?></h3>
+<section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center;">   
 <!--  <div class="review-header"> -->
-    <h6 class="heading-above"><?php echo get_field("what_our_customers_say_heading"); ?></h6>
 <!--  </div> -->
         <?php $loop = new WP_Query( array( 'post_type' => 'what-our-customers-s', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-    <div class="review-container">
-        <div class="slick-carousel">
-            
+    <div class="review-container">            
             <!-- First Review -->
                         <div class="center-content">
-                         <?php $image = get_field ("client_company_logo"); ?> 
-                        <img src="<?php echo $image["url"] ?>" alt="Client_logo_img_reviews"> 
+                        <div class="client_logo" style="background-image: <?php $image = get_field('client_company_logo'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; " alt="client_logo_img_reviews"></div>
                             <div class="review-box">
-                                <h3><?php echo get_field("client_company_title"); ?></h3>
+                            <h3><?php echo get_field("client_company_title"); ?></h3>
                                 <p class="article-text"><?php echo get_field("description"); ?></p>
                                 <p class="author-info"><?php echo get_field("name_of_speaker"); ?></p>
                             </div>
                         </div>
                     
-                </div>
-
-            </div>
-        </div>
-
-        <?php endwhile; wp_reset_query(); ?>
     </div>
-    <a href="https://www.sitesecurity.dk/en/anbefaling" class="button_grey">More reviews on Site-Security website</a> 
+    <?php endwhile; wp_reset_query(); ?>
+    <a href="https://www.sitesecurity.dk/en/anbefaling" class="button_grey button_grey_more_reviews ">More reviews on Site-Security website</a> 
+</section>
 </section>
 
 <!-- More info on main website Section -->
@@ -141,7 +134,6 @@ Template Name: Services
     </section>
 
 
-    <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
     
     <?php endwhile ?>
 
@@ -153,3 +145,4 @@ Template Name: Services
 
 </main>
 <?php get_footer() ?>
+</body>
