@@ -983,6 +983,7 @@ img {
     transform: translate(-50%, -50%);
     text-align: left;
     padding-left: 120px;
+    width: 70%;
   }
 
   .hero-content h1 {
