@@ -971,6 +971,8 @@ input[type="checkbox"]:checked + .question + .answer {
 }
 
 .wpcf7 form .wpcf7-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 1em;
   border: none;
 }
 
