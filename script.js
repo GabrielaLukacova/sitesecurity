@@ -21,16 +21,20 @@ jQuery(document).ready(function($) {
         ]
     });
 
-    jQuery(document).ready(function ($) {
-        $('.faq-container_box .question').on('click', function () {
-            const answer = $(this).next();
+    document.addEventListener('DOMContentLoaded', function () {
+        const questions = document.querySelectorAll('.faq-container_box .question');
     
-            // Toggle the 'open' class to trigger CSS transitions
-            answer.toggleClass('open');
+        questions.forEach(question => {
+            question.addEventListener('click', function () {
+                const answer = this.nextElementSibling;
     
-            // Toggle the arrow direction
-            const arrow = $(this).find('.arrow');
-            arrow.text(arrow.text() === '▶' ? '▼' : '▶');
+                // Toggle the 'open' class to trigger CSS transitions
+                answer.classList.toggle('open');
+    
+                // Toggle the arrow direction
+                const arrow = this.querySelector('.arrow');
+                arrow.textContent = arrow.textContent === '▶' ? '▼' : '▶';
+            });
         });
     });
     
