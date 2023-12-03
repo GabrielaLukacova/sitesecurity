@@ -802,7 +802,7 @@ input[type="checkbox"]:checked + .question + .answer {
 /*<-----  FAQ call to action -----> */
 
 .faq_call_to_action {
-  padding: 40px; /* Adjusted padding */
+  padding: 70px; 
   background-color: #fff;
 }
 
@@ -819,13 +819,17 @@ input[type="checkbox"]:checked + .question + .answer {
 
 .faq_call_to_action h3 {
   font-size: 40px;
-  margin-left: 0; /* Adjusted margin */
-  text-align: center; /* Center align the heading */
+  margin-left: 0; 
+  text-align: center; 
+  color: #424147;
+  font-weight: normal;
 }
 
 .faq_call_to_action_box p {
   font-size: 24px;
-  text-align: left; /* Align paragraphs to the left */
+  text-align: center; 
+  color: #424147;
+  font-weight: lighter;
 }
 
 
