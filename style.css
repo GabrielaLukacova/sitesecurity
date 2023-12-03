@@ -797,35 +797,36 @@ input[type="checkbox"]:checked + .question + .answer {
 
 
 
-    
+  
 
+/*<-----  FAQ call to action -----> */
 
-/* FAQ call to action */
+.faq_call_to_action {
+  padding: 40px; /* Adjusted padding */
+  background-color: #fff;
+}
 
-    .faq_call_to_action {
-      padding: 20px;
-      background-color: #fff;
-      padding: 40px;
-    }
+.faq_call_to_action_boxes {
+  display: flex;
+  justify-content: space-between;
+}
 
-    .faq_call_to_action_boxes{
-    display: flex;
-    justify-content: space-between;}
+.faq_call_to_action_box {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
 
-    .faq_call_to_action_box {
-      flex: 1;
-      padding: 10px;
-      text-align: center;
-    }
+.faq_call_to_action h3 {
+  font-size: 40px;
+  margin-left: 0; /* Adjusted margin */
+  text-align: center; /* Center align the heading */
+}
 
-    .faq_call_to_action h3{
-      font-size: 40px;
-      margin-left: 60px;
-    }
-
-    .faq_call_to_action_box p {
-      font-size: 24px;
-    }
+.faq_call_to_action_box p {
+  font-size: 24px;
+  text-align: left; /* Align paragraphs to the left */
+}
 
 
 
