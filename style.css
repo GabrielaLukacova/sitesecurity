@@ -872,7 +872,7 @@ input[type="checkbox"]:checked + .question + .answer {
   }
 
 
-  .footer {
+  /* .footer {
     
     align-items: center;
     display: block;
@@ -905,6 +905,45 @@ input[type="checkbox"]:checked + .question + .answer {
   .column.image,
   .column.contact-info {
     margin-bottom: 20px;
+  }
+
+  .column.image {
+    padding-left: 0;
+  }
+
+  .column.links a {
+    margin: 5px;
+  }
+
+  .footer_call_mail,
+  .social-icons-container {
+    justify-content: center;
+  } */
+
+
+
+
+
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .column.links,
+  .column.image,
+  .column.contact-info {
+    order: initial; /* Reset the order for smaller screens */
+    margin-bottom: 20px;
+  }
+
+  .column.image {
+    order: -1; }
+
+    .column.links,
+  .column.contact-info {
+    order: 0; 
+   
   }
 
   .column.image {
