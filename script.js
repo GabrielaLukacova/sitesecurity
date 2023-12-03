@@ -1,43 +1,39 @@
-//SLIDE SHOW - customers reviews 
-
-$(() => {
-    $('.slick-carousel').slick({
+jQuery(() => {
+    // Slick Carousel
+    jQuery('.slick-carousel').slick({
         dots: true,
         infinite: true,
-        speed: 800,  
+        speed: 800,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
-        fade: true,  
-        cssEase: 'linear',  
-        adaptiveHeight: true,  
+        fade: true,
+        cssEase: 'linear',
+        adaptiveHeight: true,
         responsive: [
             {
                 breakpoint: 768,
-                 settings: {
-                    arrows: false  
-                 }
+                settings: {
+                    arrows: false
+                }
             }
         ]
     });
-});
 
+    // FAQ Interaction
+    jQuery('.faq-container_box .question').on('click', function () {
+        const answer = jQuery(this).next();
 
+        // Toggle the 'open' class to trigger CSS transitions
+        answer.toggleClass('open');
 
-// FAQ - opening box after clicking on arrow
+        // Toggle the arrow direction
+        const arrow = jQuery(this).find('.arrow');
+        arrow.text(arrow.text() === '▶' ? '▼' : '▶');
+    });
 
-$(document).ready(function () {
-  $('.faq-container_box .question').on('click', function () {
-      const answer = $(this).next();
-
-      // Toggle the 'open' class to trigger CSS transitions
-      answer.toggleClass('open');
-
-      // Toggle the arrow direction
-      const arrow = $(this).find('.arrow');
-      arrow.text(arrow.text() === '▶' ? '▼' : '▶');
-  });
+    console.log('Script.js is loaded!');
 });
 
 
@@ -59,4 +55,3 @@ $(document).ready(function () {
 });
 */
 
-console.log('Script.js is loaded!');
