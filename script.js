@@ -1,4 +1,4 @@
-jjQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
     // SLIDE SHOW - customers reviews
     $('.slick-carousel').slick({
         dots: true,
