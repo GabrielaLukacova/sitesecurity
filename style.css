@@ -934,10 +934,7 @@ img {
   
     /* Add more adjustments for phone version as needed */
   
-    /* Adjust security possibilities box for smaller screens */
-    .security_possibilities_container_box-content {
-      background-color: pink;
-    }
+
   
     /* Example adjustment for security possibilities box content */
     .security_possibilities_container_box-content {
