@@ -42,8 +42,6 @@ Template Name: Services
 <!-- Services to meet you needs Section -->
 
 <section class="services_to_meet_needs" style="background-image: <?php $image = get_field('services_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #AABFDF">
-    <?php $image = get_field ("services_bg_image"); ?> 
-    <img src="<?php echo $image["url"] ?>" alt="Image"> 
 
     <div class="article_with_img">
 
@@ -95,10 +93,14 @@ Template Name: Services
 
 <!-- Custumer rewies Section -->
 
-<section class="customer-reviews">
-    <div class="review-header">
-        <h2>What our customers say</h2>
-    </div>
+
+<section class="customer-reviews">   
+<!--  <div class="review-header"> -->
+    <h6 class="heading-above"><?php echo get_field("what_our_customers_say_heading"); ?></h6>
+<!--  </div> -->
+        <?php $loop = new WP_Query( array( 'post_type' => 'security_possibility', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
     <div class="review-container">
         <div class="slick-carousel">
             
@@ -106,34 +108,24 @@ Template Name: Services
             <div class="review-item">
                 <div class="background-image">
                         <div class="center-content">
-                            <img src="company-logo1.png" alt="Company Logo 1">
+                         <?php $image = get_field ("client_company_logo"); ?> 
+                        <img src="<?php echo $image["url"] ?>" alt="Client_logo_img_reviews"> 
                             <div class="review-box">
-                                <h3>Company Name 1</h3>
-                                <p>"What customers said about our services. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-                                <p class="author-info">- John Doe, CEO, Company XYZ</p>
+                                <h3><?php echo get_field("client_company_title"); ?></h3>
+                                <p class="article-text"><?php echo get_field("description"); ?></p>
+                                <p class="author-info">name_of_speaker</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Second Review -->
-                <div class="review-item">
-                    <div class="background-image">
-                        <div class="center-content">
-                            <img src="company-logo2.png" alt="Company Logo 2">
-                            <div class="review-box">
-                                <h3>Company Name 2</h3>
-                                <p>"Another customer testimonial. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-                                <p class="author-info">- Jane Smith, COO, Company ABC</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
 
             </div>
         </div>
-    </section>
+
+        <?php endwhile; wp_reset_query(); ?>
+    </div>
+    <a href="https://www.sitesecurity.dk/en/anbefaling" class="button_grey">More reviews on Site-Security website</a> 
+</section>
 
 
 
