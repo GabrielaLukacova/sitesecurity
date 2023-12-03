@@ -817,23 +817,23 @@ justify-content: center;
 
 .question {
   cursor: pointer;
-  font-weight: lighter; /* Lighter font weight */
+  font-weight: lighter; 
   padding: 10px;
   background-color: #ffffff;
-  color: #FFFF00; /* Yellow text */
+  color: #FDD43E;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: background-color 0.3s ease; /* Hover effect */
+  transition: background-color 0.3s ease; 
 }
 
 .question:hover {
-  background-color: #e5e5e5; /* Adjust as needed for hover effect */
+  background-color: #eaeaea; 
 }
 
 .arrow {
   transition: transform 0.3s ease-out;
-  color: #FFFF00; /* Yellow arrow */
+  color: #FDD43E;
 }
 
 .answer {
@@ -843,6 +843,8 @@ justify-content: center;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease-out;
+  color:#424147;
+  font-weight: lighter;
 }
 
 input[type="checkbox"] {
