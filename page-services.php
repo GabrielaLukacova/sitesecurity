@@ -140,6 +140,8 @@ Template Name: Services
 
 
     <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
+    
     <?php endwhile ?>
 </main>
 <?php get_footer() ?>
+</body>
