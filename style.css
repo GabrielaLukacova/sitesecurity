@@ -789,76 +789,50 @@ img {
 
 
     /* faq */
-.faq {
-  background-color: #AABFDF;
-  align-items: center;
-}
+    .faq_container_box {
+      margin-bottom: 10px;
+  }
 
-.faq h2 {
-  color: #ffffff;
-  padding-top: 30px;
-}
+  .faq-box {
+      position: relative;
+  }
 
-.faq-container {
-  max-width: 1200px;
-  margin: 20px auto;
-}
+  .question {
+      cursor: pointer;
+      font-weight: bold;
+      padding: 10px;
+      background-color: #AABFDF;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
 
-.faq-column {
-  width: 100%;
-  box-sizing: border-box;
-  text-align: left;
-  display: flex;
-  align-self: center;
-}
+  .arrow {
+      transition: transform 0.3s ease-out;
+  }
 
-.faq-box {
-  background-color: white;
-  margin: 10px auto;
-  padding: 15px;
-  position: relative;
-  width: 80%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
+  .answer {
+      display: none;
+      padding: 10px;
+      background-color: #ffffff;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.3s ease-out;
+  }
 
-.faq-box:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  transform: scale(1.02);
-}
+  input[type="checkbox"] {
+      display: none;
+  }
 
-.question {
-  cursor: pointer;
-  font-weight: bold;
-}
+  input[type="checkbox"]:checked + .question .arrow {
+      transform: rotate(90deg);
+  }
 
-.answer {
-  display: none;
-  padding-top: 10px;
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.3s ease-out;
-}
-
-.arrow {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  cursor: pointer;
-  transition: transform 0.3s ease-out;
-  color: #AABFDF;
-}
-
-.answer.open {
-  display: block;
-  max-height: 500px;
-}
-
-.question.open .arrow {
-  transform: translateY(-50%) rotate(180deg);
-}
-
+  input[type="checkbox"]:checked + .question + .answer {
+      display: block;
+      max-height: 500px; /* Adjust as needed */
+  }
 
 
     /*.faq {
