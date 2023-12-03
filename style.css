@@ -451,7 +451,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 35px; 
+  height: fit-content;
   width: 140px;
   margin: 20px auto;
   padding: 10px 20px;
