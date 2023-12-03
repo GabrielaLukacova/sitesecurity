@@ -971,6 +971,10 @@ input[type="checkbox"]:checked + .question + .answer {
  color: #ffffff;
 }
 
+.wpcf7-form-control.wpcf7-submit.has-spinner {
+  margin: 10px;
+}
+
 .wpcf7 form .wpcf7-response-output {
   border: none;
 }
