@@ -289,6 +289,10 @@ footer {
   height: 500px;
 }
 
+.article_with_image_call_us {
+  background-position: center;
+}
+
 /* 
 .optima {
   font-family: 'PT Serif', serif;
@@ -642,7 +646,7 @@ justify-content: center;
 
 .services_to_meet_needs{
   position: relative;
-  height: 200px; 
+  height: 320px;
   overflow: hidden;
 }
 
@@ -968,13 +972,32 @@ input[type="checkbox"]:checked + .question + .answer {
   top: 37%;
 }
 
-  }
+.button_grey {
+  align-items: center;
+  font-size: 24px;
+  width: auto;
+}
+}
 
 
 
 /*----Services-----*/
 @media only screen and (max-width: 768px) {
-
+  
+  .services_to_meet_needs_center-content .heading_white {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  .services_to_meet_needs {
+    height: revert-layer;
+  }
+  
+  .review-box {
+    width: 100%;
+    margin-bottom: 30px;
+}
 }
 
 /*----FAQ-----*/
@@ -1025,11 +1048,11 @@ input[type="checkbox"]:checked + .question + .answer {
   }
 
   .security_possibilities_container_box-content {
-    padding: 10px;
-    text-align: center;
+      margin: 20px;
+      text-align: center;
   }
 
-}
+  }
 /*----Footer-----*/
 
 footer {

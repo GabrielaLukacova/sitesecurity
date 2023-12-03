@@ -41,7 +41,7 @@ Template Name: Services
 
 <!-- Services to meet you needs Section -->
 
-<section class="services_to_meet_needs" style="background-image: <?php $image = get_field('services_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #AABFDF">
+<section class="services_to_meet_needs" style="background-image: <?php $image = get_field('services_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; background-color: #AABFDF">
 
     <div class="article_with_img">
 
@@ -83,7 +83,7 @@ Template Name: Services
 
 <!-- Contact Us - Calling to action Section -->
 
-<section id="article_with_image_call_us" style="background-image: <?php $image = get_field('contact_us_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #F6F6F6;   color:#363636;">
+<section class="article_with_image_call_us " style="background-image: <?php $image = get_field('contact_us_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; height: 500px; background-color: #F6F6F6;   color:#363636;">
     <div class="article_with_img" style="width: 85%; ">
         <div class="height_div_for_articles call_us_article" style="width: 70%; " > 
             <h3 class="optima" style="font-size: 40px; margin: 10px;"><?php the_field('contact_us_title'); ?></h3>   
