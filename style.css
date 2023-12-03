@@ -918,8 +918,8 @@ img {
       background-position: center;
     }
   
-    .article_with_img__blue p {
-      font-size: 18px;
+    .article_with_img__blue {
+      background-color: pink;
     }
   
     /* Example adjustment for contact-form-container section */
@@ -935,9 +935,8 @@ img {
     /* Add more adjustments for phone version as needed */
   
     /* Adjust security possibilities box for smaller screens */
-    .security_possibilities_container_box {
-      width: 100%;
-      margin-bottom: 20px;
+    .security_possibilities_container_box-content {
+      background-color: pink;
     }
   
     /* Example adjustment for security possibilities box content */
