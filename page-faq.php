@@ -28,7 +28,7 @@ Template Name: FAQ
 
         <!-- FAQ Section -->
      <section class="faq">
-        <h2 class="heading-above"><?php echo get_field("faq_main_article_title"); ?></h2>
+        <h2 class="heading-above"><?php echo get_field("fqa_main_article_title"); ?></h2>
         <div class="faq_container">
             <?php $loop = new WP_Query(array('post_type' => 'question-and-answer', 'posts_per_page' => -1)); ?>
                 <?php while ($loop->have_posts()) : $loop->the_post(); ?>
