@@ -98,7 +98,7 @@ Template Name: Services
 <!--  <div class="review-header"> -->
     <h6 class="heading-above"><?php echo get_field("what_our_customers_say_heading"); ?></h6>
 <!--  </div> -->
-        <?php $loop = new WP_Query( array( 'post_type' => 'security_possibility', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
+        <?php $loop = new WP_Query( array( 'post_type' => 'what-our-customers-s', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
     <div class="review-container">
@@ -113,7 +113,7 @@ Template Name: Services
                             <div class="review-box">
                                 <h3><?php echo get_field("client_company_title"); ?></h3>
                                 <p class="article-text"><?php echo get_field("description"); ?></p>
-                                <p class="author-info">name_of_speaker</p>
+                                <p class="author-info"><?php echo get_field("name_of_speaker"); ?></p>
                             </div>
                         </div>
                     </div>
