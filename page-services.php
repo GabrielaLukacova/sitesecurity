@@ -82,20 +82,15 @@ Template Name: Services
 
 <!-- Contact Us - Calling to action Section -->
 
-<div class="call_to_action_contact_us">
-    <div class="yellow_box"></div>
-    <div class="call_to_action_contact_us_content">
-        <div class="call_to_action_contact_us_content_text">
-            <h1>We can help you with personalized recommendations!</h1>
-            <p>Contact us by phone or send contact form to get personalized consultation for your own business situation.</p>
-            <a href="#" class="button">Contact us</a>
-        </div>
-        <div class="call_to_action_contact_us_content_image">
-            <img src="your-image.jpg" alt="Your Image" class="image-container">
+<section id="article_with_image_call_us" style="background-image: <?php $image = get_field('contact_us_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #F6F6F6;   color:#363636;">
+    <div class="article_with_img" style="width: 85%; ">
+        <div class="height_div_for_articles call_us_article" style="width: 70%; " > 
+            <h3 class="optima" style="font-size: 40px; margin: 10px;"><?php the_field('contact_us_title'); ?></h3>   
+            <p style="font-size: 24px; margin: 10px"><?php the_field('contact_us_article'); ?></p>   
+            <a style="width: auto; "href="<?php echo get_permalink( get_page_by_path( 'contact' ) ) ?>" class="button_yellow">Contact</a>   
         </div>
     </div>
-</div>
-
+</section> 
 
 
 <!-- Custumer rewies Section -->
