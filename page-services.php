@@ -105,9 +105,7 @@ Template Name: Services
         <?php $loop = new WP_Query( array( 'post_type' => 'what-our-customers-s', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-    <div class="review-container">
-        <div class="slick-carousel">
-            
+    <div class="review-container">            
             <!-- First Review -->
             <div class="review-item">
                 <div class="background-image">
