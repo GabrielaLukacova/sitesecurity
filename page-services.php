@@ -87,7 +87,7 @@ Template Name: Services
         <div class="height_div_for_articles call_us_article" style="width: 70%; " > 
             <h3 class="optima" style="font-size: 40px; margin: 10px;"><?php the_field('contact_us_title'); ?></h3>   
             <p style="font-size: 24px; margin: 10px"><?php the_field('contact_us_article'); ?></p>   
-            <a href="<?php echo get_permalink( get_page_by_path( 'contact' ) ) ?>" class="button_yellow">Contact</a>   
+            <a style="width: auto; "href="<?php echo get_permalink( get_page_by_path( 'contact' ) ) ?>" class="button_yellow">Contact</a>   
         </div>
     </div>
 </section> 
