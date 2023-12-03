@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
     // SLIDE SHOW - customers reviews
     $('.slick-carousel').slick({
         dots: true,
@@ -20,18 +20,5 @@ jQuery(document).ready(function($) {
             }
         ]
     });
-
-    // FAQ - opening box after clicking on arrow
-    $('.faq-container_box .question').on('click', function () {
-        console.log('Click event triggered.');
-
-        const answer = $(this).closest('.faq-container_box').find('.answer');
-
-        // Toggle the 'open' class to trigger CSS transitions
-        answer.toggleClass('open');
-
-        // Toggle the arrow direction
-        const arrow = $(this).find('.arrow');
-        arrow.text(arrow.text() === '▶' ? '▼' : '▶');
-    });
 });
+
