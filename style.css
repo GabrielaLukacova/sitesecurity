@@ -228,8 +228,7 @@ footer {
 
 .social-icons-container img {
   padding-left: 5px;
-}
-
+} 
 
 
 
@@ -931,6 +930,7 @@ input[type="checkbox"]:checked + .question + .answer {
   }
 
   .advantages_main_content p {
+
     color: #17161d;
 }
   .advantages-box-content {
@@ -1099,27 +1099,3 @@ input[type="checkbox"]:checked + .question + .answer {
 
   }
 /*----Footer-----*/
-
-footer {
-  flex-direction: column;
-  text-align: center;
-}
-
-.column.links,
-.column.image,
-.column.contact-info {
-  margin-bottom: 20px;
-}
-
-.column.image {
-  padding-left: 0;
-}
-
-.column.links a {
-  margin: 5px;
-}
-
-.footer_call_mail,
-.social-icons-container {
-  justify-content: center;
-}
