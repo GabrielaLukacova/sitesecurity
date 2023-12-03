@@ -725,10 +725,7 @@ justify-content: center;
   background-color: #AABFDF;
   text-align: left;
   padding: 50px;
-  /*max-width: 800px; */
   margin: 0 auto; 
-  display: flex;
-  align-items: center;
 }
 
 .heading-above-faq h2 {
@@ -743,14 +740,8 @@ justify-content: center;
 }
 
 
-.faq_container {
-  max-width: 800px;
-  align-items: center;
-}
-
 .faq_container_box {
   margin-bottom: 20px; 
-   /*max-width: 800px; */
 }
 
 .faq-box {
