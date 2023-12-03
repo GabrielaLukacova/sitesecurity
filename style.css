@@ -822,10 +822,10 @@ justify-content: center;
 .question {
   cursor: pointer;
   font-weight: lighter; 
-  padding: 40px 30px; 
+  padding: 40px 50px; 
   background-color: #ffffff;
   color: #424147;
-  font-size: 24px;
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -843,14 +843,14 @@ justify-content: center;
 
 .answer {
   display: none;
-  padding: 40px 30px; 
+  padding: 40px 50px; 
   background-color: #ffffff;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease-out;
   color: #424147;
   font-weight: lighter;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 input[type="checkbox"] {
