@@ -823,7 +823,6 @@ input[type="checkbox"]:checked + .question + .answer {
   margin-left: 0; 
   text-align: center;
   color: #424147;
-  font-weight: bold;
 }
 
 .faq_call_to_action_box p {
