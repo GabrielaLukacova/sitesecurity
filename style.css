@@ -1014,8 +1014,12 @@ img {
   .advantages-box-content {
     font-size: 16px;
   }
+
+  .contact-form-container {
+    align-items: center;
+  }
   .contact-form {
-    margin-right: 100px;
+    margin-right: 10px;
   }
  
 }
