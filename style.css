@@ -592,10 +592,10 @@ justify-content: center;
 
 .review-box {
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px;
+  padding: 60px 20px 20px;
   width: 80%;
   height: fit-content;
-  margin-top: 20px;
+  margin-top: -70px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -603,7 +603,7 @@ justify-content: center;
 
 .review-box h3 {
   margin-bottom: 10px;
-  color: #fff;
+  color:#FCD53F;
 }
 
 .review-box p {
@@ -615,10 +615,14 @@ justify-content: center;
   width: 212px;
   height: 212px;
   align-self: center;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
 }
-.author-info {
+
+.review-box .author-info {
   font-style: italic;
-  color: #bababa;
+  color:#FCD53F;
 }
 
 

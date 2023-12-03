@@ -99,7 +99,7 @@ Template Name: Services
 <section class="customer-reviews_mai">
 
 <h3 class="heading-above" style=" margin: 0; padding: 20px 0 0 0; background-color: #424146; height: 70px; color: white; font-weight: 300;" ><?php echo get_field("what_our_customers_say_heading"); ?></h3>
-<section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center;  height: 170vh;">   
+<section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center;">   
 <!--  <div class="review-header"> -->
 <!--  </div> -->
         <?php $loop = new WP_Query( array( 'post_type' => 'what-our-customers-s', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
