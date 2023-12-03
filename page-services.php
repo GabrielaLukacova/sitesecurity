@@ -94,7 +94,7 @@ Template Name: Services
 <!-- Custumer rewies Section -->
 
 
-<section class="customer-reviews">   
+<section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">   
 <!--  <div class="review-header"> -->
     <h6 class="heading-above"><?php echo get_field("what_our_customers_say_heading"); ?></h6>
 <!--  </div> -->
@@ -116,7 +116,7 @@ Template Name: Services
                                 <p class="author-info"><?php echo get_field("name_of_speaker"); ?></p>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
 
             </div>
