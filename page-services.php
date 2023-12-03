@@ -107,8 +107,6 @@ Template Name: Services
 
     <div class="review-container">            
             <!-- First Review -->
-            <div class="review-item">
-                <div class="background-image">
                         <div class="center-content">
                         <div class="client_logo" style="background-image: <?php $image = get_field('client_company_logo'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; " alt="client_logo_img_reviews"></div>
                             <div class="review-box">
@@ -118,11 +116,6 @@ Template Name: Services
                             </div>
                         </div>
                     
-                </div>
-
-            </div>
-        </div>
-
     </div>
     <?php endwhile; wp_reset_query(); ?>
     <a href="https://www.sitesecurity.dk/en/anbefaling" class="button_grey button_grey_more_reviews ">More reviews on Site-Security website</a> 

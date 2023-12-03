@@ -562,9 +562,6 @@ footer {
   padding: 10px;
 }
 
-.review-container {
-  position: relative;
-}
 
 .background-image {
   background: url('background-image.jpg') center/cover no-repeat;
@@ -572,6 +569,14 @@ footer {
   position: relative;
 }
 */
+
+.review-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
 
 .center-content {
   text-align: center;
