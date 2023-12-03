@@ -149,6 +149,9 @@ Template Name: Services
     <!--- One color line seperator yellow --->
 
 <div class="line-seperator-1" style="background-color: #AABFDF; height: 40px;"></div>
+
+<script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script> 
+
 </main>
 <?php get_footer() ?>
 </body>
