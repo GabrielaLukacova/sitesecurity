@@ -777,78 +777,76 @@ img {
 
 
 
-    .faq {
-      background-color: #AABFDF;
-      align-items: center;
-      padding: 50px;
-  }
-  
-  .faq h2 {
-      color: #ffffff;
-      padding-top: 30px;
-  }
-  
-  .faq-container {
-      max-width: 1200px;
-      margin: 20px auto;
-  }
-  
-  .faq-column {
-      width: 100%;
-      box-sizing: border-box;
-      text-align: left;
-      display: flex;
-      align-self: center;
-  }
-  
-  .faq-box {
-      background-color: white;
-      margin: 10px auto;
-      padding: 15px;
-      position: relative;
-      width: 80%;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: box-shadow 0.3s ease, transform 0.3s ease;
-  }
-  
-  .faq-box:hover {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-      transform: scale(1.02);
-  }
-  
-  .question {
-      cursor: pointer;
-      font-weight: bold;
-  }
-  
-  .answer {
-      display: none;
-      padding-top: 10px;
-      overflow: hidden;
-      max-height: 0;
-      transition: max-height 0.3s ease-out;
-  }
-  
-  .arrow {
-      position: absolute;
-      top: 50%;
-      right: 10px;
-      transform: translateY(-50%);
-      cursor: pointer;
-      transition: transform 0.3s ease-out;
-      color: #AABFDF;
-  }
-  
-  .answer.open {
-      display: block;
-      max-height: 500px;
-  }
-  
-  .question.open .arrow {
-      transform: translateY(-50%) rotate(180deg);
-  }
-  
+    /* style.css */
+.faq {
+  background-color: #AABFDF;
+  align-items: center;
+}
 
+.faq h2 {
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+.faq-container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.faq-column {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+  align-self: center;
+}
+
+.faq-box {
+  background-color: white;
+  margin: 10px auto;
+  padding: 15px;
+  position: relative;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.faq-box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.question {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.answer {
+  display: none;
+  padding-top: 10px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+  color: #AABFDF;
+}
+
+.answer.open {
+  display: block;
+  max-height: 500px;
+}
+
+.question.open .arrow {
+  transform: translateY(-50%) rotate(180deg);
+}
 
 
 

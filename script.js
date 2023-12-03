@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-    // Slick Carousel
+    // SLIDE SHOW - customers reviews
     $('.slick-carousel').slick({
         dots: true,
         infinite: true,
@@ -20,7 +20,9 @@ jQuery(document).ready(function ($) {
             }
         ]
     });
+});
 
+jQuery(() => {
     // FAQ - opening box after clicking on arrow
     $('.faq-container_box .question').on('click', function () {
         const answer = $(this).next();
@@ -31,14 +33,5 @@ jQuery(document).ready(function ($) {
         // Toggle the arrow direction
         const arrow = $(this).find('.arrow');
         arrow.text(arrow.text() === '▶' ? '▼' : '▶');
-    });
-
-    // FAQ - toggle "active" class on click
-    const faqs = document.querySelectorAll(".faq");
-
-    faqs.forEach((faq) => {
-        faq.addEventListener("click", () => {
-            faq.classList.toggle("active");
-        });
     });
 });
