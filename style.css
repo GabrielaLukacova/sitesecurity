@@ -462,6 +462,10 @@ footer {
   transition: background-color 0.3s ease;
   font-size: 20px;
 }
+.button_grey_more_reviews {
+  width: 60%;
+}
+
 
 .button_grey:hover {
   background-color: #FDD43E;
@@ -586,11 +590,12 @@ img {
 }
 
 .review-box {
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 400px;
-  margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    height: fit-content;
+    margin-top: 20px;
 }
 
 .review-box h3 {

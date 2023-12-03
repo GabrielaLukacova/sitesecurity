@@ -108,9 +108,9 @@ Template Name: Services
             <div class="review-item">
                 <div class="background-image">
                         <div class="center-content">
-                         <?php $image = get_field ("client_company_logo"); ?> 
-                        <img src="<?php echo $image["url"] ?>" alt="Client_logo_img_reviews"> 
+
                             <div class="review-box">
+                                <?php $image = get_field ("client_company_logo"); ?> <img src="<?php echo $image["url"] ?>" alt="client_logo_img_reviews"> 
                                 <h3><?php echo get_field("client_company_title"); ?></h3>
                                 <p class="article-text"><?php echo get_field("description"); ?></p>
                                 <p class="author-info"><?php echo get_field("name_of_speaker"); ?></p>
@@ -122,8 +122,8 @@ Template Name: Services
             </div>
         </div>
 
-        <?php endwhile; wp_reset_query(); ?>
     </div>
+    <?php endwhile; wp_reset_query(); ?>
     <a href="https://www.sitesecurity.dk/en/anbefaling" class="button_grey">More reviews on Site-Security website</a> 
 </section>
 
