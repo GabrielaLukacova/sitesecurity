@@ -124,7 +124,7 @@ Template Name: Services
 
     </div>
     <?php endwhile; wp_reset_query(); ?>
-    <a href="https://www.sitesecurity.dk/en/anbefaling" class="button_grey">More reviews on Site-Security website</a> 
+    <a href="https://www.sitesecurity.dk/en/anbefaling" class="button_grey button_grey_more_reviews ">More reviews on Site-Security website</a> 
 </section>
 
 
