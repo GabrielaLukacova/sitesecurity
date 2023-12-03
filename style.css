@@ -820,7 +820,7 @@ input[type="checkbox"]:checked + .question + .answer {
 .faq_call_to_action h3 {
   font-size: 40px;
   margin-left: 0; 
-  text-align: center; 
+  text-align: center;
   color: #424147;
   font-weight: normal;
 }
