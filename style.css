@@ -972,8 +972,8 @@ input[type="checkbox"]:checked + .question + .answer {
 }
 
 .wpcf7-form-control.wpcf7-submit.has-spinner {
-  margin: 8px;
-  margin-left: 30px;
+  margin-bottom:8px;
+  
 }
 
 .wpcf7 form .wpcf7-response-output {
