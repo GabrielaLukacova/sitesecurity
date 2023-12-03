@@ -61,13 +61,15 @@ Template Name: Services
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
             <div class="security_possibilities_container_box" style="background-image: <?php $image = get_field('product_image'); ?> url('<?php echo esc_url($image["url"]); ?>');     background-position: 10%; background-repeat: no-repeat; height: auto; background-color: #fff;">
-                    <div class="security_possibilities_container_box-content">
+                <div class="security_possibilities_container_box-content">
                     <div class="box-content" style="text-align: right; width: 60%; color: #363636">
                         <h3 class="heading_white" style=" background-color: rgba(51, 51, 51, 0.7); font-size: 24px; padding: 10px 10px;"><?php echo get_field("product_heading"); ?></h3>
                         <p class=" article-text heading_white" style=" text-align: right; background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;">
                         <?php echo get_field("product_description"); ?></p>
                     </div>
+                    <div style="align-self: end; height: 90%">
                     <a href="<?php echo get_permalink( get_page_by_path( 'services' ) ) ?>" class="button_yellow" style="align-self: end; height: 90%">Read more</a>
+                    </div>
                 </div>
             </div>
         <?php endwhile; wp_reset_query(); ?>
