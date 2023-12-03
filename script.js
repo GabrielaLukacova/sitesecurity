@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function($) {
     // SLIDE SHOW - customers reviews
     $('.slick-carousel').slick({
         dots: true,
@@ -23,11 +23,7 @@ jQuery(document).ready(function ($) {
 
     // FAQ - opening box after clicking on arrow
     $(document).on('click', '.faq-container_box .question', function () {
-        // Find the closest ancestor with the class 'faq-container_box'
-        const containerBox = $(this).closest('.faq-container_box');
-
-        // Find the answer element within the containerBox
-        const answer = containerBox.find('.answer');
+        const answer = $(this).closest('.faq-container_box').find('.answer');
 
         // Toggle the 'open' class to trigger CSS transitions
         answer.toggleClass('open');
