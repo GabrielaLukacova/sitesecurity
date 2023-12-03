@@ -866,18 +866,22 @@ input[type="checkbox"]:checked + .question + .answer {
 
 
   .footer {
-    display:block
-    text-align: center;
+    display:block;
+    flex-direction: column;
+  }
+
+  .column{
+    display: block;
   }
 
   .column.image {
-    order: -1; /* Set the order for smaller screens to bring the image to the top */
+    order: -1; 
     padding-left: 0;
   }
 
   .column.links,
   .column.contact-info {
-    order: 0; /* Set the order for smaller screens to place links after the image */
+    order: 0; 
     margin-bottom: 20px;
   }
 
