@@ -105,7 +105,6 @@ Template Name: Home
                     <div class="box-content">
                         <h3 class="heading_white" style="background-color: rgba(51, 51, 51, 0.7); font-size: 18px; padding: 10px 10px;"><?php echo get_field("security_possibility_heading"); ?></h3>
                         <p class="article-text heading_white" style="background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;"><?php echo get_field("security_possibility_description"); ?></p>
-                        <a href="https://www.sitesecurity.dk/en/loesninger" class="button_yellow">Read more</a>
                     </div>
                 </div>
             </div>
