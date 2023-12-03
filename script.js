@@ -24,8 +24,12 @@ jQuery(document).ready(function ($) {
 
 jQuery(() => {
     // FAQ - opening box after clicking on arrow
-    $('.faq-container_box .question').on('click', function () {
-        const answer = $(this).next();
+    $(document).on('click', '.faq-container_box .question', function () {
+        // Find the closest ancestor with the class 'faq-container_box'
+        const containerBox = $(this).closest('.faq-container_box');
+
+        // Find the answer element within the containerBox
+        const answer = containerBox.find('.answer');
 
         // Toggle the 'open' class to trigger CSS transitions
         answer.toggleClass('open');
