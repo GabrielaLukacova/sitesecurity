@@ -387,7 +387,11 @@ footer {
 }
 
 
-
+.contact_btn {
+  width: 130px; 
+  font-size: 28px; 
+  text-align: center;
+}
 
 /* <--- Media Queries ---> */
 
