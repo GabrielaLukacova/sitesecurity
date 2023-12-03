@@ -32,4 +32,13 @@ jQuery(document).ready(function ($) {
         const arrow = $(this).find('.arrow');
         arrow.text(arrow.text() === '▶' ? '▼' : '▶');
     });
+
+    // FAQ - toggle "active" class on click
+    const faqs = document.querySelectorAll(".faq");
+
+    faqs.forEach((faq) => {
+        faq.addEventListener("click", () => {
+            faq.classList.toggle("active");
+        });
+    });
 });
