@@ -55,7 +55,7 @@ Template Name: Contact
 
 <!--- ARTICLE WITH IMAGE Blue section --->
 
-<section class="article_with_img__blue" style="background-image: <?php $image = get_field('article_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #AABFDF">
+<section class="article_with_img__blue" style="background-image: <?php $image = get_field('article_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; background-color: #AABFDF">
     <div class="article_with_img">
         <div class="height_div_for_articles " style="width: 80%; " >
             <p style=" width: 70%; font-size: 40px; margin: 10px;"><?php the_field('article_title'); ?></p>   
