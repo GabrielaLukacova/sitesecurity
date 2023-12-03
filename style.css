@@ -723,13 +723,13 @@ justify-content: center;
 
 .faq {
   background-color: #AABFDF;
-  text-align: left;
+  text-align: center;
   padding: 50px;
   margin: 0 auto; 
 }
 
 .heading-above-faq h2 {
-  text-align: left;
+  text-align: center;
 }
 
 .faq h2 {
@@ -742,7 +742,7 @@ justify-content: center;
 
 .faq_container {
   max-width: 800px;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .faq_container_box {
