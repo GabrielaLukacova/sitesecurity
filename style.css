@@ -914,16 +914,25 @@ input[type="checkbox"]:checked + .question + .answer {
   .advantages_main {
     padding: 20px;
     background-position: right;
-
+    background-attachment: fixed;
     background-image: transparent 50%;
   }
 
     .advantages_main h2 {
       font-size: 37px;
   }
+
+  .advantages_main_content p {
+    color: #17161d;
+}
   .advantages-box-content {
     font-size: 25px;
   }
+  .gray-text {
+    color: rgba(0, 0, 0, 1);
+}
+
+
   .contact-form-container {
     align-items: center;
   }
