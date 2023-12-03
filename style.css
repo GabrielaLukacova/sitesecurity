@@ -726,14 +726,14 @@ justify-content: center;
 
 .faq {
   background-color: #AABFDF;
-  text-align: left;
+  text-align: center;
   padding: 50px;
-  max-width: 800px; 
   margin: 0 auto; 
 }
 
 .heading-above-faq h2 {
-  text-align: left;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .faq h2 {
@@ -741,6 +741,12 @@ justify-content: center;
   font-weight: light;
   font-size: 40px;
   padding-top: 30px;
+}
+
+
+.faq_container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .faq_container_box {
@@ -762,6 +768,7 @@ justify-content: center;
   justify-content: space-between;
   align-items: center;
   transition: background-color 0.3s ease; 
+  text-align: left;
 }
 
 .question:hover {
@@ -783,6 +790,7 @@ justify-content: center;
   color: #424147;
   font-weight: lighter;
   font-size: 24px;
+  text-align: left;
 }
 
 input[type="checkbox"] {
@@ -804,6 +812,7 @@ input[type="checkbox"]:checked + .question + .answer {
 
 /*<-----  FAQ call to action -----> */
 
+
 .faq_call_to_action {
   padding: 70px; 
   background-color: #fff;
@@ -812,6 +821,7 @@ input[type="checkbox"]:checked + .question + .answer {
 .faq_call_to_action_boxes {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .faq_call_to_action_box {
@@ -825,14 +835,13 @@ input[type="checkbox"]:checked + .question + .answer {
   margin-left: 0; 
   text-align: center;
   color: #424147;
-  font-weight: normal;
 }
 
 .faq_call_to_action_box p {
   font-size: 24px;
   text-align: center; 
   color: #424147;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 
