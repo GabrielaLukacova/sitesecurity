@@ -8,7 +8,7 @@
 
     <div class="column image">
         <a href="https://www.sitesecurity.dk/" target="_blank" rel="noopener noreferrer">
-            <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/SiteSecurityLogo.png" alt="Logo" width="100" height="50">
+            <img src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/images/SiteSecurityLogo.png" alt="Logo" width="50" height="50">
         </a>
     </div>
 
