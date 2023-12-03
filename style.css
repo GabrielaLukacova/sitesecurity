@@ -911,31 +911,27 @@ input[type="checkbox"]:checked + .question + .answer {
   }
  
 }
-
-footer {
-  flex-direction: column;
-  text-align: center;
+/*----Home-----*/
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    height: 60vh;
 }
 
-.column.links,
-.column.image,
-.column.contact-info {
-  margin-bottom: 20px;
+.hero-content {
+  position: absolute;
+  max-width: 600px;
+  top: 37%;
 }
 
-.column.image {
-  padding-left: 0;
-}
+  }
 
-.column.links a {
-  margin: 5px;
-}
 
-.footer_call_mail,
-.social-icons-container {
-  justify-content: center;
-}
+
 /*----Services-----*/
+@media only screen and (max-width: 768px) {
+
+}
+
 /*----FAQ-----*/
 
 @media only screen and (max-width: 768px) {
@@ -988,4 +984,29 @@ footer {
     text-align: center;
   }
 
+}
+/*----Footer-----*/
+
+footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+.column.links,
+.column.image,
+.column.contact-info {
+  margin-bottom: 20px;
+}
+
+.column.image {
+  padding-left: 0;
+}
+
+.column.links a {
+  margin: 5px;
+}
+
+.footer_call_mail,
+.social-icons-container {
+  justify-content: center;
 }
