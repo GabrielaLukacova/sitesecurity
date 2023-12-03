@@ -584,11 +584,10 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: max-content;
+  /* width: max-content; */
   align-items: center;
   gap: 20px;
 }
-
 
 .review-box {
   background-color: rgba(0, 0, 0, 0.3);
