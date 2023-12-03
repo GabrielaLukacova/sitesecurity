@@ -1032,7 +1032,25 @@ input[type="checkbox"]:checked + .question + .answer {
   }
  
 }
+/*----Home-----*/
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    height: 60vh;
+}
+
+.hero-content {
+  position: absolute;
+  max-width: 600px;
+  top: 37%;
+}
+
+  }
+
 /*----Services-----*/
+@media only screen and (max-width: 768px) {
+
+}
+
 /*----FAQ-----*/
 
 @media only screen and (max-width: 768px) {
