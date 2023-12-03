@@ -283,7 +283,13 @@ footer {
   display: flex;
   flex-direction: column;
   height: 320px;
+  width: 80%;
 }
+
+.phone_bar_text {
+  margin: 0 0 10px 0;
+}
+
 
 .call_us_article {
   height: 500px;
@@ -1140,6 +1146,9 @@ input[type="checkbox"]:checked + .question + .answer {
   body {
     font-size: 14px; 
   }
+  
+  .phone_bar_text{  
+  margin: 0 0 10px 0;}
 
 
   .article_with_img__blue {
