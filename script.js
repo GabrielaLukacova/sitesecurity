@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
     });
 
     // FAQ - opening box after clicking on arrow
-    $(document).on('click', '.faq-container_box .question', function () {
+    $('.faq-container_box .question').on('click', function () {
         console.log('Click event triggered.');
 
         const answer = $(this).closest('.faq-container_box').find('.answer');
