@@ -88,14 +88,14 @@ Template Name: Contact
 
 <section id="article_with_image_call_us" style="background-image: <?php $image = get_field('call_hours_image'); ?> url('<?php echo esc_url($image["url"]); ?>');  background-color: #F6F6F6;  color:#363636;">
     <div class="article_with_img" style="width: 85%; ">
-        <div class="height_div_for_articles call_us_article" style="width: 70%; " > 
+        <div class="height_div_for_articles call_us_article" > 
             <p class="optima" style="font-size: 40px; margin: 10px;"><?php the_field('call_hours_heading'); ?></p>   
             <p style="font-size: 24px; margin: 10px"><?php the_field('call_hours_description'); ?></p>   
                 <div class="optima" style="font-size: 30px; display: flex; align-items: center; gap: 10px;">
                     <span class="material-icons" style="padding: 0 0 0 10px;" aria-hidden="true">call</span>
                     <p style="font-size: 30px;"><?php the_field('phone'); ?></p>
                 </div> 
-            <p class="optima" style="width: 30%; font-size: 30px; margin: 10px;"><?php the_field('call_hours'); ?></p>   
+            <p class="p_optima" style=" font-size: 30px;"><?php the_field('call_hours'); ?></p>   
         </div>
     </div>
 </section> 
