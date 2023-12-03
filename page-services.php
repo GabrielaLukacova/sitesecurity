@@ -66,6 +66,7 @@ Template Name: Services
                         <h3 class="heading_white" style=" background-color: rgba(51, 51, 51, 0.7); font-size: 24px; padding: 10px 10px;"><?php echo get_field("product_heading"); ?></h3>
                         <p class=" article-text heading_white" style=" text-align: right; background-color: rgba(51, 51, 51, 0.7); color: #fff; font-size: 18px; margin: 0 auto; padding: 10px 10px;">
                         <?php echo get_field("product_description"); ?></p>
+                        <a href="https://www.sitesecurity.dk/en/modelprogram" class="button_yellow">Read more</a>
                     </div>
                 </div>
             </div>
