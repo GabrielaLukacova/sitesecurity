@@ -80,6 +80,9 @@ Template Name: Services
 
  </section>
 
+ <!--- One color line seperator yellow --->
+<div class="line-seperator-1" style="background-color: #FFC826; height: 40px;"></div>
+
 <!-- Contact Us - Calling to action Section -->
 
 <section id="article_with_image_call_us" style="background-image: <?php $image = get_field('contact_us_right_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: auto; height: 500px; background-color: #F6F6F6;   color:#363636;">
@@ -95,59 +98,59 @@ Template Name: Services
 
 <!-- Custumer rewies Section -->
 
-<section class="customer-reviews">
-    <div class="review-header">
-        <h2>What our customers say</h2>
-    </div>
+
+<section class="customer-reviews" style="background-image: <?php $image = get_field('what_our_customers_say_bg_image'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 100vh;">   
+<!--  <div class="review-header"> -->
+    <h6 class="heading-above"><?php echo get_field("what_our_customers_say_heading"); ?></h6>
+<!--  </div> -->
+        <?php $loop = new WP_Query( array( 'post_type' => 'what-our-customers-s', 'posts_per_page' => -1, 'order' => 'ASC' ) ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
     <div class="review-container">
         <div class="slick-carousel">
             
             <!-- First Review -->
-            <div class="review-item">
-                <div class="background-image">
                         <div class="center-content">
-                            <img src="company-logo1.png" alt="Company Logo 1">
+                         <?php $image = get_field ("client_company_logo"); ?> 
+                        <img src="<?php echo $image["url"] ?>" alt="Client_logo_img_reviews"> 
                             <div class="review-box">
-                                <h3>Company Name 1</h3>
-                                <p>"What customers said about our services. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-                                <p class="author-info">- John Doe, CEO, Company XYZ</p>
+                                <h3><?php echo get_field("client_company_title"); ?></h3>
+                                <p class="article-text"><?php echo get_field("description"); ?></p>
+                                <p class="author-info"><?php echo get_field("name_of_speaker"); ?></p>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
-
-                <!-- Second Review -->
-                <div class="review-item">
-                    <div class="background-image">
-                        <div class="center-content">
-                            <img src="company-logo2.png" alt="Company Logo 2">
-                            <div class="review-box">
-                                <h3>Company Name 2</h3>
-                                <p>"Another customer testimonial. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-                                <p class="author-info">- Jane Smith, COO, Company ABC</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
 
             </div>
         </div>
-    </section>
 
+        <?php endwhile; wp_reset_query(); ?>
+    </div>
+    <a href="https://www.sitesecurity.dk/en/anbefaling" class="button_grey">More reviews on Site-Security website</a> 
+</section>
 
+<!-- More info on main website Section -->
 
-    <section class="call_to_action_more_info">
+    <section class="call_to_action_more_info" style="background-color: #424146;">
         <div class="call_to_action_more_info_left">
-            <h3>Your Heading</h3>
+            <h3 style="color: white; font-weight: 200;" ><?php echo get_field("go_to_website_title"); ?></h3>
         </div>
         <div class="call_to_action_more_info_right">
-        <a href="<?php echo get_permalink( get_page_by_path( 'https://www.sitesecurity.dk/' ) ) ?>" class="button_yellow">Site Security</a>
+        <a href="https://www.sitesecurity.dk/en" class="button_yellow">Site Security</a> 
         </div>
     </section>
 
 
-
+    <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
+    
     <?php endwhile ?>
+
+    <!--- One color line seperator yellow --->
+
+<div class="line-seperator-1" style="background-color: #AABFDF; height: 40px;"></div>
+
+<script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script> 
+
 </main>
 <?php get_footer() ?>

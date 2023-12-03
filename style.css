@@ -451,10 +451,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 35px; 
+  height: fit-content;
   width: 140px;
   margin: 20px auto;
-  padding: 10px 20px;
+  padding: 15px 20px;
   background-color: #363636; 
   color: #ffffff;
   text-decoration: none;
@@ -462,6 +462,10 @@ footer {
   transition: background-color 0.3s ease;
   font-size: 20px;
 }
+.button_grey_more_reviews {
+  width: 40%;
+}
+
 
 .button_grey:hover {
   background-color: #FDD43E;
@@ -511,7 +515,7 @@ footer {
 }
 
 .security_possibilities_container_box-content {
-  padding: 20px;
+  padding: 20px  20px  100px  20px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -551,51 +555,54 @@ footer {
   text-align: center;
   padding: 20px;
 }
-
+/* 
 .review-header {
   background-color: #424147;
   color: #fff;
   padding: 10px;
 }
 
-.review-container {
-  position: relative;
-}
 
 .background-image {
   background: url('background-image.jpg') center/cover no-repeat;
   height: 300px;
   position: relative;
 }
+*/
 
-.center-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.review-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+
+.center-content {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* width: max-content; */
+  align-items: center;
+  gap: 20px;
 }
 
 .review-box {
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 400px;
-  margin-top: 20px;
+  padding: 60px 20px 20px;
+  width: 80%;
+  height: fit-content;
+  margin-top: -70px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .review-box h3 {
   margin-bottom: 10px;
-  color: #fff;
+  color:#ffffff;
 }
 
 .review-box p {
@@ -603,9 +610,18 @@ img {
   color: #fff;
 }
 
-.author-info {
+.client_logo {
+  width: 212px;
+  height: 212px;
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.review-box .author-info {
   font-style: italic;
-  color: #bababa;
+  color:#FCD53F;
 }
 
 
@@ -655,9 +671,9 @@ img {
 .call_to_action_more_info {
     display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 20px;
-    height: 200px; 
+    height: 220px; 
+    flex-wrap: wrap;
 }
 
 .call_to_action_more_info_left .call_to_action_more_info_right {
@@ -666,7 +682,14 @@ img {
     align-items: center;
     justify-content: center;
 }
+.call_to_action_more_info_left {
+   width: 70%;
+   padding-left: 7%;
+}
 
+.services_and_products_main {
+  padding: 3%;
+}
 
 .services_to_meet_needs{
   position: relative;
@@ -772,79 +795,51 @@ img {
 
 
 
-    .faq {
-      background-color: #AABFDF;
-      align-items: center;
-      padding: 50px;
+    /* faq */
+    .faq_container_box {
+      margin-bottom: 10px;
   }
-  
-  .faq h2 {
-      color: #ffffff;
-      padding-top: 30px;
-  }
-  
-  .faq-container {
-      max-width: 1200px;
-      margin: 20px auto;
-  }
-  
-  .faq-column {
-      width: 100%;
-      box-sizing: border-box;
-      text-align: left;
-      display: flex;
-      align-self: center;
-  }
-  
+
   .faq-box {
-      background-color: white;
-      margin: 10px auto;
-      padding: 15px;
       position: relative;
-      width: 80%;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
-  
-  .faq-box:hover {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-      transform: scale(1.02);
-  }
-  
+
   .question {
       cursor: pointer;
       font-weight: bold;
+      padding: 10px;
+      background-color: #AABFDF;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
-  
+
+  .arrow {
+      transition: transform 0.3s ease-out;
+  }
+
   .answer {
       display: none;
-      padding-top: 10px;
+      padding: 10px;
+      background-color: #ffffff;
       overflow: hidden;
       max-height: 0;
       transition: max-height 0.3s ease-out;
   }
-  
-  .arrow {
-      position: absolute;
-      top: 50%;
-      right: 10px;
-      transform: translateY(-50%);
-      cursor: pointer;
-      transition: transform 0.3s ease-out;
-      color: #AABFDF;
+
+  input[type="checkbox"] {
+      display: none;
   }
-  
-  .answer.open {
+
+  input[type="checkbox"]:checked + .question .arrow {
+      transform: rotate(90deg);
+  }
+
+  input[type="checkbox"]:checked + .question + .answer {
       display: block;
-      max-height: 500px;
+      max-height: 500px; /* Adjust as needed */
   }
-  
-  .question.open .arrow {
-      transform: translateY(-50%) rotate(180deg);
-  }
-  
-
-
 
 
     /*.faq {
