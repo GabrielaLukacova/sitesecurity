@@ -1039,13 +1039,26 @@ input[type="checkbox"]:checked + .question + .answer {
   font-size: 18px;
 }
 
+.faq_call_to_action {
+  padding: 14px;
+  background-color: #fff;
+}
+
+.faq_call_to_action h3 {
+  padding: 40px 60px 0 60px;
+}
+
 .faq_call_to_action h2 {
   font-size: 30px;
   margin-left: 20px;
 }
 
 .faq_call_to_action_box p {
-  font-size: 18px;
+  font-size: 24px;
+}
+
+.faq_call_to_action_boxes {
+  margin-top: 10px;
 }
 }
 
