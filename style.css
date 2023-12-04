@@ -898,7 +898,7 @@ input[type="checkbox"]:checked+.question+.answer {
 /*--------------------RESPONSIVNES------------------*/
 
 /*----Fixing mistakes-----*/
-@media only screen and (min-width: 370px) and (max-width: 1000px)
+@media only screen and (min-width: 360px) and (max-width: 395px)
 {
   .hero-content {
     top: 320px!important;
@@ -1146,7 +1146,7 @@ input[type="checkbox"]:checked+.question+.answer {
   }
 
   .hero-content {
-    top: 37%;
+    top: 45%;
   }
 
   .button_grey {
