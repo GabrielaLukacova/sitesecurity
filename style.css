@@ -897,6 +897,17 @@ input[type="checkbox"]:checked+.question+.answer {
 
 /*--------------------RESPONSIVNES------------------*/
 
+/*----Fixing mistakes-----*/
+@media only screen and (max-width:1000px) and (min-width: 370px) {
+  .hero-content {
+    top: 320px;
+  }
+
+  .hero-section {
+    height: 80vh;
+}
+}
+
 /*----Home-----*/
 
 @media only screen and (max-width: 600px) {
@@ -1119,17 +1130,6 @@ input[type="checkbox"]:checked+.question+.answer {
 
 .wpcf7 form .wpcf7-response-output {
   border: none;
-}
-
-  @media only screen and (max-width:1000px) and (min-width: 370px) {
-  .hero-content {
-    top: 320px;
-  }
-
-  .hero-section {
-    height: 80vh;
-}
-
 }
 
 /*----Home Bonus-----*/
