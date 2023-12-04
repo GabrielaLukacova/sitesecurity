@@ -907,6 +907,9 @@ input[type="checkbox"]:checked+.question+.answer {
   .hero-section {
     height: 80vh!important;
 }
+
+#article_with_image_yellow {
+  height: 80vh;}
 }
 
 /*----Home-----*/
