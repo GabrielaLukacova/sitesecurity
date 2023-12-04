@@ -13,7 +13,7 @@ Template Name: Contact
 
 <!-- Hero Section with navbar -->
 
-<div class="hero-section"   style="background-image: <?php $image = get_field('hero_video'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; ">
+<div class="hero-section contact_us_hero"   style="background-image: <?php $image = get_field('hero_video'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; ">
         <div class="navbar">
             <a class="home" href="<?php echo get_permalink(get_page_by_path('home')) ?>" style="order: -1;">Home</a>
             <a href="<?php echo get_permalink(get_page_by_path('services')) ?>">Services</a>
