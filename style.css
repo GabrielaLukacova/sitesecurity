@@ -910,6 +910,9 @@ input[type="checkbox"]:checked+.question+.answer {
 
 #article_with_image_yellow {
   height: 80vh;}
+
+  .article_with_img__blue {
+    height: 75vh;}
 }
 
 /*----Home-----*/
