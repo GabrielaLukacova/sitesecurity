@@ -898,7 +898,8 @@ input[type="checkbox"]:checked+.question+.answer {
 /*--------------------RESPONSIVNES------------------*/
 
 /*----Fixing mistakes-----*/
-@media only screen and (max-width:1000px) and (min-width: 370px) {
+@media only screen and (min-width: 370px) and (max-width: 1000px)
+{
   .hero-content {
     top: 320px;
   }
