@@ -315,6 +315,11 @@ p.p_optima {
   margin: 0;
 }
 
+
+#article_with_image_yellow {
+  background-position: center; 
+  height: 320px;
+}
 /* 
 .optima {
   font-family: 'PT Serif', serif;
@@ -1036,7 +1041,6 @@ input[type="checkbox"]:checked + .question + .answer {
     padding: 20px;
     background-position: right;
     background-attachment: fixed;
-    background-image: transparent 50%;
   }
 
     .advantages_main h2 {
@@ -1044,7 +1048,6 @@ input[type="checkbox"]:checked + .question + .answer {
   }
 
   .advantages_main_content p {
-
     color: #17161d;
 }
   .advantages-box-content {
@@ -1238,6 +1241,12 @@ p.p_optima {
   margin: 10px;
 }
 
+#article_with_image_yellow {
+  height: 60vh;
+  background-position: left;
+  width: 100%;
+  background-attachment: fixed;
+}
 .height_div_for_articles.call_us_article {
   width: 100%;
 }

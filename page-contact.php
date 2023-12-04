@@ -111,7 +111,7 @@ Template Name: Contact
 
 <!--- ARTICLE WITH IMAGE Yellow section --->
 
-<section id="article_with_image_yellow" style="background-image: <?php $image = get_field('other_businesses_secure_img'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-position: center; height: 320px; background-color: #FCD53F;   color:#363636;">
+<section id="article_with_image_yellow" style="background-image: <?php $image = get_field('other_businesses_secure_img'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-color: #FCD53F; color:#363636;">
     <div class="article_with_img">
         <div class="height_div_for_articles"> 
             <p style="text-align: right; font-size: 40px; margin: 10px;">
