@@ -113,7 +113,7 @@ Template Name: Contact
 
 <section id="article_with_image_yellow" style="background-image: <?php $image = get_field('other_businesses_secure_img'); ?> url('<?php echo esc_url($image["url"]); ?>'); background-size: cover; background-color: #FCD53F; color:#363636;">
     <div class="article_with_img">
-        <div class="height_div_for_articles"> 
+        <div class="height_div_for_articles other_businesses"> 
             <p style="text-align: right; font-size: 40px; margin: 10px;">
              <?php the_field('other_businesses_secure_heading'); ?></p>   
             <p style="text-align: right; font-size: 24px; margin: 10px; width: 70%; align-self: end;">
