@@ -901,11 +901,11 @@ input[type="checkbox"]:checked+.question+.answer {
 @media only screen and (min-width: 370px) and (max-width: 1000px)
 {
   .hero-content {
-    top: 320px;
+    top: 320px!important;
   }
 
   .hero-section {
-    height: 80vh;
+    height: 80vh!important;
 }
 }
 
