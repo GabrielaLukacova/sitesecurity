@@ -901,7 +901,7 @@ input[type="checkbox"]:checked+.question+.answer {
 @media only screen and (min-width: 360px) and (max-width: 395px)
 {
   .hero-content {
-    top: 320px!important;
+    top: 52%!important;
   }
 
   .hero-section {
@@ -1146,8 +1146,7 @@ input[type="checkbox"]:checked+.question+.answer {
   }
 
   .hero-content {
-    top: 45%;
-  }
+    top: 40%;  }
 
   .button_grey {
     align-items: center;
