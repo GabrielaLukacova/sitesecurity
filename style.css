@@ -296,7 +296,6 @@ footer {
   display: flex;
   flex-direction: column;
   height: 320px;
-  width: 80%;
 }
 
 .height_div_for_articles.call_us_article {
