@@ -1141,7 +1141,7 @@ input[type="checkbox"]:checked+.question+.answer {
     background-attachment: fixed;
   }
 
-  .hero-section .contact_us_hero {
+  .hero-section.contact_us_hero {
     background-attachment: local;
   }
 
